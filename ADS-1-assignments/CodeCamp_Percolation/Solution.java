@@ -14,7 +14,7 @@ public class Solution {
 		Scanner s = new Scanner(System.in);
 		Percolation p;
 		int a = s.nextInt();
-		while (s.nextLine() != null) {
+		while (s.hasNext()) {
 			p = new Percolation(a);
 			String[] token = s.nextLine().split(" ");
 			p.open(Integer.parseInt(token[0]), Integer.parseInt(token[1]));
