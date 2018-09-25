@@ -12,12 +12,11 @@ import java.util.Scanner;
 public class Solution {
 	public static void main(String[] args) {
 		Scanner s = new Scanner(System.in);
-		Percolation p;
 		int a = s.nextInt();
+		Percolation p = new Percolation(a);
 		while (s.hasNext()) {
-			p = new Percolation(a);
-			String[] token = s.nextLine().split(" ");
-			p.open(Integer.parseInt(token[0]), Integer.parseInt(token[1]));
+			p.open(s.nextInt(), s.nextInt());
 		}
+			System.out.println(p.percolates());
 	}
 }
