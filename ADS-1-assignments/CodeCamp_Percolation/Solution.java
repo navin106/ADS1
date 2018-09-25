@@ -19,18 +19,24 @@ import java.util.Scanner;
  * Class for solution.
  */
 public class Solution {
-	/**
-	 * { function_description }
-	 *
-	 * @param      args  The arguments
-	 */
-	public static void main(final String[] args) {
-		Scanner s = new Scanner(System.in);
-		int a = s.nextInt();
-		Percolation p = new Percolation(a);
-		while (s.hasNext()) {
-			p.open(s.nextInt(), s.nextInt());
-		}
-		System.out.println(p.percolates());
-	}
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
+
+    }
+    /**
+     * { function_description }.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
+        Scanner s = new Scanner(System.in);
+        int a = s.nextInt();
+        Percolation p = new Percolation(a);
+        while (s.hasNext()) {
+            p.open(s.nextInt(), s.nextInt());
+        }
+        System.out.println(p.percolates());
+    }
 }
