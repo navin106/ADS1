@@ -20,7 +20,7 @@ class CreateArray {
 	public CreateArray(int k, Scanner sc) {
 		arr = new int[k];
 		for (int i = 0; i < arr.length; i++) {
-			arr[i] = sc.nextInt();
+			arr[i] = Math.abs((sc.nextInt()));
 		}
 		System.out.println(ts.noOfTrips(arr));
 	}
