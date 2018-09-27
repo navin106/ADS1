@@ -13,7 +13,7 @@ public class Mystack<E> {
         if (size == stack.length / 4) {
             deresize();
         }
-        size -= 1;
+        --size;
         return k;
     }
     public void inresize() {
