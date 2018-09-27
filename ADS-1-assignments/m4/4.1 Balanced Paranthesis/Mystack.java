@@ -3,7 +3,7 @@ public class Mystack<E> {
     public E[] stack = (E[]) new Object[10];
     public int size = 0;
     public void push(E item) {
-        if (size == stack.length) {
+        if (size == stack.length-1) {
             inresize();
         }
         stack[size++] = item;
@@ -17,7 +17,7 @@ public class Mystack<E> {
         return k;
     }
     public void inresize() {
-        E[] temp = (E[]) new Object[size * 2];
+        E[] temp = (E[]) new Object[stack.length * 2];
         for (int i = 0; i < size; i++) {
             temp[i] = stack[i];
         }
@@ -31,7 +31,7 @@ public class Mystack<E> {
         stack = temp;
     }
     public E peek() {
-        return stack[size - 1];
+        return stack[size];
     }
     public String toString() {
         String str = "[";
