@@ -3,13 +3,13 @@ public class Mystack<E> {
 	E[] stack = (E[]) new Object[10];
 	int size = 0;
 	public void push(E item) {
-		if (size == stack.length / 2) {
+		if (size == stack.length) {
 			inresize();
 		}
 		stack[size++] = item;
 	}
 	public void inresize() {
-		E[] temp = (E[]) new Object[stack.length * 2];
+		E[] temp = (E[]) new Object[size * 2];
 		for (int i = 0; i < temp.length; i++) {
 			temp[i] = stack[i];
 		}
