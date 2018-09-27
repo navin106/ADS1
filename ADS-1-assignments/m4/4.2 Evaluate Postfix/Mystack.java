@@ -17,7 +17,7 @@ public class Mystack<E> {
         return k;
     }
     public void inresize() {
-        E[] temp = (E[]) new Object[size * 2];
+        E[] temp = (E[]) new Object[stack.length * 2];
         for (int i = 0; i < size; i++) {
             temp[i] = stack[i];
         }
