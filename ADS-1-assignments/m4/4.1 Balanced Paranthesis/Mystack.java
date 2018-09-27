@@ -31,7 +31,7 @@ public class Mystack<E> {
         stack = temp;
     }
     public E peek() {
-        return stack[size];
+        return stack[size-1];
     }
     public String toString() {
         String str = "[";

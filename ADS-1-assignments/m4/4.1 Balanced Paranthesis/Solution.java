@@ -18,10 +18,6 @@ public final class Solution {
 				if (expr[i].equals("{")) { ms.push(expr[i]); cnt++; }
 				if (expr[i].equals("}")) { if (ms.peek() != null) {if (ms.peek().equals("{")) { ms.pop(); } else break; } }
 			}
-			/*System.out.print(cnt);
-			System.out.print("----->");
-			System.out.print(expr.length);
-			System.out.println();*/
 			if (cnt == expr.length / 2) { System.out.println("YES"); }
 			else { System.out.println("NO"); }
 		}
