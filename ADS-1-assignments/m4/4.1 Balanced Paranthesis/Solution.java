@@ -10,11 +10,11 @@ public final class Solution {
 		while (sc.hasNext()) {
 			int cnt = 0;
 			String[] expr = sc.next().split("");
-			if (expr[0].equals("]") || expr[0].equals(")") || expr[0].equals("}")) {
-				System.out.println("NO");
-				break;
-			}
 			for (int i = 0; i < expr.length; i++) {
+				if (expr[0].equals("]") || expr[0].equals(")") || expr[0].equals("}")) {
+					System.out.println("NO");
+					break;
+				}
 				if (expr[i].equals("[")) { ms.push(expr[i]); cnt++; }
 				if (expr[i].equals("]")) { if (ms.size > 0) {if (ms.peek().equals("[")) { ms.pop(); } else break; } }
 				if (expr[i].equals("(")) { ms.push(expr[i]); cnt++; }
