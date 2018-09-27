@@ -25,7 +25,7 @@ public class Mystack<E> {
     }
     public void deresize() {
         E[] temp = (E[])new Object[stack.length / 2];
-        for (int i = 0; i < temp.length; i++) {
+        for (int i = 0; i < size; i++) {
             temp[i] = stack[i];
         }
         stack = temp;
