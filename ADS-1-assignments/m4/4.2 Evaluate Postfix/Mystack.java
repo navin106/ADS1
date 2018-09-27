@@ -3,7 +3,7 @@ public class Mystack<E> {
 	E[] stack = (E[]) new Object[10];
 	int size = 0;
 	public void push(E item) {
-		if (size == stack.length) {
+		if (size == stack.length / 2) {
 			inresize();
 		}
 
