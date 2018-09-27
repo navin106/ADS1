@@ -12,13 +12,13 @@ public final class Solution {
 			String[] expr = sc.nextLine().split("");
 			for (int i = 0; i < expr.length; i++) {
 				if (expr[i].equals("[")) { ms.push(expr[i]); cnt++; }
-				else { if (expr[i] != "]") ms.pop(); else break; }
+				else { if (expr[i] != "]") ms.pop(); else { break; } }
 				if (expr[i].equals("(")) { ms.push(expr[i]); cnt++; }
-				else { if (expr[i] != ")") ms.pop(); else break; }
+				else { if (expr[i] != ")") ms.pop(); else { break; } }
 				if (expr[i].equals("{")) { ms.push(expr[i]); cnt++; }
-				else { if (expr[i] != "}") ms.pop(); else break; }
+				else { if (expr[i] != "}") ms.pop(); else { break; } }
 			}
-			if (cnt == expr.length/2) { System.out.println("YES"); }
+			if (cnt == expr.length / 2) { System.out.println("YES"); }
 			else { System.out.println("NO"); }
 		}
 	}
