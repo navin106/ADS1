@@ -12,6 +12,7 @@ public final class Solution {
 			String[] expr = sc.next().split("");
 			if (expr[0].equals("]") || expr[0].equals(")") || expr[0].equals("}")) {
 				System.out.println("NO");
+				break;
 			} else {
 				for (int i = 0; i < expr.length; i++) {
 					if (expr[i].equals("[")) { ms.push(expr[i]); cnt++; }
