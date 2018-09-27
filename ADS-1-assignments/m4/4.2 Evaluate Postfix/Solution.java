@@ -7,9 +7,9 @@ public class Solution {
 		for (int i = 0; i < s.length; i++) {
 			if (s[i] == "*" || s[i] == "/" || s[i] == "+" || s[i] == "-") {
 				if (s[i] == "*") {stack.push(stack.pop()*stack.pop());}
-				if (s[i] == "/") {stack.push(stack.pop()*stack.pop());}
-				if (s[i] == "+") {stack.push(stack.pop()*stack.pop());}
-				if (s[i] == "-") {stack.push(stack.pop()*stack.pop());}
+				if (s[i] == "/") {stack.push(stack.pop()/stack.pop());}
+				if (s[i] == "+") {stack.push(stack.pop()+stack.pop());}
+				if (s[i] == "-") {stack.push(stack.pop()-stack.pop());}
 			}
 			else {
 				stack.push(Integer.parseInt(s[i]));
