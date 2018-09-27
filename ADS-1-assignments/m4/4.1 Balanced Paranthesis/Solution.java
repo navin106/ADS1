@@ -17,16 +17,19 @@ public final class Solution {
 			else {
 				for (int i = 0; i < expr.length; i++) {
 					if (expr[i].equals("[")) { ms.push(expr[i]); cnt++; }
-					if (expr[i].equals("]")) { if (ms.size > 0) {if (ms.peek().equals("[")) { ms.pop(); } else break; } }
+					// System.out.println(ms);
+					if (expr[i].equals("]")) { if (ms.size > 0) {if (ms.peek().equals("[")) {ms.pop(); cnt--;} else break; } }
 					if (expr[i].equals("(")) { ms.push(expr[i]); cnt++; }
-					if (expr[i].equals(")")) { if (ms.size > 0) {if (ms.peek().equals("(")) { ms.pop(); } else break; } }
+					// 
+					if (expr[i].equals(")")) { if (ms.size > 0) {if (ms.peek().equals("(")) {ms.pop(); cnt--;}else break; } }
 					if (expr[i].equals("{")) { ms.push(expr[i]); cnt++; }
-					if (expr[i].equals("}")) { if (ms.size > 0) {if (ms.peek().equals("{")) { ms.pop(); } else break; } }
+					// 
+					if (expr[i].equals("}")) { if (ms.size > 0) {if (ms.peek().equals("{")) {ms.pop(); cnt--;}else break; } }
 				}
 				// System.out.print("---->");
 				// System.out.print(expr.length/2);
 				// System.out.println();
-				if (cnt == expr.length / 2) { System.out.println("YES"); }
+				if (cnt == 0) { System.out.println("YES"); }
 				else { System.out.println("NO"); }
 			}
 			// System.out.println(cnt);
