@@ -26,7 +26,7 @@ public final class Solution {
 				// System.out.print("---->");
 				// System.out.print(expr.length/2);
 				// System.out.println();
-				if (flag == 1) { System.out.println("YES"); }
+				if (flag == 0) { System.out.println("YES"); }
 				else { System.out.println("NO"); }
 			}
 			// System.out.println(cnt);
