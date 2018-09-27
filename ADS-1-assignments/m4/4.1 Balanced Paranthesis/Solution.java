@@ -9,15 +9,16 @@ public final class Solution {
 		int k = sc.nextInt();
 		while (sc.hasNext()) {
 			int cnt = 0;
-			String[] expr = sc.nextLine().split("");
+			String[] expr = sc.next().split("");
 			for (int i = 0; i < expr.length; i++) {
 				if (expr[i].equals("[")) { ms.push(expr[i]); cnt++; }
-				if (expr[i].equals("]")) { if (ms.peek() != null) {if (ms.peek().equals("[")) { ms.pop(); } else break; } }
+				if (expr[i].equals("]")) { if (ms.size > 0) {if (ms.peek().equals("[")) { ms.pop(); } else break; } }
 				if (expr[i].equals("(")) { ms.push(expr[i]); cnt++; }
-				if (expr[i].equals(")")) { if (ms.peek() != null) {if (ms.peek().equals("(")) { ms.pop(); } else break; } }
+				if (expr[i].equals(")")) { if (ms.size > 0) {if (ms.peek().equals("(")) { ms.pop(); } else break; } }
 				if (expr[i].equals("{")) { ms.push(expr[i]); cnt++; }
-				if (expr[i].equals("}")) { if (ms.peek() != null) {if (ms.peek().equals("{")) { ms.pop(); } else break; } }
+				if (expr[i].equals("}")) { if (ms.size > 0) {if (ms.peek().equals("{")) { ms.pop(); } else break; } }
 			}
+			// System.out.println(cnt);
 			if (cnt == expr.length / 2) { System.out.println("YES"); }
 			else { System.out.println("NO"); }
 		}

@@ -83,7 +83,6 @@ YES
 Your Output: 
 YES
 YES
-YES
 NO
 NO
 NO
@@ -101,43 +100,43 @@ NO
 YES
 YES
 YES
-YES
-YES
-NO
-YES
-YES
-YES
-YES
-NO
-YES
-NO
 NO
 NO
 NO
 YES
 YES
-NO
 YES
 YES
 NO
 YES
 NO
 NO
+NO
+YES
+YES
+NO
+NO
+NO
+YES
+NO
+YES
+NO
+NO
+YES
+NO
+NO
+NO
+YES
+YES
+NO
+YES
+YES
 YES
 NO
 YES
 NO
 YES
-YES
 NO
-YES
-YES
-YES
-NO
-YES
-NO
-YES
-YES
 NO
 YES
 NO
@@ -163,7 +162,7 @@ YES
 YES
 
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 YES
 YES
@@ -1169,7 +1168,6 @@ YES
 Your Output: 
 YES
 YES
-YES
 NO
 YES
 NO
@@ -1200,11 +1198,11 @@ YES
 YES
 YES
 NO
-YES
 NO
 NO
 NO
 NO
+NO
 YES
 NO
 YES
@@ -1285,7 +1283,7 @@ YES
 YES
 YES
 NO
-YES
+NO
 NO
 YES
 NO
@@ -1303,10 +1301,10 @@ NO
 YES
 YES
 YES
-YES
 NO
 NO
 NO
+NO
 YES
 YES
 NO
@@ -1361,11 +1359,11 @@ NO
 NO
 NO
 NO
-YES
 YES
 YES
 YES
 YES
+NO
 YES
 YES
 YES
@@ -1650,7 +1648,7 @@ NO
 YES
 YES
 NO
-YES
+NO
 NO
 NO
 NO
@@ -1661,10 +1659,10 @@ YES
 NO
 YES
 YES
-YES
 NO
 NO
 NO
+NO
 YES
 NO
 YES
@@ -1741,9 +1739,9 @@ YES
 NO
 YES
 NO
-YES
 YES
 YES
+NO
 YES
 YES
 YES
@@ -1758,7 +1756,7 @@ NO
 YES
 NO
 YES
-YES
+NO
 NO
 YES
 NO
@@ -2027,8 +2025,8 @@ NO
 YES
 YES
 NO
-YES
 NO
+NO
 YES
 NO
 YES
@@ -2151,9 +2149,9 @@ NO
 NO
 NO
 NO
-YES
 YES
 NO
+NO
 YES
 NO
 NO
@@ -2166,11 +2164,11 @@ YES
 NO
 NO
 YES
-YES
+NO
 YES
 
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 NO
 YES
@@ -3174,7 +3172,6 @@ YES
 YES
 
 Your Output: 
-YES
 NO
 YES
 YES
@@ -3205,19 +3202,19 @@ YES
 YES
 NO
 NO
-YES
 YES
 YES
 NO
 NO
 NO
+NO
 YES
 YES
 YES
 NO
 NO
 NO
-YES
+NO
 YES
 YES
 YES
@@ -3238,8 +3235,8 @@ YES
 YES
 YES
 NO
-YES
 YES
+NO
 YES
 YES
 NO
@@ -3249,7 +3246,7 @@ NO
 YES
 NO
 NO
-YES
+NO
 NO
 YES
 YES
@@ -3414,7 +3411,7 @@ NO
 YES
 YES
 YES
-YES
+NO
 YES
 NO
 YES
@@ -3483,7 +3480,7 @@ NO
 YES
 YES
 YES
-YES
+NO
 YES
 NO
 NO
@@ -3498,7 +3495,7 @@ YES
 YES
 YES
 NO
-YES
+NO
 YES
 YES
 NO
@@ -3536,7 +3533,7 @@ YES
 YES
 YES
 NO
-YES
+NO
 YES
 NO
 YES
@@ -3548,10 +3545,10 @@ NO
 NO
 YES
 NO
-YES
 YES
 YES
 YES
+NO
 YES
 YES
 YES
@@ -3567,7 +3564,7 @@ NO
 NO
 NO
 NO
-YES
+NO
 YES
 NO
 YES
@@ -3585,11 +3582,11 @@ NO
 YES
 YES
 NO
-YES
 YES
 YES
 YES
 NO
+NO
 YES
 NO
 YES
@@ -3601,20 +3598,20 @@ YES
 NO
 NO
 NO
-YES
 YES
 NO
 NO
+NO
 YES
 YES
 NO
 NO
 YES
 NO
-YES
 NO
 NO
-YES
+NO
+NO
 YES
 YES
 NO
@@ -3724,7 +3721,7 @@ YES
 YES
 YES
 YES
-YES
+NO
 YES
 YES
 NO
@@ -3885,24 +3882,24 @@ YES
 NO
 NO
 NO
-YES
 YES
 NO
 NO
 NO
-YES
+NO
 YES
 YES
 YES
 NO
 NO
+NO
 YES
 YES
 YES
 NO
 YES
 YES
-YES
+NO
 NO
 YES
 NO
@@ -4177,7 +4174,7 @@ YES
 YES
 
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 NO
 YES
@@ -4186,7 +4183,6 @@ YES
 NO
 
 Your Output: 
-YES
 NO
 YES
 YES
@@ -4194,7 +4190,7 @@ YES
 NO
 
 ----------------------------------------
-Result: 0/4 testcases passed.
+Result: 3/4 testcases passed.
 Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
@@ -4205,36 +4201,36 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:14: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:14:58: '{' at column 30 should have line break after. [LeftCurly]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15: Line is longer than 80 characters (found 139). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15: Line is longer than 80 characters (found 133). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:58: '{' at column 30 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:83: '{' at column 55 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:84: 'if' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:84: '{' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:111: '{' at column 83 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:137: '}' at column 109 should be alone on a line. [RightCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:77: '{' at column 49 should have line break after. [LeftCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:78: 'if' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:78: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:105: '{' at column 77 should have line break after. [LeftCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:15:131: '}' at column 103 should be alone on a line. [RightCurly]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:16: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:16:58: '{' at column 30 should have line break after. [LeftCurly]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17: Line is longer than 80 characters (found 139). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17: Line is longer than 80 characters (found 133). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:58: '{' at column 30 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:83: '{' at column 55 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:84: 'if' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:84: '{' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:111: '{' at column 83 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:137: '}' at column 109 should be alone on a line. [RightCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:77: '{' at column 49 should have line break after. [LeftCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:78: 'if' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:78: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:105: '{' at column 77 should have line break after. [LeftCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:17:131: '}' at column 103 should be alone on a line. [RightCurly]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:18: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:18:58: '{' at column 30 should have line break after. [LeftCurly]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19: 'else' construct must use '{}'s. [NeedBraces]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19: Line is longer than 80 characters (found 139). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19: Line is longer than 80 characters (found 133). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:58: '{' at column 30 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:83: '{' at column 55 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:84: 'if' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:84: '{' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:111: '{' at column 83 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:137: '}' at column 109 should be alone on a line. [RightCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:21: Line is longer than 80 characters (found 82). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:21:53: '{' at column 32 should have line break after. [LeftCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:21:82: '}' at column 61 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:22:30: '{' at column 9 should have line break after. [LeftCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:77: '{' at column 49 should have line break after. [LeftCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:78: 'if' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:78: '{' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:105: '{' at column 77 should have line break after. [LeftCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:19:131: '}' at column 103 should be alone on a line. [RightCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:22: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:22:53: '{' at column 32 should have line break after. [LeftCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:22:82: '}' at column 61 should be on the same line as the next part of a multi-block statement (one that directly contains multiple blocks: if/else-if/else, do/while or try/catch/finally). [RightCurly]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m4/4.1 Balanced Paranthesis/Solution.java:23:30: '{' at column 9 should have line break after. [LeftCurly]
 Audit done.
 Checkstyle ends with 40 errors.
