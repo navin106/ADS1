@@ -18,7 +18,7 @@ public final class Solution {
 				if (expr[i].equals("{")) { ms.push(expr[i]); cnt++; }
 				else { if (expr[i] != "}") break; }
 			}
-			if (ms.size == 0) { System.out.println("YES"); }
+			if (cnt == expr.length/2) { System.out.println("YES"); }
 			else { System.out.println("NO"); }
 		}
 	}
