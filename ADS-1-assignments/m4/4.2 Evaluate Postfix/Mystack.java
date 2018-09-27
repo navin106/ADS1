@@ -8,13 +8,6 @@ public class Mystack<E> {
 		}
 		stack[size++] = item;
 	}
-	public void inresize() {
-		E[] temp = (E[]) new Object[size * 2];
-		for (int i = 0; i < temp.length; i++) {
-			temp[i] = stack[i];
-		}
-		stack = temp;
-	}
 	public E pop() {
 		E k = stack[size - 1];
 		if (size == stack.length / 4) {
@@ -22,6 +15,13 @@ public class Mystack<E> {
 		}
 		size -= 1;
 		return k;
+	}
+	public void inresize() {
+		E[] temp = (E[]) new Object[size * 2];
+		for (int i = 0; i < size; i++) {
+			temp[i] = stack[i];
+		}
+		stack = temp;
 	}
 	public void deresize() {
 		E[] temp = (E[])new Object[stack.length / 2];
