@@ -13,18 +13,17 @@ public final class Solution {
 			if (expr[0].equals("]") || expr[0].equals(")") || expr[0].equals("}")) {
 				System.out.println("NO");
 				break;
-			} else {
-				for (int i = 0; i < expr.length; i++) {
-					if (expr[i].equals("[")) { ms.push(expr[i]); cnt++; }
-					if (expr[i].equals("]")) { if (ms.size > 0) {if (ms.peek().equals("[")) { ms.pop(); } else break; } }
-					if (expr[i].equals("(")) { ms.push(expr[i]); cnt++; }
-					if (expr[i].equals(")")) { if (ms.size > 0) {if (ms.peek().equals("(")) { ms.pop(); } else break; } }
-					if (expr[i].equals("{")) { ms.push(expr[i]); cnt++; }
-					if (expr[i].equals("}")) { if (ms.size > 0) {if (ms.peek().equals("{")) { ms.pop(); } else break; } }
-				}
-				if (cnt == expr.length / 2) { System.out.println("YES"); }
-				else { System.out.println("NO"); }
 			}
+			for (int i = 0; i < expr.length; i++) {
+				if (expr[i].equals("[")) { ms.push(expr[i]); cnt++; }
+				if (expr[i].equals("]")) { if (ms.size > 0) {if (ms.peek().equals("[")) { ms.pop(); } else break; } }
+				if (expr[i].equals("(")) { ms.push(expr[i]); cnt++; }
+				if (expr[i].equals(")")) { if (ms.size > 0) {if (ms.peek().equals("(")) { ms.pop(); } else break; } }
+				if (expr[i].equals("{")) { ms.push(expr[i]); cnt++; }
+				if (expr[i].equals("}")) { if (ms.size > 0) {if (ms.peek().equals("{")) { ms.pop(); } else break; } }
+			}
+			if (cnt == expr.length / 2) { System.out.println("YES"); }
+			else { System.out.println("NO"); }
 			// System.out.println(cnt);
 		}
 	}
