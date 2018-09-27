@@ -15,6 +15,7 @@ public class Solution {
 				stack.push(Integer.parseInt(s[i]));
 			}
 		}
+		System.out.println(stack);
 
 	}
 }
