@@ -6,11 +6,10 @@ public class Mystack<E> {
 		if (size == stack.length / 2) {
 			inresize();
 		}
-
 		stack[size++] = item;
 	}
 	public void inresize() {
-		E[] temp = (E[]) new Object[size * 2];
+		E[] temp = (E[]) new Object[stack.length * 2];
 		for (int i = 0; i < temp.length; i++) {
 			temp[i] = stack[i];
 		}
