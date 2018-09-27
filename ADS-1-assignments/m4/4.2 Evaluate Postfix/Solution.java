@@ -6,10 +6,18 @@ public class Solution {
 		Mystack<Integer> stack = new Mystack<Integer>();
 		for (int i = 0; i < s.length; i++) {
 			if (s[i].equals("*") || s[i].equals("/") || s[i].equals("+") || s[i].equals("-")) {
-				if (s[i].equals("*")) {stack.push(stack.pop() * stack.pop());}
-				if (s[i].equals("/")) {stack.push(stack.pop() / stack.pop());}
-				if (s[i].equals("+")) {stack.push(stack.pop() + stack.pop());}
-				if (s[i].equals("-")) {stack.push(stack.pop() - stack.pop());}
+				if (s[i].equals("*")) {
+					stack.push(stack.pop() * stack.pop());
+				}
+				if (s[i].equals("/")) {
+					stack.push(stack.pop() / stack.pop());
+				}
+				if (s[i].equals("+")) {
+					stack.push(stack.pop() + stack.pop());
+				}
+				if (s[i].equals("-")) {
+					stack.push(stack.pop() - stack.pop());
+				}
 			} else {
 				stack.push(Integer.parseInt(s[i]));
 			}
