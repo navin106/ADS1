@@ -40,6 +40,7 @@ public class Mystack<E> {
 			str += stack[i] + ",";
 		}
 		str += stack[size - 1] + "]";
+		// return stack[0];
 		return str;
 	}
 
