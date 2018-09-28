@@ -41,7 +41,7 @@ public class MyQueue<E> {
 		Node thead = head;
 		while (thead.next != tail) {
 			thead = thead.next;
-			size--;
+			// size--;
 		}
 		thead.next = null;
 		tail = thead;
