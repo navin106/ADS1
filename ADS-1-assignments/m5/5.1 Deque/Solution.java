@@ -32,13 +32,13 @@ public class Solution {
 				if (mq.size > 0) {
 					mq.popLeft();
 					System.out.println(mq);
-				} else System.out.println("Deck is empty");
+				} else { System.out.println("Deck is empty"); }
 				break;
 			case "popRight":
 				if (mq.size > 0) {
 					mq.popRight();
 					System.out.println(mq);
-				} else System.out.println("Deck is empty");
+				} else { System.out.println("Deck is empty"); }
 				break;
 			case "size":
 				System.out.println(mq.size());
