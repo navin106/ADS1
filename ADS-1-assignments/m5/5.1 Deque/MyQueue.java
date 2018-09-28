@@ -16,6 +16,7 @@ public class MyQueue<E> {
 		if (head == null) {
 			head = node;
 			tail = head;
+			size++;
 			return;
 		}
 		head = node;
@@ -38,15 +39,17 @@ public class MyQueue<E> {
 	public E popRight() {
 		E data = tail.data;
 		Node thead = head;
-		while (thead.next != tail)
+		while (thead.next != tail) {
 			thead = thead.next;
+			size--;
+		}
 		thead.next = null;
 		tail = thead;
 		size--;
 		return data;
 	}
 
-	public void insertAfter(int index, E data) {
+	/*public void insertAfter(int index, E data) {
 		Node thead = head;
 		for (int i = 0; i < index && thead != null; i++) {
 			thead = thead.next;
@@ -63,7 +66,7 @@ public class MyQueue<E> {
 		}
 		thead.next = thead.next.next;
 		size--;
-	}
+	}*/
 
 	public int size() {
 		return size;
