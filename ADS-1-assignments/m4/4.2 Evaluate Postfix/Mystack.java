@@ -1,9 +1,9 @@
 import java.util.Arrays;
 public class Mystack<E> {
-    E[] stack = (E[]) new Object[10];
-    int size = 0;
+    public E[] stack = (E[]) new Object[10];
+    public int size = 0;
     public void push(E item) {
-        if (size == stack.length) {
+        if (size == stack.length-1) {
             inresize();
         }
         stack[size++] = item;
@@ -13,7 +13,7 @@ public class Mystack<E> {
         if (size == stack.length / 4) {
             deresize();
         }
-        size -= 1;
+        --size;
         return k;
     }
     public void inresize() {
@@ -25,13 +25,13 @@ public class Mystack<E> {
     }
     public void deresize() {
         E[] temp = (E[])new Object[stack.length / 2];
-        for (int i = 0; i < temp.length; i++) {
+        for (int i = 0; i < size; i++) {
             temp[i] = stack[i];
         }
         stack = temp;
     }
     public E peek() {
-        return stack[size - 1];
+        return stack[size-1];
     }
     public String toString() {
         String str = "[";
