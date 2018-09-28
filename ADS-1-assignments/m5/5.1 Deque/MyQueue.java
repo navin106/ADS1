@@ -78,7 +78,12 @@ public class MyQueue<E> {
 			str += thead.data + ", ";
 			thead = thead.next;
 		}
+		if (thead.data!= null) {
 		str += thead.data + "]";
+			
+		} else {
+			str += "]";
+		}
 		return str;
 
 	}
