@@ -72,7 +72,7 @@ public class MyQueue<E> {
 		String str = "[";
 		Node thead = head;
 		while (thead.next != null) {
-			str += thead.data + ",";
+			str += thead.data + ", ";
 			thead = thead.next;
 		}
 		str += thead.data + "]";

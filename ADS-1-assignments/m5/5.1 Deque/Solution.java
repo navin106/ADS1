@@ -26,8 +26,7 @@ public class Solution {
 			System.out.println(mq);
 				break;
 			case "size":
-			mq.size();
-			System.out.println(mq);
+			System.out.println(mq.size());
 				break;
 			default:
 				break;
