@@ -74,16 +74,15 @@ public class MyQueue<E> {
 	public String toString() {
 		String str = "[";
 		Node thead = head;
-		while (thead.next != null) {
-			str += thead.data + ", ";
-			thead = thead.next;
+		if (thead != null) {
+			while (thead.next != null) {
+				str += thead.data + ", ";
+				thead = thead.next;
+			}
+			str += thead.data;
+
 		}
-		if (thead.data!= null) {
-		str += thead.data + "]";
-			
-		} else {
-			str += "]";
-		}
+		str += "]";
 		return str;
 
 	}
