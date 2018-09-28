@@ -1,8 +1,19 @@
 import java.util.Scanner;
+/**
+ * Class for solution.
+ */
 public class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	private Solution() {
 	}
-	public static void main(String[] args) {
+	/**
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		MyQueue mq =  new MyQueue();
 		int k = sc.nextInt();
