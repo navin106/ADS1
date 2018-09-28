@@ -10,23 +10,27 @@ public class Solution {
 			String[] token = sc.nextLine().split(" ");
 			switch (token[0]) {
 			case "pushLeft":
-			mq.pushLeft(token[1]);
-			System.out.println(mq);
+				mq.pushLeft(token[1]);
+				System.out.println(mq);
 				break;
 			case "pushRight":
-			mq.pushRight(token[1]);
-			System.out.println(mq);
+				mq.pushRight(token[1]);
+				System.out.println(mq);
 				break;
 			case "popLeft":
-			mq.popLeft();
-			System.out.println(mq);
+				if (mq.size > 0) {
+					mq.popLeft();
+					System.out.println(mq);
+				} else System.out.println("Deck is empty");
 				break;
 			case "popRight":
-			mq.popRight();
-			System.out.println(mq);
+				if (mq.size > 0) {
+					mq.popRight();
+					System.out.println(mq);
+				} else System.out.println("Deck is empty");
 				break;
 			case "size":
-			System.out.println(mq.size());
+				System.out.println(mq.size());
 				break;
 			default:
 				break;
