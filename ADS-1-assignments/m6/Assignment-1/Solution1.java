@@ -232,7 +232,7 @@ final class AddLargeNumbers {
 		for (int i = 0; i < list1.getsize(); i++) {
 			String str = "";
 
-			add = (Integer)(list1.popRight()) + (Integer)(list2.popRight()) + carry;
+			add =  Integer.valueOf((String)list1.popRight()) + Integer.valueOf((String)list2.popRight()) + carry;
 			carry = 0;
 			str += add;
 			String[] k = str.split("");
