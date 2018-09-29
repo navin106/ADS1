@@ -80,17 +80,13 @@ class AddLargeNumbers {
 		LinkedList<String> num = new LinkedList<String>();
 		String[] numbers = number.split("");
 		for (String k : numbers) {
-			num.pushLeft(k);
+			num.pushRight(k);
 		}
 		return num;
 	}
 
 	public static String digitsToNumber(LinkedList list) {
-		String str = "";
-		for (int i=0; i<list.size; i++) {
-			str += list.popRight();
-		}
-		return str;
+		return list.toString();
 	}
 
 	// public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
