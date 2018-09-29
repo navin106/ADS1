@@ -1,7 +1,18 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * List of linkeds.
+ *
+ * @param      <E>   { parameter_description }
+ */
 class LinkedList<E> {
+	/**
+	 * { var_description }
+	 */
 	int size = 0;
+	/**
+	 * Class for node.
+	 */
 	private class Node {
 		E data;
 		Node next;
@@ -9,14 +20,31 @@ class LinkedList<E> {
 		Node (E data) {
 			this(data, null);
 		}
+		/**
+		 * Constructs the object.
+		 *
+		 * @param      data  The data
+		 * @param      next  The next
+		 */
 		Node (E data, Node next) {
 			this.data = data;
 			this.next = next;
 		}
 	}
+	/**
+	 * { var_description }
+	 */
 	private Node head;
+	/**
+	 * { var_description }
+	 */
 	private Node tail;
 
+	/**
+	 * Pushes a left.
+	 *
+	 * @param      data  The data
+	 */
 	public void pushLeft(E data) {
 		Node node = new Node();
 		node.data = data;
@@ -31,6 +59,11 @@ class LinkedList<E> {
 		size++;
 	}
 
+	/**
+	 * Pushes a right.
+	 *
+	 * @param      data  The data
+	 */
 	public void pushRight(E data) {
 		Node node = new Node();
 		node.data = data;
@@ -46,15 +79,30 @@ class LinkedList<E> {
 		size++;
 	}
 
+	/**
+	 * { function_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public E popLeft() {
 		E data = head.data;
 		head = head.next;
 		size--;
 		return data;
 	}
+	/**
+	 * { function_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int size() {
 		return size;
 	}
+	/**
+	 * Returns a string representation of the object.
+	 *
+	 * @return     String representation of the object.
+	 */
 	public String toString() {
 		String str = "";
 		Node thead = head;
@@ -70,8 +118,21 @@ class LinkedList<E> {
 
 }
 class AddLargeNumbers {
+	/**
+	 * Constructs the object.
+	 */
+	private AddLargeNumbers() {
 
-	public static LinkedList numberToDigits(String number) {
+	}
+
+	/**
+	 * { function_description }
+	 *
+	 * @param      number  The number
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	public static LinkedList numberToDigits(final String number) {
 		LinkedList<String> num = new LinkedList<String>();
 		String[] numbers = number.split("");
 		for (String k : numbers) {
@@ -80,20 +141,35 @@ class AddLargeNumbers {
 		return num;
 	}
 
-	public static String digitsToNumber(LinkedList list) {
+	/**
+	 * { function_description }
+	 *
+	 * @param      list  The list
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	public static String digitsToNumber(final LinkedList list) {
 		return list.toString();
 	}
 
-	public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
+	/**
+	 * Adds large numbers.
+	 *
+	 * @param      list1  The list 1
+	 * @param      list2  The list 2
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	public static LinkedList addLargeNumbers(final LinkedList list1, final LinkedList list2) {
 		int a = list1.size;
 		int b = list2.size;
 		LinkedList<String> result =  new LinkedList<String>();
-		if (list1.size < list2.size ) {
+		if (list1.size < list2.size) {
 			while (!(list1.size == list2.size)) {
 				list1.pushLeft("0");
 			}
 		}
-		if (list2.size < list1.size ) {
+		if (list2.size < list1.size) {
 			while (!(list1.size == list2.size)) {
 				list2.pushLeft("0");
 			}
@@ -106,9 +182,11 @@ class AddLargeNumbers {
 		for (int i = num1.length - 1; i >= 0; i--) {
 			String str = "";
 			if (carry == 0) {
-				add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]);
+				add = Integer.parseInt(
+					num1[i]) + Integer.parseInt(num2[i]);
 			} else {
-				add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]) + carry;
+				add = Integer.parseInt(
+					num1[i]) + Integer.parseInt(num2[i]) + carry;
 			}
 			carry = 0;
 			str += add;
@@ -128,8 +206,22 @@ class AddLargeNumbers {
 	}
 }
 
+/**
+ * Class for solution.
+ */
 public class Solution {
-	public static void main(String[] args) {
+	/**
+	 * Constructs the object.
+	 */
+	private Solution() {
+
+	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String input = sc.nextLine();
 		String p = sc.nextLine();
@@ -138,15 +230,21 @@ public class Solution {
 		case "numberToDigits":
 			LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
 			LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
-			System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
-			System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
+			System.out.println(
+			    AddLargeNumbers.digitsToNumber(pDigits));
+			System.out.println(
+			    AddLargeNumbers.digitsToNumber(qDigits));
 			break;
 
 		case "addLargeNumbers":
 			pDigits = AddLargeNumbers.numberToDigits(p);
 			qDigits = AddLargeNumbers.numberToDigits(q);
-			LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
-			System.out.println(AddLargeNumbers.digitsToNumber(result));
+			LinkedList result =
+			AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+			System.out.println(
+			AddLargeNumbers.digitsToNumber(result));
+			break;
+		default:
 			break;
 		}
 	}
