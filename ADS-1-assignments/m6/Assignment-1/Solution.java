@@ -114,8 +114,8 @@ class AddLargeNumbers {
 		int add = 0;
 		int carry = 0;
 		String k1 = "";
-		System.out.println(digitsToNumber(list1));
-		System.out.println(digitsToNumber(list2));
+		// System.out.println(digitsToNumber(list1));
+		// System.out.println(digitsToNumber(list2));
 		String[] num1 = digitsToNumber(list1).split("");
 		String[] num2 = digitsToNumber(list2).split("");
 		for (int i = num1.length - 1; i >= 0; i--) {
