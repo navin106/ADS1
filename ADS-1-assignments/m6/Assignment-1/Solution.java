@@ -31,6 +31,15 @@ class LinkedList<E> {
 	}
 
 	public void pushRight(E data) {
+		Node node = new Node();
+		node.data = data;
+		node.next = head;
+		if (head == null) {
+			head = node;
+			tail = head;
+			size++;
+			return;
+		}
 		tail.next = new Node(data);
 		tail = tail.next;
 		size++;
@@ -108,12 +117,12 @@ public class Solution {
 			System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
 			break;
 
-		// case "addLargeNumbers":
-		// 	pDigits = AddLargeNumbers.numberToDigits(p);
-		// 	qDigits = AddLargeNumbers.numberToDigits(q);
-		// 	LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
-		// 	System.out.println(AddLargeNumbers.digitsToNumber(result));
-		// 	break;
+			// case "addLargeNumbers":
+			// 	pDigits = AddLargeNumbers.numberToDigits(p);
+			// 	qDigits = AddLargeNumbers.numberToDigits(q);
+			// 	LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+			// 	System.out.println(AddLargeNumbers.digitsToNumber(result));
+			// 	break;
 		}
 	}
 

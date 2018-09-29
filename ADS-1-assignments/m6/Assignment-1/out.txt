@@ -1,73 +1,61 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 999
 111
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.pushRight(Solution.java:34)
-	at AddLargeNumbers.numberToDigits(Solution.java:83)
-	at Solution.main(Solution.java:105)
+999
+111
 
 ----------------------------------------
-########## Testcase 1: Failed ##########
+########## Testcase 1: Passed ##########
 Expected Output: 
 46498418098527020928092840923840932840923
 9823374982374823748237402340274074237427303840923
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.pushRight(Solution.java:34)
-	at AddLargeNumbers.numberToDigits(Solution.java:83)
-	at Solution.main(Solution.java:105)
+46498418098527020928092840923840932840923
+9823374982374823748237402340274074237427303840923
 
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 46498418096287594875984759875982759875982759827598275297529875982759827598427598475987459872985729752987598475982759827598275982752857298578527020928092840923840932840923
 9823374982374823748237402759827592857982759827592759827598275982759827598275982759827592759827598798572985729857298759287598275982759827598275987589759827502752987598475928759287589340274074237427303840923
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.pushRight(Solution.java:34)
-	at AddLargeNumbers.numberToDigits(Solution.java:83)
-	at Solution.main(Solution.java:105)
+46498418096287594875984759875982759875982759827598275297529875982759827598427598475987459872985729752987598475982759827598275982752857298578527020928092840923840932840923
+9823374982374823748237402759827592857982759827592759827598275982759827598275982759827592759827598798572985729857298759287598275982759827598275987589759827502752987598475928759287589340274074237427303840923
 
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 909
 0
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.pushRight(Solution.java:34)
-	at AddLargeNumbers.numberToDigits(Solution.java:83)
-	at Solution.main(Solution.java:105)
+909
+0
 
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 90978978957984759847598437508870270982748937849723646465649480498409849808409408441616549840984984040123456789009876543234567898765432345678994334567423456767723445678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
 873493279823759823759823798237379832780932798237982798237982792387982379238798237598237598237823784723987270193871397130872396523998701743197998398146981319846198649813644984094654184984084984410
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.pushRight(Solution.java:34)
-	at AddLargeNumbers.numberToDigits(Solution.java:83)
-	at Solution.main(Solution.java:105)
+90978978957984759847598437508870270982748937849723646465649480498409849808409408441616549840984984040123456789009876543234567898765432345678994334567423456767723445678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
+873493279823759823759823798237379832780932798237982798237982792387982379238798237598237598237823784723987270193871397130872396523998701743197998398146981319846198649813644984094654184984084984410
 
 ----------------------------------------
-########## Testcase 5: Failed ##########
+########## Testcase 5: Passed ##########
 Expected Output: 
 909789789579847598475984375088702709827489378497236464656494804984098498084094084416165498409849840401234567890098765432345678987654323456789943345674234567677234462795692659265926529652985698255678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
 87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378472398727019387139713087239652399870174319799839814698131984619864981364498407598237598237598723958723985729857298572987582752375923857923752985729385723985720357023572098572985723985723923752035723957298572985723985794654184984084984410
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.pushRight(Solution.java:34)
-	at AddLargeNumbers.numberToDigits(Solution.java:83)
-	at Solution.main(Solution.java:105)
+909789789579847598475984375088702709827489378497236464656494804984098498084094084416165498409849840401234567890098765432345678987654323456789943345674234567677234462795692659265926529652985698255678655678254567682682395828756287238687223876582765238428492837823723879238482364823762387623749698236529659286529876827362378786238752376523876236239876237629876823768927
+87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378472398727019387139713087239652399870174319799839814698131984619864981364498407598237598237598723958723985729857298572987582752375923857923752985729385723985720357023572098572985723985723923752035723957298572985723985794654184984084984410
 
 ----------------------------------------
 ########## Testcase 6: Failed ##########
@@ -118,7 +106,7 @@ Your Output:
 
 
 ----------------------------------------
-Result: 0/12 testcases passed.
+Result: 6/12 testcases passed.
 Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:2: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
@@ -149,25 +137,25 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:19:30: Parameter data should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:33:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:33:31: Parameter data should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:39:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:46:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:58:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:61:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:77: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:77:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:79:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:79:49: Parameter number should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:48:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:55:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:67:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:70:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:86: Missing a Javadoc comment. [JavadocType]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:86:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:88:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:88:45: Parameter list should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:92: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:97: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:97:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:98:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:98:33: Parameter args should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:103: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:107: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:108: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:114: Line is longer than 80 characters (found 94). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:115: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:88:49: Parameter number should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:97:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:97:45: Parameter list should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:101: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:106: Missing a Javadoc comment. [JavadocType]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:106:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:107:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:107:33: Parameter args should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:112: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:116: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:117: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:123: Line is longer than 80 characters (found 102). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:124: Line is longer than 80 characters (found 91). [LineLength]
 Audit done.
 Checkstyle ends with 49 errors.
