@@ -52,19 +52,6 @@ class LinkedList<E> {
 		size--;
 		return data;
 	}
-
-	public E popRight() {
-		E data = tail.data;
-		Node thead = head;
-		while (thead.next != tail) {
-			thead = thead.next;
-			// size--;
-		}
-		thead.next = null;
-		tail = thead;
-		size--;
-		return data;
-	}
 	public int size() {
 		return size;
 	}
@@ -114,8 +101,6 @@ class AddLargeNumbers {
 		int add = 0;
 		int carry = 0;
 		String k1 = "";
-		// System.out.println(digitsToNumber(list1));
-		// System.out.println(digitsToNumber(list2));
 		String[] num1 = digitsToNumber(list1).split("");
 		String[] num2 = digitsToNumber(list2).split("");
 		for (int i = num1.length - 1; i >= 0; i--) {
