@@ -60,14 +60,8 @@ class LinkedList<E> {
 	}
 	public String toString() {
 		String str = "";
-		Node thead = head;
-		if (thead != null) {
-			while (thead.next != null) {
-				str += thead.data;
-				thead = thead.next;
-			}
-			str += thead.data;
-
+		for (int i=0; i<size; i--) {
+			str += popRight();
 		}
 		return str;
 
