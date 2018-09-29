@@ -109,34 +109,32 @@ class AddLargeNumbers {
 				list2.pushRight("0");
 			}
 		}
-		/*System.out.println(list1.size);
-		System.out.println(list2.size);*/
-		int add;
-		int carry;
+		int add = 0;
+		int carry = 0;
+		String k1 = "";
 		String[] num1 = digitsToNumber(list1).split("");
-		// System.out.println(Arrays.toString(num1));
 		String[] num2 = digitsToNumber(list2).split("");
-		// System.out.println(Arrays.toString(num2));
-		for (int i = num1.length-1; i >= 0; i--) {
-			add = 0;
-			carry = 0;
+		for (int i = num1.length - 1; i >= 0; i--) {
 			String str = "";
 			if (carry == 0) {
 				add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]);
+				// System.out.println(add);
 			} else {
 				add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]) + carry;
+				// System.out.println(add);
 			}
 			str += add;
 			String[] k = str.split("");
 			if (k.length == 2) {
-				result.pushRight(k[1]);
-				carry =Integer.parseInt(k[0]);
-
+				k1 = k[0];
+				result.pushLeft(k[1]);
+				carry = Integer.parseInt(k[0]);
+				// System.out.println(carry);
 			} else {
-				result.pushRight(k[0]);
+				result.pushLeft(k[0]);
 			}
-
 		}
+		result.pushLeft(k1);
 		return result;
 	}
 }
