@@ -4,11 +4,17 @@ public class MyQueue<E> {
 		E data;
 		Node next;
 		Node () {}
-		Node (E data) { this(data, null); }
-		Node (E data, Node next) { this.data = data; this.next = next; }
+		Node (E data) {
+			this(data, null);
+		}
+		Node (E data, Node next) {
+			this.data = data;
+			this.next = next;
+		}
 	}
 	private Node head;
 	private Node tail;
+	
 	public void pushLeft(E data) {
 		Node node = new Node();
 		node.data = data;
