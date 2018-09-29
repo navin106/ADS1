@@ -58,15 +58,6 @@ class LinkedList<E> {
 	public int size() {
 		return size;
 	}
-	public String toString() {
-		String str = "";
-		for (int i=0; i<size; i++) {
-			str += popRight();
-		}
-		return str;
-
-	}
-
 }
 class AddLargeNumbers {
     
@@ -80,7 +71,11 @@ class AddLargeNumbers {
     }
 
     public static String digitsToNumber(LinkedList list) {
-    	return list.toString();
+    	String str = "";
+		for (int i=0; i<list.size; i++) {
+			str += list.popRight();
+		}
+		return str;
     }
 
     // public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
