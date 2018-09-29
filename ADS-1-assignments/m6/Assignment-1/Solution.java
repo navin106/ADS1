@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Arrays;
 /**
  * List of linkeds.
  *
@@ -14,19 +13,35 @@ class LinkedList<E> {
 	 * Class for node.
 	 */
 	private class Node {
-		E data;
-		Node next;
-		Node () {}
-		Node (E data) {
-			this(data, null);
+		/**
+		 * { var_description }.
+		 */
+		private E data;
+		/**
+		 * { var_description }.
+		 */
+		private Node next;
+		/**
+		 * Constructs the object.
+		 */
+		Node( ) {
+
 		}
 		/**
 		 * Constructs the object.
 		 *
-		 * @param      data   The data
+		 * @param      data1  The data 1
+		 */
+		Node(final E data1) {
+			this(data1, null);
+		}
+		/**
+		 * Constructs the object.
+		 *
+		 * @param      data1  The data
 		 * @param      next1  The next
 		 */
-		Node (final E data1, final Node next1) {
+		Node(final E data1, final Node next1) {
 			this.data = data1;
 			this.next = next1;
 		}
@@ -120,7 +135,7 @@ class LinkedList<E> {
 /**
  * Class for add large numbers.
  */
-class AddLargeNumbers {
+final class AddLargeNumbers {
 	/**
 	 * Constructs the object.
 	 */
