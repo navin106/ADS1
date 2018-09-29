@@ -1,11 +1,11 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 999
 111
 
 Your Output: 
-999
-111
+9
+1
 
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -14,8 +14,8 @@ Expected Output:
 9823374982374823748237402340274074237427303840923
 
 Your Output: 
-32904823904832904829082902072589081489464
-3290483037247324704720432047328473284732894733289
+3
+3
 
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -24,17 +24,17 @@ Expected Output:
 9823374982374823748237402759827592857982759827592759827598275982759827598275982759827592759827598798572985729857298759287598275982759827598275987589759827502752987598475928759287589340274074237427303840923
 
 Your Output: 
-32904823904832904829082902072587589275825728957289572895728957489578925792758927895478957489572489572895728957892579257289572895728957895728957895748957849578269081489464
-3290483037247324704720439857829578295748957892572057289579857895728957289572895728957829578927589275892758978957289572957289572895728957289572895728957289572957289572897582957289572047328473284732894733289
+3
+3
 
 ----------------------------------------
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 909
 0
 
 Your Output: 
-909
+9
 0
 
 ----------------------------------------
@@ -44,8 +44,8 @@ Expected Output:
 873493279823759823759823798237379832780932798237982798237982792387982379238798237598237598237823784723987270193871397130872396523998701743197998398146981319846198649813644984094654184984084984410
 
 Your Output: 
-72986732867892673267893263267832567325783268787326372867892568295692563289694732678326732846328483297832732873829482483256728567832278683278265782859328628676545287655687654432776765432476543349987654323456789876543234567890098765432104048948904894561614480490480894890489408494656464632794873984728907207880573489574895748975987987909
-014489480489481456490489446318946891648913189641893899791347107899325693278031793178391072789327487328732895732895732897832973289783297289732897289732897239087238973732897328957328957328972394378
+7
+0
 
 ----------------------------------------
 ########## Testcase 5: Failed ##########
@@ -54,8 +54,8 @@ Expected Output:
 87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378472398727019387139713087239652399870174319799839814698131984619864981364498407598237598237598723958723985729857298572987582752375923857923752985729385723985720357023572098572985723985723923752035723957298572985723985794654184984084984410
 
 Your Output: 
-729867328678926732678932632678325673257832687873263728678925682956925632896947326783267328463284832978327328738294824832567285678322786832782657828593286286765452876556876552896589256925629562956296597264432776765432476543349987654323456789876543234567890098765432104048948904894561614480490480894890489408494656464632794873984728907207880573489574895748975987987909
-01448948048948145649758932758927589275932753025732932758932758927589027532075302758932758392758925732975832957325728578927589275892758932785932789573289573289570489446318946891648913189641893899791347107899325693278031793178391072789327487328732895732895732897832973289783297289732897289732897239087238973732897328957328957328972394378
+7
+0
 
 ----------------------------------------
 ########## Testcase 6: Failed ##########
@@ -106,7 +106,7 @@ Your Output:
 
 
 ----------------------------------------
-Result: 2/12 testcases passed.
+Result: 0/12 testcases passed.
 Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:2: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
@@ -150,15 +150,15 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:82:12: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:88:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:88:41: Parameter list should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:93: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:98: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:98:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:99:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:99:29: Parameter args should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:104: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:104:15: 'switch' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:104:22: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:115: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:120: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:94: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:99: Missing a Javadoc comment. [JavadocType]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:99:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100:29: Parameter args should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:105: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:105:15: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:105:22: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:116: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:121: Line has trailing spaces. [RegexpSingleline]
 Audit done.
 Checkstyle ends with 52 errors.
