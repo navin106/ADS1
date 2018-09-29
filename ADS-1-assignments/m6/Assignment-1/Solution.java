@@ -52,19 +52,6 @@ class LinkedList<E> {
 		size--;
 		return data;
 	}
-
-	public E popRight() {
-		E data = tail.data;
-		Node thead = head;
-		while (thead.next != tail) {
-			thead = thead.next;
-			// size--;
-		}
-		thead.next = null;
-		tail = thead;
-		size--;
-		return data;
-	}
 	public int size() {
 		return size;
 	}
@@ -99,6 +86,8 @@ class AddLargeNumbers {
 
 	public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
 		LinkedList<String> result =  new LinkedList<String>();
+		int a = list1.size;
+		int b = list2.size;
 		if (list1.size < list2.size ) {
 			while (!(list1.size == list2.size)) {
 				list1.pushRight("0");
@@ -116,12 +105,22 @@ class AddLargeNumbers {
 		String[] num2 = digitsToNumber(list2).split("");
 		for (int i = num1.length - 1; i >= 0; i--) {
 			String str = "";
-			if (carry == 0) {
-				add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]);
-				// System.out.println(add);
+			if (a > b) {
+				if (carry == 0) {
+					add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]);
+					// System.out.println(add);
+				} else {
+					add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]) + carry;
+					// System.out.println(add);
+				}
 			} else {
-				add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]) + carry;
-				// System.out.println(add);
+				if (carry == 0) {
+					add = Integer.parseInt(num2[i]) + Integer.parseInt(num1[i]);
+					// System.out.println(add);
+				} else {
+					add = Integer.parseInt(num2[i]) + Integer.parseInt(num1[i]) + carry;
+					// System.out.println(add);
+				}
 			}
 			str += add;
 			String[] k = str.split("");
