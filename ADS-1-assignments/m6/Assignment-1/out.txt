@@ -4,11 +4,8 @@ Expected Output:
 111
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.popRight(Solution.java:49)
-	at LinkedList.toString(Solution.java:64)
-	at AddLargeNumbers.digitsToNumber(Solution.java:83)
-	at Solution.main(Solution.java:101)
+99
+11
 
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -17,11 +14,8 @@ Expected Output:
 9823374982374823748237402340274074237427303840923
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.popRight(Solution.java:49)
-	at LinkedList.toString(Solution.java:64)
-	at AddLargeNumbers.digitsToNumber(Solution.java:83)
-	at Solution.main(Solution.java:101)
+464984180985270209280
+9823374982374823748237402
 
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -30,11 +24,8 @@ Expected Output:
 9823374982374823748237402759827592857982759827592759827598275982759827598275982759827592759827598798572985729857298759287598275982759827598275987589759827502752987598475928759287589340274074237427303840923
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.popRight(Solution.java:49)
-	at LinkedList.toString(Solution.java:64)
-	at AddLargeNumbers.digitsToNumber(Solution.java:83)
-	at Solution.main(Solution.java:101)
+4649841809628759487598475987598275987598275982759827529752987598275982759842759847598
+9823374982374823748237402759827592857982759827592759827598275982759827598275982759827592759827598798572
 
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -43,11 +34,12 @@ Expected Output:
 0
 
 Your Output: 
+90
 Exception in thread "main" java.lang.NullPointerException
 	at LinkedList.popRight(Solution.java:49)
 	at LinkedList.toString(Solution.java:64)
 	at AddLargeNumbers.digitsToNumber(Solution.java:83)
-	at Solution.main(Solution.java:101)
+	at Solution.main(Solution.java:102)
 
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -56,11 +48,8 @@ Expected Output:
 873493279823759823759823798237379832780932798237982798237982792387982379238798237598237598237823784723987270193871397130872396523998701743197998398146981319846198649813644984094654184984084984410
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.popRight(Solution.java:49)
-	at LinkedList.toString(Solution.java:64)
-	at AddLargeNumbers.digitsToNumber(Solution.java:83)
-	at Solution.main(Solution.java:101)
+909789789579847598475984375088702709827489378497236464656494804984098498084094084416165498409849840401234567890098765432345678987654323456789943345674234567677234456786
+87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378
 
 ----------------------------------------
 ########## Testcase 5: Failed ##########
@@ -69,11 +58,8 @@ Expected Output:
 87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378472398727019387139713087239652399870174319799839814698131984619864981364498407598237598237598723958723985729857298572987582752375923857923752985729385723985720357023572098572985723985723923752035723957298572985723985794654184984084984410
 
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at LinkedList.popRight(Solution.java:49)
-	at LinkedList.toString(Solution.java:64)
-	at AddLargeNumbers.digitsToNumber(Solution.java:83)
-	at Solution.main(Solution.java:101)
+909789789579847598475984375088702709827489378497236464656494804984098498084094084416165498409849840401234567890098765432345678987654323456789943345674234567677234462795692659265926529
+873493279823759823759823798237379832780932798237982798237982792387982379238798237598237598237823784723987270193871397130872396523998701743197998398146981319846198649813
 
 ----------------------------------------
 ########## Testcase 6: Failed ##########

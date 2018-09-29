@@ -60,7 +60,7 @@ class LinkedList<E> {
 	}
 	public String toString() {
 		String str = "";
-		for (int i=0; i<size; i--) {
+		for (int i=0; i<size; i++) {
 			str += popRight();
 		}
 		return str;
