@@ -4,8 +4,10 @@ Expected Output:
 111
 
 Your Output: 
-9
-1
+Exception in thread "main" java.lang.NullPointerException
+	at LinkedList.popLeft(Solution.java:40)
+	at AddLargeNumbers.digitsToNumber(Solution.java:91)
+	at Solution.main(Solution.java:110)
 
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -14,8 +16,10 @@ Expected Output:
 9823374982374823748237402340274074237427303840923
 
 Your Output: 
-3
-3
+Exception in thread "main" java.lang.NullPointerException
+	at LinkedList.popLeft(Solution.java:40)
+	at AddLargeNumbers.digitsToNumber(Solution.java:91)
+	at Solution.main(Solution.java:110)
 
 ----------------------------------------
 ########## Testcase 2: Failed ##########
@@ -24,8 +28,10 @@ Expected Output:
 9823374982374823748237402759827592857982759827592759827598275982759827598275982759827592759827598798572985729857298759287598275982759827598275987589759827502752987598475928759287589340274074237427303840923
 
 Your Output: 
-3
-3
+Exception in thread "main" java.lang.NullPointerException
+	at LinkedList.popLeft(Solution.java:40)
+	at AddLargeNumbers.digitsToNumber(Solution.java:90)
+	at Solution.main(Solution.java:110)
 
 ----------------------------------------
 ########## Testcase 3: Failed ##########
@@ -34,8 +40,10 @@ Expected Output:
 0
 
 Your Output: 
-9
-0
+Exception in thread "main" java.lang.NullPointerException
+	at LinkedList.popLeft(Solution.java:40)
+	at AddLargeNumbers.digitsToNumber(Solution.java:91)
+	at Solution.main(Solution.java:110)
 
 ----------------------------------------
 ########## Testcase 4: Failed ##########
@@ -44,8 +52,10 @@ Expected Output:
 873493279823759823759823798237379832780932798237982798237982792387982379238798237598237598237823784723987270193871397130872396523998701743197998398146981319846198649813644984094654184984084984410
 
 Your Output: 
-7
-0
+Exception in thread "main" java.lang.NullPointerException
+	at LinkedList.popLeft(Solution.java:40)
+	at AddLargeNumbers.digitsToNumber(Solution.java:91)
+	at Solution.main(Solution.java:110)
 
 ----------------------------------------
 ########## Testcase 5: Failed ##########
@@ -54,8 +64,10 @@ Expected Output:
 87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378472398727019387139713087239652399870174319799839814698131984619864981364498407598237598237598723958723985729857298572987582752375923857923752985729385723985720357023572098572985723985723923752035723957298572985723985794654184984084984410
 
 Your Output: 
-7
-0
+Exception in thread "main" java.lang.NullPointerException
+	at LinkedList.popLeft(Solution.java:40)
+	at AddLargeNumbers.digitsToNumber(Solution.java:90)
+	at Solution.main(Solution.java:110)
 
 ----------------------------------------
 ########## Testcase 6: Failed ##########
@@ -150,15 +162,19 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:82:12: 'for' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:88:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:88:41: Parameter list should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:94: Line is longer than 80 characters (found 85). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:99: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:99:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100:29: Parameter args should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:105: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:105:15: 'switch' is not followed by whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:105:22: '{' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:116: Line is longer than 80 characters (found 89). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:121: Line has trailing spaces. [RegexpSingleline]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:90: 'while' construct must use '{}'s. [NeedBraces]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:90:14: 'while' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:90:29: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:90:31: '!=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:95: Line is longer than 80 characters (found 85). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100: Missing a Javadoc comment. [JavadocType]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:101:5: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:101:29: Parameter args should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:106: switch without "default" clause. [MissingSwitchDefault]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:106:15: 'switch' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:106:22: '{' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:117: Line is longer than 80 characters (found 89). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:122: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 52 errors.
+Checkstyle ends with 56 errors.
