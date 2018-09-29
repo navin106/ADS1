@@ -15,7 +15,7 @@ class LinkedList<E> {
 	}
 	private Node head;
 	private Node tail;
-	
+
 	public void pushLeft(E data) {
 		Node node = new Node();
 		node.data = data;
@@ -58,52 +58,67 @@ class LinkedList<E> {
 	public int size() {
 		return size;
 	}
+	public String toString() {
+		String str = "";
+		Node thead = head;
+		if (thead != null) {
+			while (thead.next != null) {
+				str += thead.data;
+				thead = thead.next;
+			}
+			str += thead.data;
+
+		}
+		return str;
+
+	}
+
 }
 class AddLargeNumbers {
-    
-    public static LinkedList numberToDigits(String number) {
-    	LinkedList<String> num = new LinkedList<String>();
-    	String[] numbers = number.split("");
-    	for(String k:numbers) {
-    		num.pushLeft(k);
-    	}
-    	return num;
-    }
 
-    public static String digitsToNumber(LinkedList list) {
-    	String str = "";
+	public static LinkedList numberToDigits(String number) {
+		LinkedList<String> num = new LinkedList<String>();
+		String[] numbers = number.split("");
+		for (String k : numbers) {
+			num.pushLeft(k);
+		}
+		return num;
+	}
+
+	public static String digitsToNumber(LinkedList list) {
+		String str = "";
 		for (int i=0; i<list.size; i++) {
 			str += list.popRight();
 		}
 		return str;
-    }
+	}
 
-    // public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
+	// public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
 
-    // }
+	// }
 }
 
 public class Solution {
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
-        String input = sc.nextLine();
-        String p = sc.nextLine();
-        String q = sc.nextLine();
-        switch(input){
-            case "numberToDigits":
-                LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
-                LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
-                System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
-                System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
-                break;
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		String input = sc.nextLine();
+		String p = sc.nextLine();
+		String q = sc.nextLine();
+		switch (input) {
+		case "numberToDigits":
+			LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
+			LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
+			System.out.println(AddLargeNumbers.digitsToNumber(pDigits));
+			System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
+			break;
 
-            // case "addLargeNumbers":
-            //     LinkedList pDigits = AddLargeNumbers.numberToDigits(p);
-            //     LinkedList qDigits = AddLargeNumbers.numberToDigits(q);
-            //     LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
-            //     System.out.println(AddLargeNumbers.digitsToNumber(result));
-            //     break;
-        }
-    }
-    
+		// case "addLargeNumbers":
+		// 	pDigits = AddLargeNumbers.numberToDigits(p);
+		// 	qDigits = AddLargeNumbers.numberToDigits(q);
+		// 	LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+		// 	System.out.println(AddLargeNumbers.digitsToNumber(result));
+		// 	break;
+		}
+	}
+
 }
