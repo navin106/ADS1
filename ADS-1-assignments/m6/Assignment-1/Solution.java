@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import java.util.Arrays;
 class LinkedList<E> {
 	int size = 0;
 	private class Node {
@@ -96,9 +97,48 @@ class AddLargeNumbers {
 		return list.toString();
 	}
 
-	// public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
+	public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
+		LinkedList<String> result =  new LinkedList<String>();
+		if (list1.size < list2.size ) {
+			while (!(list1.size == list2.size)) {
+				list1.pushRight("0");
+			}
+		}
+		if (list2.size < list1.size ) {
+			while (!(list1.size == list2.size)) {
+				list2.pushRight("0");
+			}
+		}
+		/*System.out.println(list1.size);
+		System.out.println(list2.size);*/
+		int add;
+		int carry;
+		String[] num1 = digitsToNumber(list1).split("");
+		// System.out.println(Arrays.toString(num1));
+		String[] num2 = digitsToNumber(list2).split("");
+		// System.out.println(Arrays.toString(num2));
+		for (int i = num1.length-1; i >= 0; i--) {
+			add = 0;
+			carry = 0;
+			String str = "";
+			if (carry == 0) {
+				add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]);
+			} else {
+				add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]) + carry;
+			}
+			str += add;
+			String[] k = str.split("");
+			if (k.length == 2) {
+				result.pushRight(k[1]);
+				carry =Integer.parseInt(k[0]);
 
-	// }
+			} else {
+				result.pushRight(k[0]);
+			}
+
+		}
+		return result;
+	}
 }
 
 public class Solution {
@@ -115,12 +155,12 @@ public class Solution {
 			System.out.println(AddLargeNumbers.digitsToNumber(qDigits));
 			break;
 
-			// case "addLargeNumbers":
-			// 	pDigits = AddLargeNumbers.numberToDigits(p);
-			// 	qDigits = AddLargeNumbers.numberToDigits(q);
-			// 	LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
-			// 	System.out.println(AddLargeNumbers.digitsToNumber(result));
-			// 	break;
+		case "addLargeNumbers":
+			pDigits = AddLargeNumbers.numberToDigits(p);
+			qDigits = AddLargeNumbers.numberToDigits(q);
+			LinkedList result = AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+			System.out.println(AddLargeNumbers.digitsToNumber(result));
+			break;
 		}
 	}
 
