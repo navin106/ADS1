@@ -216,13 +216,13 @@ final class AddLargeNumbers {
         String[] num2 = digitsToNumber(list2).split("");
         for (int i = num1.length - 1; i >= 0; i--) {
             String str = "";
-            if (carry == 0) {
-                add = Integer.parseInt(
-                    num1[i]) + Integer.parseInt(num2[i]);
-            } else {
+            // if (carry == 0) {
+            //     add = Integer.parseInt(
+            //         num1[i]) + Integer.parseInt(num2[i]);
+            // } else {
                 add = Integer.parseInt(
             num1[i]) + Integer.parseInt(num2[i]) + carry;
-            }
+            // }
             carry = 0;
             str += add;
             String[] k = str.split("");
