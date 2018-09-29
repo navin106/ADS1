@@ -76,10 +76,8 @@ class LinkedList<E> {
 				thead = thead.next;
 			}
 			str += thead.data;
-
 		}
 		return str;
-
 	}
 
 }
