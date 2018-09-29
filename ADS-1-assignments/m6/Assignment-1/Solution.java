@@ -10,15 +10,24 @@ class LinkedList<E> {
      */
     private int size = 0;
     /**
-     * Class for node.
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
      */
-     public int getsize(){
+     public int getsize() {
       return size;
      }
-     
-     public void setsize(int size){
+     /**
+      * { function_description }
+      *
+      * @param      size  The size
+      */
+     public void setsize(int size) {
       this.size = size;
      }
+    /**
+     * Class for node.
+     */
     private class Node {
         /**
          * { var_description }.
