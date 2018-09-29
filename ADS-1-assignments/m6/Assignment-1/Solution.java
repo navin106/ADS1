@@ -86,10 +86,7 @@ class AddLargeNumbers {
     }
 
     public static String digitsToNumber(LinkedList list) {
-    	String str = "";
-    	while(list.popLeft()!=null)
-    	str += list.popLeft();
-    	return str;
+    	return list.toString();
     }
 
     // public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
