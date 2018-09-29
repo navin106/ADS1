@@ -136,7 +136,7 @@ class AddLargeNumbers {
 				result.pushLeft(k[0]);
 			}
 		}
-		if (a < b) {
+		if (a == b) {
 			result.pushLeft(k1);
 		}
 		return result;
