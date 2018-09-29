@@ -124,7 +124,7 @@ class AddLargeNumbers {
 				result.pushLeft(k[0]);
 			}
 		}
-		if (a == b) {
+		if (carry == 1) {
 			result.pushLeft(k1);
 		}
 		return result;
