@@ -58,20 +58,20 @@ Your Output:
 87349327982375982375982379823737983278093279823798279823798279238798237923879823759823759823782378472398727019387139713087239652399870174319799839814698131984619864981364498407598237598237598723958723985729857298572987582752375923857923752985729385723985720357023572098572985723985723923752035723957298572985723985794654184984084984410
 
 ----------------------------------------
-########## Testcase 6: Passed ##########
+########## Testcase 6: Failed ##########
 Expected Output: 
 1110
 
 Your Output: 
-1110
+110
 
 ----------------------------------------
-########## Testcase 7: Passed ##########
+########## Testcase 7: Failed ##########
 Expected Output: 
 17298729465094143782178336767086358354
 
 Your Output: 
-17298729465094143782178336767086358354
+7298729465094143782178336767086358354
 
 ----------------------------------------
 ########## Testcase 8: Failed ##########
@@ -79,15 +79,15 @@ Expected Output:
 729872958698639793875938799167856438593339414617744257892770845889626807538530965376456562998953974417154274561997373497348635094143782178336767086358354
 
 Your Output: 
-1559755917448219373733949297587005591945951944961945851963879954810556909556019750345036343987943752997922382173877353985947232495795798579857987598759879
+830983069709740804986049809267866438693339414617854258993871956890637808649531976477557663009064085417154274562997373497348635094143782178336767086358354
 
 ----------------------------------------
-########## Testcase 9: Failed ##########
+########## Testcase 9: Passed ##########
 Expected Output: 
 2119
 
 Your Output: 
-11065
+2119
 
 ----------------------------------------
 ########## Testcase 10: Failed ##########
@@ -95,7 +95,7 @@ Expected Output:
 729872958698639793875938798437983479843832822055718717801745594186420178272238311955785142425542311974286782795967854242503409135283639282507735296484809448531065366538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
 
 Your Output: 
-1559755917448219373733532678381782827838135828235838135838135828278389378381283862893281308386748262855043789938104690865770936870864770044950035919647809623238634233425543987942659935426341880342848469006477185585196477086495003599965690054862567311731397515319879438731214209621151479274569148573497348757495795798579857987598759879
+830983069709740804986049809548094580954832822055728717801745694186420178372238312956885142425542312974386783895978854242503419135383639382507845297585810559531076467649645089063994009550868111517629997009690991009101979596618879407006490045817017474335197297478437598335729721621748073142159778459041336701370143782178336767086358354
 
 ----------------------------------------
 ########## Testcase 11: Failed ##########
@@ -103,10 +103,10 @@ Expected Output:
 72987295869863979387593879843798347984383282205571871780174559418642017827223831195578514242554231197428678279596785424250340913528363928250773537281123831687861811513173877862918587519222744223594642197433146034236035877472705421901972318273733013123340377487760905478670014081581201129930929102021011408239201201201292016538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
 
 Your Output: 
-155975591744821937373353267838178282783813582823583813583813582827838937838128386289328130838674826285504454229238227423129743863979755829174421078291178381342425034922360897864813142503962360819714237287493735078542589938719568906378086495319764775576630090640854885888690225902411212231932931292211111131302201386919961983425543987942659935426341880342848469006477185585196477086495003599965690054862567311731397515319879438731214209621151479274569148573497348757495795798579857987598759879
+83098306970974080498604980954809458095483282205572871780174569418642017837223831295688514242554231297438678389597885424250341913538363938250784537381123831797862811513174977863918697519222744223694642297433146034236036977473705422901972328273733013123440378588861916489671114192592212230031030113131121419240212212212303117649645089063994009550868111517629997009690991009101979596618879407006490045817017474335197297478437598335729721621748073142159778459041336701370143782178336767086358354
 
 ----------------------------------------
-Result: 8/12 testcases passed.
+Result: 7/12 testcases passed.
 Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:2:8: Unused import - java.util.Arrays. [UnusedImports]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:3: Missing a Javadoc comment. [JavadocType]
@@ -139,32 +139,31 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:34:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:34:31: Parameter data should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:49:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:55:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:58:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:72: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:72:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:74:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:74:49: Parameter number should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:83:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:83:45: Parameter list should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:87: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:56:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:68:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:71:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:85: Missing a Javadoc comment. [JavadocType]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:85:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:87:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:87:50: Parameter list1 should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:87:68: Parameter list2 should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:91:44: ')' is preceded with whitespace. [ParenPad]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:96:44: ')' is preceded with whitespace. [ParenPad]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:110: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:113: Line is longer than 80 characters (found 108). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:118: Line is longer than 80 characters (found 100). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:121: Line is longer than 80 characters (found 108). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:141: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:141:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:142:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:142:33: Parameter args should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:147: switch without "default" clause. [MissingSwitchDefault]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:151: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:87:49: Parameter number should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:96:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:96:45: Parameter list should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100: Line is longer than 80 characters (found 86). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100:50: Parameter list1 should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:100:68: Parameter list2 should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:102:44: ')' is preceded with whitespace. [ParenPad]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:107:44: ')' is preceded with whitespace. [ParenPad]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:120: Line is longer than 80 characters (found 92). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:123: Line is longer than 80 characters (found 100). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:142: Missing a Javadoc comment. [JavadocType]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:142:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:143:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:143:33: Parameter args should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:148: switch without "default" clause. [MissingSwitchDefault]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:152: Line is longer than 80 characters (found 84). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:158: Line is longer than 80 characters (found 94). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:159: Line is longer than 80 characters (found 83). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:153: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:159: Line is longer than 80 characters (found 94). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution.java:160: Line is longer than 80 characters (found 83). [LineLength]
 Audit done.
-Checkstyle ends with 58 errors.
+Checkstyle ends with 57 errors.
