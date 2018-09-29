@@ -14,17 +14,17 @@ class LinkedList<E> {
      *
      * @return     { description_of_the_return_value }
      */
-     public int getsize() {
-      return size;
-     }
-     /**
-      * { function_description }
-      *
-      * @param      size  The size
-      */
-     public void setsize(int size) {
-      this.size = size;
-     }
+    public int getsize() {
+        return size;
+    }
+    /**
+     * { function_description }
+     *
+     * @param      size  The size
+     */
+    public void setsize(int size) {
+        this.size = size;
+    }
     /**
      * Class for node.
      */
@@ -195,7 +195,7 @@ final class AddLargeNumbers {
      * @return     { description_of_the_return_value }
      */
     public static LinkedList addLargeNumbers(
-    final LinkedList list1, final LinkedList list2) {
+        final LinkedList list1, final LinkedList list2) {
         int a = list1.getsize();
         int b = list2.getsize();
         LinkedList<String> result =  new LinkedList<String>();
@@ -216,13 +216,8 @@ final class AddLargeNumbers {
         String[] num2 = digitsToNumber(list2).split("");
         for (int i = num1.length - 1; i >= 0; i--) {
             String str = "";
-            // if (carry == 0) {
-            //     add = Integer.parseInt(
-            //         num1[i]) + Integer.parseInt(num2[i]);
-            // } else {
-                add = Integer.parseInt(
-            num1[i]) + Integer.parseInt(num2[i]) + carry;
-            // }
+            add = Integer.parseInt(
+                      num1[i]) + Integer.parseInt(num2[i]) + carry;
             carry = 0;
             str += add;
             String[] k = str.split("");
@@ -275,9 +270,9 @@ public final class Solution {
             pDigits = AddLargeNumbers.numberToDigits(p);
             qDigits = AddLargeNumbers.numberToDigits(q);
             LinkedList result =
-            AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
+                AddLargeNumbers.addLargeNumbers(pDigits, qDigits);
             System.out.println(
-            AddLargeNumbers.digitsToNumber(result));
+                AddLargeNumbers.digitsToNumber(result));
             break;
         default:
             break;
