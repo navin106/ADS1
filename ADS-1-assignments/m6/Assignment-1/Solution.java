@@ -98,6 +98,8 @@ class AddLargeNumbers {
 	}
 
 	public static LinkedList addLargeNumbers(LinkedList list1, LinkedList list2) {
+		int a = list1.size;
+		int b = list2.size;
 		LinkedList<String> result =  new LinkedList<String>();
 		if (list1.size < list2.size ) {
 			while (!(list1.size == list2.size)) {
@@ -134,7 +136,9 @@ class AddLargeNumbers {
 				result.pushLeft(k[0]);
 			}
 		}
-		// result.pushLeft(k1);
+		if (a > b) {
+			result.pushLeft(k1);
+		}
 		return result;
 	}
 }
