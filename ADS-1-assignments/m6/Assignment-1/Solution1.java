@@ -231,6 +231,7 @@ final class AddLargeNumbers {
 		String k1 = "";
 		for (int i = 0; i < list1.getsize(); i++) {
 			String str = "";
+
 			add = (Integer)(list1.popRight()) + (Integer)(list2.popRight()) + carry;
 			carry = 0;
 			str += add;
