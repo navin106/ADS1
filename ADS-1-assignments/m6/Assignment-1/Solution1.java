@@ -40,6 +40,13 @@ class LinkedList<E> {
 		/**
 		 * Constructs the object.
 		 */
+		 public Node getnext(){
+		  return next;
+		 }
+		 
+		 public void setnext(Node next){
+		  this.next = next;
+		 }
 		Node() {
 
 		}
@@ -65,7 +72,7 @@ class LinkedList<E> {
 	/**
 	 * { var_description }.
 	 */
-	private Node head;
+	public Node head;
 	/**
 	 * { var_description }.
 	 */
@@ -229,7 +236,7 @@ final class AddLargeNumbers {
 		int add = 0;
 		int carry = 0;
 		String k1 = "";
-		for (int i = 0; i <= list1.getsize(); i++) {
+		for (int i = 0; !list1.equals(list1.head); i++) {
 			String str = "";
 			 if (carry == 0) {
 		        add =Integer.valueOf((String)list1.popRight()) + Integer.valueOf((String)list2.popRight());
