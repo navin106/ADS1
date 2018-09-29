@@ -103,6 +103,8 @@ class AddLargeNumbers {
 		String k1 = "";
 		String[] num1 = digitsToNumber(list1).split("");
 		String[] num2 = digitsToNumber(list2).split("");
+		System.out.println(num1.length);
+		System.out.println(num2.length);
 		for (int i = num1.length - 1; i >= 0; i--) {
 			String str = "";
 			if (carry == 0) {
