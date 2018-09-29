@@ -23,20 +23,20 @@ class LinkedList<E> {
 		/**
 		 * Constructs the object.
 		 *
-		 * @param      data  The data
-		 * @param      next  The next
+		 * @param      data   The data
+		 * @param      next1  The next
 		 */
-		Node (E data, Node next) {
-			this.data = data;
-			this.next = next;
+		Node (final E data1, final Node next1) {
+			this.data = data1;
+			this.next = next1;
 		}
 	}
 	/**
-	 * { var_description }
+	 * { var_description }.
 	 */
 	private Node head;
 	/**
-	 * { var_description }
+	 * { var_description }.
 	 */
 	private Node tail;
 
@@ -45,7 +45,7 @@ class LinkedList<E> {
 	 *
 	 * @param      data  The data
 	 */
-	public void pushLeft(E data) {
+	public void pushLeft(final E data) {
 		Node node = new Node();
 		node.data = data;
 		node.next = head;
@@ -64,7 +64,7 @@ class LinkedList<E> {
 	 *
 	 * @param      data  The data
 	 */
-	public void pushRight(E data) {
+	public void pushRight(final E data) {
 		Node node = new Node();
 		node.data = data;
 		node.next = head;
@@ -80,7 +80,7 @@ class LinkedList<E> {
 	}
 
 	/**
-	 * { function_description }
+	 * { function_description }.
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
@@ -91,7 +91,7 @@ class LinkedList<E> {
 		return data;
 	}
 	/**
-	 * { function_description }
+	 * { function_description }.
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
@@ -117,6 +117,9 @@ class LinkedList<E> {
 	}
 
 }
+/**
+ * Class for add large numbers.
+ */
 class AddLargeNumbers {
 	/**
 	 * Constructs the object.
@@ -126,7 +129,7 @@ class AddLargeNumbers {
 	}
 
 	/**
-	 * { function_description }
+	 * { function_description }.
 	 *
 	 * @param      number  The number
 	 *
@@ -142,7 +145,7 @@ class AddLargeNumbers {
 	}
 
 	/**
-	 * { function_description }
+	 * { function_description }.
 	 *
 	 * @param      list  The list
 	 *
@@ -160,7 +163,8 @@ class AddLargeNumbers {
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
-	public static LinkedList addLargeNumbers(final LinkedList list1, final LinkedList list2) {
+	public static LinkedList addLargeNumbers(
+	final LinkedList list1, final LinkedList list2) {
 		int a = list1.size;
 		int b = list2.size;
 		LinkedList<String> result =  new LinkedList<String>();
@@ -186,7 +190,7 @@ class AddLargeNumbers {
 					num1[i]) + Integer.parseInt(num2[i]);
 			} else {
 				add = Integer.parseInt(
-					num1[i]) + Integer.parseInt(num2[i]) + carry;
+			num1[i]) + Integer.parseInt(num2[i]) + carry;
 			}
 			carry = 0;
 			str += add;
@@ -209,7 +213,7 @@ class AddLargeNumbers {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
 	/**
 	 * Constructs the object.
 	 */
@@ -217,7 +221,7 @@ public class Solution {
 
 	}
 	/**
-	 * { function_description }
+	 * { function_description }.
 	 *
 	 * @param      args  The arguments
 	 */
