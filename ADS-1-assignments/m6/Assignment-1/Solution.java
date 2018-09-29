@@ -114,6 +114,7 @@ class AddLargeNumbers {
 				add = Integer.parseInt(num1[i]) + Integer.parseInt(num2[i]) + carry;
 				// System.out.println(add);
 			}
+			carry = 0;
 			str += add;
 			String[] k = str.split("");
 			if (k.length == 2) {
