@@ -8,10 +8,17 @@ class LinkedList<E> {
     /**
      * { var_description }.
      */
-    int size = 0;
+    private int size = 0;
     /**
      * Class for node.
      */
+     public int getsize(){
+      return size;
+     }
+     
+     public void setsize(int size){
+      this.size = size;
+     }
     private class Node {
         /**
          * { var_description }.
@@ -24,7 +31,7 @@ class LinkedList<E> {
         /**
          * Constructs the object.
          */
-        Node () {
+        Node() {
 
         }
         /**
@@ -180,16 +187,16 @@ final class AddLargeNumbers {
      */
     public static LinkedList addLargeNumbers(
     final LinkedList list1, final LinkedList list2) {
-        int a = list1.size;
-        int b = list2.size;
+        int a = list1.getsize();
+        int b = list2.getsize();
         LinkedList<String> result =  new LinkedList<String>();
-        if (list1.size < list2.size) {
-            while (!(list1.size == list2.size)) {
+        if (list1.getsize() < list2.getsize()) {
+            while (!(list1.getsize() == list2.getsize())) {
                 list1.pushLeft("0");
             }
         }
-        if (list2.size < list1.size) {
-            while (!(list1.size == list2.size)) {
+        if (list2.getsize() < list1.getsize()) {
+            while (!(list1.getsize() == list2.getsize())) {
                 list2.pushLeft("0");
             }
         }
