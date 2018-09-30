@@ -229,15 +229,10 @@ final class AddLargeNumbers {
 		int add = 0;
 		int carry = 0;
 		String k1 = "";
-		for (int i = 0; i <= list1.getsize(); i++) {
+		for (int i = 0; list1.popRight() != null; i++) {
 			String str = "";
-			 // if (carry == 0) {
-		  //       add =Integer.valueOf((String)list1.popRight()) + Integer.valueOf((String)list2.popRight());
-		  //       System.out.println();
-		  //   } else {
-		        add =Integer.valueOf((String)list1.popRight()) + Integer.valueOf((String)list2.popRight()) + carry;
-		        System.out.println(add);
-		    // }
+			add = Integer.valueOf((String)list1.popRight()) + Integer.valueOf((String)list2.popRight()) + carry;
+			System.out.println(add);
 			carry = 0;
 			str += add;
 			String[] k = str.split("");
@@ -250,7 +245,7 @@ final class AddLargeNumbers {
 			}
 		}
 		if (a == b) {
-		    result.pushLeft(k1);
+			result.pushLeft(k1);
 		}
 		/*String[] num1 = digitsToNumber(list1).split("");
 		String[] num2 = digitsToNumber(list2).split("");
