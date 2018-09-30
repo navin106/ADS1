@@ -229,7 +229,7 @@ final class AddLargeNumbers {
 		int add = 0;
 		int carry = 0;
 		String k1 = "";
-		for (int i = 0; i<list2.getsize()+1; i++) {
+		for (int i = 0; i<list2.getsize()+2	; i++) {
 			String str = "";
 			add = Integer.valueOf((String)list1.popRight()) + Integer.valueOf((String)list2.popRight()) + carry;
 			System.out.println(add);

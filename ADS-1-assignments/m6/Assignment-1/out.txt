@@ -65,7 +65,11 @@ Expected Output:
 Your Output: 
 10
 11
-110
+Exception in thread "main" java.lang.NullPointerException
+	at LinkedList$Node.access$100(Solution1.java:31)
+	at LinkedList.popRight(Solution1.java:132)
+	at AddLargeNumbers.addLargeNumbers(Solution1.java:234)
+	at Solution1.main(Solution1.java:313)
 
 ----------------------------------------
 ########## Testcase 7: Failed ##########
@@ -92,7 +96,8 @@ Your Output:
 17
 11
 12
-12178336767086358354
+18
+182178336767086358354
 
 ----------------------------------------
 ########## Testcase 8: Failed ##########
@@ -177,7 +182,8 @@ Your Output:
 9
 10
 13
-30965376456562998953974417154274561997373497348635094143782178336767086358354
+5
+530965376456562998953974417154274561997373497348635094143782178336767086358354
 
 ----------------------------------------
 ########## Testcase 9: Failed ##########
@@ -363,7 +369,8 @@ Your Output:
 6
 8
 3
-38635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
+5
+538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
 
 ----------------------------------------
 ########## Testcase 11: Failed ##########
@@ -617,7 +624,8 @@ Your Output:
 13
 11
 10
-013123340377487760905478670014081581201129930929102021011408239201201201292016538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
+13
+3013123340377487760905478670014081581201129930929102021011408239201201201292016538635078962894008449758000516628886998689991009100968585617778406995389934817017474335197197478437598335718721620738073142148778449041336701370143782178336767086358354
 
 ----------------------------------------
 Result: 6/12 testcases passed.
@@ -632,8 +640,9 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:232:35: '<' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:232:50: '+' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:232:51: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:232:52: ';' is preceded with whitespace. [NoWhitespaceBefore]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:234: Line is longer than 80 characters (found 124). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:234:55: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:234:99: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 14 errors.
