@@ -118,7 +118,7 @@ class LinkedList<E> {
 	public E popLeft() {
 		E data = head.data;
 		head = head.next;
-		size--;
+		// size--;
 		return data;
 	}
 	/**
@@ -135,7 +135,7 @@ class LinkedList<E> {
 		}
 		thead.next = null;
 		tail = thead;
-		size--;
+		// size--;
 		return data;
 	}
 	/**
