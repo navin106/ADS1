@@ -66,7 +66,7 @@ Your Output:
 Exception in thread "main" java.lang.NullPointerException
 	at LinkedList$Node.access$100(Solution1.java:31)
 	at LinkedList.popRight(Solution1.java:132)
-	at AddLargeNumbers.addLargeNumbers(Solution1.java:232)
+	at AddLargeNumbers.addLargeNumbers(Solution1.java:234)
 	at Solution1.main(Solution1.java:313)
 
 ----------------------------------------
@@ -78,7 +78,7 @@ Your Output:
 Exception in thread "main" java.lang.NullPointerException
 	at LinkedList$Node.access$100(Solution1.java:31)
 	at LinkedList.popRight(Solution1.java:132)
-	at AddLargeNumbers.addLargeNumbers(Solution1.java:232)
+	at AddLargeNumbers.addLargeNumbers(Solution1.java:234)
 	at Solution1.main(Solution1.java:313)
 
 ----------------------------------------
@@ -90,7 +90,7 @@ Your Output:
 Exception in thread "main" java.lang.NullPointerException
 	at LinkedList$Node.access$100(Solution1.java:31)
 	at LinkedList.popRight(Solution1.java:132)
-	at AddLargeNumbers.addLargeNumbers(Solution1.java:232)
+	at AddLargeNumbers.addLargeNumbers(Solution1.java:234)
 	at Solution1.main(Solution1.java:313)
 
 ----------------------------------------
@@ -114,7 +114,7 @@ Your Output:
 Exception in thread "main" java.lang.NullPointerException
 	at LinkedList$Node.access$100(Solution1.java:31)
 	at LinkedList.popRight(Solution1.java:132)
-	at AddLargeNumbers.addLargeNumbers(Solution1.java:232)
+	at AddLargeNumbers.addLargeNumbers(Solution1.java:234)
 	at Solution1.main(Solution1.java:313)
 
 ----------------------------------------
@@ -126,7 +126,7 @@ Your Output:
 Exception in thread "main" java.lang.NullPointerException
 	at LinkedList$Node.access$100(Solution1.java:31)
 	at LinkedList.popRight(Solution1.java:132)
-	at AddLargeNumbers.addLargeNumbers(Solution1.java:232)
+	at AddLargeNumbers.addLargeNumbers(Solution1.java:234)
 	at Solution1.main(Solution1.java:313)
 
 ----------------------------------------
@@ -138,9 +138,10 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:25:29: Parameter size should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:25:33: 'size' hides a field. [HiddenField]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:124: First sentence should end with a period. [JavadocStyle]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:232:49: '!=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:232:34: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:232:35: '<' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:234: Line is longer than 80 characters (found 124). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:234:55: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:234:99: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
-Checkstyle ends with 10 errors.
+Checkstyle ends with 11 errors.
