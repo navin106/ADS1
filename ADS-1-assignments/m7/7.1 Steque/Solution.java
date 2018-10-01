@@ -59,9 +59,9 @@ class Steque<E> {
 			}
 			str += thead.data;
 
-		} /*else {
+		} else {
 			return "Steque is empty.";
-		}*/
+		}
 		str += "";
 		return str;
 
