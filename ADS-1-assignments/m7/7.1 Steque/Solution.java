@@ -93,6 +93,7 @@ public class Solution {
 						System.out.println("Steque is empty.");
 						break;
 					}
+					stq.pop();
 					System.out.println(stq);
 					break;
 				case "enqueue":
