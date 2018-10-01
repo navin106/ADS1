@@ -48,11 +48,16 @@ class Steque<E> {
 	}
 	public String toString() {
 		String str = "";
-			while (head.next.next != null) {
-				str += head.data + ", ";
-				head = head.next;
+		Node thead = head;
+		if (thead != null) {
+			while (thead.next != null) {
+				str += thead.data + ", ";
+				thead = thead.next;
 			}
-			str += head.data;
+			str += thead.data;
+
+		}
+		str += "";
 		return str;
 
 	}
@@ -77,6 +82,7 @@ public class Solution {
 				switch (tokens[0]) {
 				case "push":
 					stq.push(tokens[1]);
+					// System.out.println("1");
 					System.out.println(stq);
 					break;
 				case "pop":
