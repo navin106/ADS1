@@ -32,6 +32,9 @@ class Steque<E> {
 	}
 
 	public void enqueue(E data) {
+		if (head == null) {
+			push(data);
+		}
 		tail.next = new Node(data);
 		tail = tail.next;
 		size++;
@@ -83,19 +86,12 @@ public class Solution {
 					break;
 				}
 				String[] tokens = t.split(" ");
-				// System.out.println(Arrays.deepToString(tokens));
 				switch (tokens[0]) {
 				case "push":
 					stq.push(tokens[1]);
-					// System.out.println("1");
 					System.out.println(stq);
 					break;
 				case "pop":
-					/*if (stq.size == 0) {
-						break;
-					} else if (stq.size == 1) {
-						System.out.println("Steque is empty.");
-					}*/
 					try {
 						stq.pop();
 						System.out.println(stq);
@@ -103,14 +99,14 @@ public class Solution {
 						System.out.println("Steque is empty.");
 					}
 					break;
-			case "enqueue":
-				stq.enqueue(tokens[1]);
-				System.out.println(stq);
-				break;
-			default:
-				break;
+				case "enqueue":
+					stq.enqueue(tokens[1]);
+					System.out.println(stq);
+					break;
+				default:
+					break;
+				}
 			}
 		}
 	}
-}
 }
