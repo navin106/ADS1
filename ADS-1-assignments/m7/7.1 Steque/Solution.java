@@ -37,11 +37,11 @@ class Steque<E> {
 		size++;
 	}
 
-	public E pop() {
-		E data = head.data;
+	public void pop() {
+		// E data = head.data;
 		head = head.next;
 		size--;
-		return data;
+		// return data;
 	}
 	public int size() {
 		return size;
