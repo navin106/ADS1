@@ -1,82 +1,84 @@
 import java.util.Scanner;
-class Node<E> {
-	public E item;
-	public Node next;
-}
+import java.util.Arrays;
 class Steque<E> {
-	public Node<E> head;
-	public Node<E> tail;
-	public int qsize;
-	public Steque() {
-		head = new Node<E>();
-		tail = new Node<E>();
-		qsize = 0;
+	int size = 0;
+	private class Node {
+		E data;
+		Node next;
+		Node () {}
+		Node (E data) {
+			this(data, null);
+		}
+		Node (E data, Node next) {
+			this.data = data;
+			this.next = next;
+		}
 	}
+	private Node head;
+	private Node tail;
+
 	public void push(E data) {
-		Node<E> tnode = new Node<E>();
-		if (head.next == null) {
-			tnode.item = data;
-			tnode.next = null;
-			head = tnode;
+		Node node = new Node();
+		node.data = data;
+		node.next = head;
+		if (head == null) {
+			head = node;
 			tail = head;
-			qsize++;
+			size++;
+			return;
 		}
-		tnode.item = data;
-		tnode.next = head;
-		head = tnode;
-		qsize++;
+		head = node;
+		size++;
 	}
-	public E pop() {
-		if (head.item != null) {
-			E data = head.item;
-			head = head.next;
-			qsize--;
-			return data;
-		} else {
-			return null;
-		}
 
-	}
 	public void enqueue(E data) {
-		Node<E> tnode = new Node<E>();
-		if (head.next == null) {
-			tnode.item = data;
-			tnode.next = null;
-			head = tnode;
-			tail = head;
-			qsize++;
-		}
-		tnode.item = data;
-		tnode.next = null;
-		tail.next = tnode;
-		tail = tnode;
-		qsize++;
+		tail.next = new Node(data);
+		tail = tail.next;
+		size++;
+	}
 
+	public E pop() {
+		E data = head.data;
+		head = head.next;
+		size--;
+		return data;
+	}
+	public int size() {
+		return size;
 	}
 	public String toString() {
-		Node thead = new Node();
-		String str = "";
-		while (head.next.next != null) {
-			str += head.item + ", ";
-			head = head.next;
+		String str = "[";
+		Node thead = head;
+		if (thead != null) {
+			while (thead.next != null) {
+				str += thead.data + ", ";
+				thead = thead.next;
+			}
+			str += thead.data;
+
 		}
-		str += head.item;
+		str += "]";
 		return str;
+
 	}
 
 }
 public class Solution {
-	private Solution() {
+	public Solution() {
 	}
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
-		Steque<String> stq = new Steque<String>();
 		int no = sc.nextInt();
-		while (no != 0) {
-			String t = sc.nextLine();
-			if (t.equals("")) break;
+		sc.nextLine();
+		for (int i = 0; i < no + 1; i++) {
+			Steque<String> stq = new Steque<String>();
 			while (sc.hasNext()) {
-				String[] tokens = t.split("-");
+				String t = sc.nextLine();
+				if (t.equals("")) {
+					break;
+				}
+				String[] tokens = t.split(" ");
+				System.out.println(Arrays.deepToString(tokens));
 				switch (tokens[0]) {
 				case "push":
 					stq.push(tokens[1]);
@@ -97,7 +99,6 @@ public class Solution {
 					break;
 				}
 			}
-			no--;
 		}
 	}
 }
