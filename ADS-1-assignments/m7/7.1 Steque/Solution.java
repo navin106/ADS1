@@ -59,6 +59,8 @@ class Steque<E> {
 			}
 			str += thead.data;
 
+		} else {
+			return "Steque is empty.";
 		}
 		str += "";
 		return str;
@@ -89,8 +91,7 @@ public class Solution {
 					System.out.println(stq);
 					break;
 				case "pop":
-					if (stq.size < 0) {
-						System.out.println("Steque is empty.");
+					if (stq.size == 0) {
 						break;
 					}
 					stq.pop();
