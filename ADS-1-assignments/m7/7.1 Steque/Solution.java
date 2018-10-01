@@ -94,7 +94,7 @@ public class Solution {
 					if (stq.size == 0) {
 						break;
 					} else if (stq.size == 1) {
-						System.out.println("Steque is Empty.");
+						System.out.println("Steque is empty.");
 					}
 					stq.pop();
 					System.out.println(stq);
