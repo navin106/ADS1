@@ -37,7 +37,10 @@ class Steque<E> {
 		size++;
 	}
 
-	public E pop() {
+	public E pop() throws Exception {
+		if (head.data == null) {
+			throw new Exception("Steque is empty.");
+		}
 		E data = head.data;
 		head = head.next;
 		size--;
@@ -86,11 +89,12 @@ public class Solution {
 					System.out.println(stq);
 					break;
 				case "pop":
-					if (stq.pop() == null) {
-						System.out.println("Steque is empty.");
-						break;
+					try {
+						System.out.println(stq);
 					}
-					System.out.println(stq);
+					catch(Exception e) {
+						System.out.println(e);
+					}
 					break;
 				case "enqueue":
 					stq.enqueue(tokens[1]);
