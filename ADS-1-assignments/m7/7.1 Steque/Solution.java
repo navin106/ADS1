@@ -37,24 +37,32 @@ class Steque<E> {
 		size++;
 	}
 
-	public void pop() {
+	public E pop() {
+		if (head.data == null) {
+			return null;
+		}
+		E data = head.data;
 		head = head.next;
 		size--;
+		return data;
 	}
 	public int size() {
 		return size;
 	}
 	public String toString() {
 		String str = "";
-		Node thead = new Node();
-		thead = head;
-		while (thead.next != null) {
-			str += thead.data + ", ";
-			thead = thead.next;
+		Node thead = head;
+		if (thead != null) {
+			while (thead.next != null) {
+				str += thead.data + ", ";
+				thead = thead.next;
+			}
+			str += thead.data;
+
 		}
-		str += thead.data;
 		str += "";
 		return str;
+
 	}
 
 }
@@ -73,17 +81,19 @@ public class Solution {
 					break;
 				}
 				String[] tokens = t.split(" ");
+				// System.out.println(Arrays.deepToString(tokens));
 				switch (tokens[0]) {
 				case "push":
 					stq.push(tokens[1]);
+					// System.out.println("1");
 					System.out.println(stq);
 					break;
 				case "pop":
-					if (stq.size != 0) {
-						System.out.println(stq);
+					if (stq.pop() == null) {
+						System.out.println("Steque is empty.");
 						break;
 					}
-					System.out.println("Steque is empty.");
+					System.out.println(stq);
 					break;
 				case "enqueue":
 					stq.enqueue(tokens[1]);
