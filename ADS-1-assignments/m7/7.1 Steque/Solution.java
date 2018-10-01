@@ -54,7 +54,7 @@ class Steque<E> {
 		}
 	}
 	public E pop() {
-		if (head.getvalue() != null) {
+		if (head.getvalue() == null) {
 			System.out.println("Steque is empty");
 			return null;
 		} else {
