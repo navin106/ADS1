@@ -38,7 +38,7 @@ class Steque<E> {
 	}
 
 	public E pop() throws Exception {
-		if (size == 0) {
+		if (size <= 0) {
 			throw new Exception();
 		}
 		E data = head.data;
