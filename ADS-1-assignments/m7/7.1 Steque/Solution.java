@@ -86,12 +86,12 @@ public class Solution {
 					System.out.println(stq);
 					break;
 				case "pop":
-					if (stq.size == 0) {
-						System.out.println("Steque is empty.");
+					if (stq.size != 0) {
+						System.out.println(stq);
 						break;
 
 					}
-					System.out.println(stq);
+					System.out.println("Steque is empty.");
 					break;
 				case "enqueue":
 					stq.enqueue(tokens[1]);
