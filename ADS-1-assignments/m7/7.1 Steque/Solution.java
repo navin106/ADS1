@@ -53,6 +53,13 @@ class Steque<E> {
 		qsize++;
 
 	}
+	public String toString() {
+		String str = "";
+		while (head.next.next != null)
+			str += head.next + ", ";
+		str += head.next;
+		return str;
+	}
 
 }
 public class Solution {
