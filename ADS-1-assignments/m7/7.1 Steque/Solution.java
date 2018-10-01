@@ -49,17 +49,13 @@ class Steque<E> {
 	public String toString() {
 		String str = "";
 		Node thead = head;
-		if (thead != null) {
-			while (thead.next != null) {
-				str += thead.data + ", ";
-				thead = thead.next;
-			}
-			str += thead.data;
-
+		while (thead.next != null) {
+			str += thead.data + ", ";
+			thead = thead.next;
 		}
+		str += thead.data;
 		str += "";
 		return str;
-
 	}
 
 }
@@ -78,18 +74,15 @@ public class Solution {
 					break;
 				}
 				String[] tokens = t.split(" ");
-				// System.out.println(Arrays.deepToString(tokens));
 				switch (tokens[0]) {
 				case "push":
 					stq.push(tokens[1]);
-					// System.out.println("1");
 					System.out.println(stq);
 					break;
 				case "pop":
 					if (stq.size != 0) {
 						System.out.println(stq);
 						break;
-
 					}
 					System.out.println("Steque is empty.");
 					break;
