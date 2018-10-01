@@ -54,15 +54,10 @@ class Steque<E> {
 		}
 	}
 	public E pop() {
-		if (head.getvalue() == null) {
-			System.out.println("Steque is empty");
-			return null;
-		} else {
-			E data = head.getvalue();
-			head.setnext(head.getnext());
-			size--;
-			return data;
-		}
+		E data = head.getvalue();
+		head.setnext(head.getnext());
+		size--;
+		return data;
 	}
 	public void enqueue(E item) {
 		Node add = new Node();
