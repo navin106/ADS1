@@ -34,10 +34,11 @@ class Steque<E> {
 	public void enqueue(E data) {
 		if (head == null) {
 			push(data);
+		} else {
+			tail.next = new Node(data);
+			tail = tail.next;
+			size++;
 		}
-		tail.next = new Node(data);
-		tail = tail.next;
-		size++;
 	}
 
 	public E pop() throws Exception {
