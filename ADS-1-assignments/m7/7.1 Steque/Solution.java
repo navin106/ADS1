@@ -1,91 +1,59 @@
 import java.util.Scanner;
+class Node<E> {
+	public E item;
+	public Node next;
+}
 class Steque<E> {
-	private int size = 0;
+	public Node<E> head;
+	public Node<E> tail;
+	public int qsize;
 	public Steque() {
-
+		head = new Node<E>();
+		tail = new Node<E>();
+		qsize = 0;
 	}
-	class Node {
-		private E value;
-		private Node next;
-		public E getvalue() {
-			return value;
-		}
-
-		public void setvalue(E value) {
-			this.value = value;
-		}
-		public Node getnext() {
-			return next;
-		}
-
-		public void setnext(Node next) {
-			this.next = next;
-		}
-	}
-	private Node head;
-	private Node tail;
-	public Node gethead() {
-		return head;
-	}
-
-	public void sethead(Node head) {
-		this.head = head;
-	}
-	public Node gettail() {
-		return tail;
-	}
-
-	public void settail(Node tail) {
-		this.tail = tail;
-	}
-	public void push(E item) {
-		Node add = new Node();
-		if (head.getvalue() == null) {
-			add.setvalue(item);
-			add.setnext(null);
-			head = add;
+	public void push(E data) {
+		Node<E> tnode = new Node<E>();
+		if (head.next == null) {
+			tnode.item = data;
+			tnode.next = null;
+			head = tnode;
 			tail = head;
-			size++;
-		} else {
-			add.setvalue(item);
-			add.setnext(head);
-			head = add;
-			size++;
+			qsize++;
 		}
+		tnode.item = data;
+		tnode.next = head;
+		head = tnode;
+		qsize++;
 	}
 	public E pop() {
-		E data = head.getvalue();
-		head.setnext(head.getnext());
-		size--;
-		return data;
-	}
-	public void enqueue(E item) {
-		Node add = new Node();
-		if (tail.getvalue() == null) {
-			add.setvalue(item);
-			add.setnext(null);
-			head = add;
-			tail = head;
-			size--;
+		if (head.item != null) {
+			E data = head.item;
+			head = head.next;
+			qsize--;
+			return data;
 		} else {
-			add.setvalue(item);
-			add.setnext(null);
-			tail.setnext(tail);
-			tail = add;
-			size--;
+			return null;
 		}
+
 	}
-	public String toString() {
-		Node add = new Node();
-		add.setnext(head);
-		String str = "";
-		while (head.getnext().getvalue() != null) {
-			str += add.getvalue() + ", ";
-			add = head.getnext();
+	public void enqueue(E data) {
+		Node<E> tnode = new Node<E>();
+		if (head.next == null) {
+			tnode.item = data;
+			tnode.next = null;
+			head = tnode;
+			tail = head;
+			qsize++;
 		}
-		str += add.getvalue();
-		return str;
+		tnode.item = data;
+		tnode.next = null;
+		tail.next = tnode;
+		tail = tnode;
+		qsize++;
+
 	}
+
 }
 public class Solution {
 	private Solution() {
@@ -107,7 +75,10 @@ public class Solution {
 					System.out.println(stq);
 					break;
 				case "pop":
-					stq.pop();
+					if (stq.pop() == null) {
+						System.out.println("Steque is empty.");
+						break;
+					}
 					System.out.println(stq);
 					break;
 				case "enqueue":
