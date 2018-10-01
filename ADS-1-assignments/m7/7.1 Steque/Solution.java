@@ -56,8 +56,8 @@ class Steque<E> {
 	public String toString() {
 		String str = "";
 		while (head.next.next != null)
-			str += head.next + ", ";
-		str += head.next;
+			str += head.item + ", ";
+		str += head.item;
 		return str;
 	}
 
