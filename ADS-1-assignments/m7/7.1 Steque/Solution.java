@@ -73,12 +73,10 @@ public class Solution {
 		Steque<String> stq = new Steque<String>();
 		int no = sc.nextInt();
 		while (no != 0) {
+			String t = sc.nextLine();
+			if (t.equals("")) break;
 			while (sc.hasNext()) {
-				String t = sc.nextLine();
-				if (t.equals("")) {
-					break;
-				}
-				String[] tokens = t.split(" ");
+				String[] tokens = t.split("-");
 				switch (tokens[0]) {
 				case "push":
 					stq.push(tokens[1]);
@@ -98,7 +96,6 @@ public class Solution {
 				default:
 					break;
 				}
-
 			}
 			no--;
 		}
