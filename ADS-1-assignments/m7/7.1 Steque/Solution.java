@@ -47,17 +47,12 @@ class Steque<E> {
 		return size;
 	}
 	public String toString() {
-		String str = "[";
-		Node thead = head;
-		if (thead != null) {
-			while (thead.next != null) {
-				str += thead.data + ", ";
-				thead = thead.next;
+		String str = "";
+			while (head.next.next != null) {
+				str += head.data + ", ";
+				head = head.next;
 			}
-			str += thead.data;
-
-		}
-		str += "]";
+			str += head.data;
 		return str;
 
 	}
@@ -78,7 +73,7 @@ public class Solution {
 					break;
 				}
 				String[] tokens = t.split(" ");
-				System.out.println(Arrays.deepToString(tokens));
+				// System.out.println(Arrays.deepToString(tokens));
 				switch (tokens[0]) {
 				case "push":
 					stq.push(tokens[1]);
