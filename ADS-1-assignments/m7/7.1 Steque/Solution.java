@@ -84,7 +84,7 @@ class Steque<E> {
 		Node add = new Node();
 		add.setnext(head);
 		String str = "";
-		while(head.getnext().getvalue()!= null) {
+		while (head.getnext().getvalue() != null) {
 			str += add.getvalue() + ", ";
 			add = head.getnext();
 		}
@@ -94,6 +94,8 @@ class Steque<E> {
 }
 public class Solution {
 	private Solution() {
+	}
+	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		Steque<String> stq = new Steque<String>();
 		int no = sc.nextInt();
