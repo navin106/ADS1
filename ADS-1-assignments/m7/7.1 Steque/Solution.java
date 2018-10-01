@@ -39,7 +39,7 @@ class Steque<E> {
 
 	public E pop() throws Exception {
 		if (size == 0) {
-			throw new Exception("Steque is empty.");
+			throw new Exception();
 		}
 		E data = head.data;
 		head = head.next;
@@ -100,7 +100,7 @@ public class Solution {
 						stq.pop();
 						System.out.println(stq);
 					} catch (Exception e) {
-						System.out.println(e.toString());
+						System.out.println("Steque is empty.");
 					}
 					break;
 			case "enqueue":
