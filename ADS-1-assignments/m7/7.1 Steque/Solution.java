@@ -38,17 +38,16 @@ class Steque<E> {
 	}
 
 	public void pop() {
-		// E data = head.data;
 		head = head.next;
 		size--;
-		// return data;
 	}
 	public int size() {
 		return size;
 	}
 	public String toString() {
 		String str = "";
-		Node thead = head;
+		Node thead = new Node();
+		thead = head;
 		while (thead.next != null) {
 			str += thead.data + ", ";
 			thead = thead.next;
