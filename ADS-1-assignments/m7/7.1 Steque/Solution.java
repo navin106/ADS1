@@ -93,7 +93,7 @@ public class Solution {
 				case "pop":
 					if (stq.size == 0) {
 						break;
-					} else if (stq.size == 0) {
+					} else if (stq.size == 1) {
 						System.out.println("Steque is Empty.");
 					}
 					stq.pop();
