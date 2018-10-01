@@ -5,14 +5,14 @@ class Steque<E> {
 	private class Node {
 		E data;
 		Node next;
-		Node () {}
+		/*Node () {}
 		Node (E data) {
 			this(data, null);
 		}
 		Node (E data, Node next) {
 			this.data = data;
 			this.next = next;
-		}
+		}*/
 	}
 	private Node head;
 	private Node tail;
@@ -32,11 +32,14 @@ class Steque<E> {
 	}
 
 	public void enqueue(E data) {
+		Node node = new Node();
 		if (head == null) {
 			push(data);
 		} else {
-			tail.next = new Node(data);
-			tail = tail.next;
+			node.data = data;
+			node.next = null;
+			tail.next = node;
+			tail = node;
 			size++;
 		}
 	}
