@@ -100,7 +100,7 @@ public class Solution {
 						stq.pop();
 						System.out.println(stq);
 					} catch (Exception e) {
-						System.out.println(e);
+						System.out.println(e.toString());
 					}
 					break;
 			case "enqueue":
