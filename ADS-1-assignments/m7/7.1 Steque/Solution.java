@@ -89,11 +89,11 @@ public class Solution {
 					System.out.println(stq);
 					break;
 				case "pop":
+					stq.pop();
 					if (stq.size == 0) {
 						System.out.println("Steque is empty.");
 						break;
 					}
-					stq.pop();
 					System.out.println(stq);
 					break;
 				case "enqueue":
