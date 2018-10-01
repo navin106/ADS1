@@ -54,9 +54,12 @@ class Steque<E> {
 
 	}
 	public String toString() {
+		Node thead = new Node();
 		String str = "";
-		while (head.next.next != null)
+		while (head.next.next != null) {
 			str += head.item + ", ";
+			head = head.next;
+		}
 		str += head.item;
 		return str;
 	}
@@ -97,6 +100,7 @@ public class Solution {
 				}
 
 			}
+			no--;
 		}
 	}
 }
