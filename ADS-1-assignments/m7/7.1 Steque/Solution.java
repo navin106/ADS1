@@ -5,14 +5,6 @@ class Steque<E> {
 	private class Node {
 		E data;
 		Node next;
-		/*Node () {}
-		Node (E data) {
-			this(data, null);
-		}
-		Node (E data, Node next) {
-			this.data = data;
-			this.next = next;
-		}*/
 	}
 	private Node head;
 	private Node tail;
@@ -45,7 +37,7 @@ class Steque<E> {
 	}
 
 	public E pop() throws Exception {
-		if (size <= 0) {
+		if (size == 0) {
 			throw new Exception();
 		}
 		E data = head.data;
