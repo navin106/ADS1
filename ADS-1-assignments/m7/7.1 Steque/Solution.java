@@ -23,6 +23,7 @@ public class Solution {
 					stq.pop();
 					System.out.println(stq);
 				} catch(Exception e){
+					sc.nextLine();
 					System.out.println("Steque is empty.");
 
 				}
