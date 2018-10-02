@@ -177,8 +177,8 @@ class Insertion {
 	 * @param      td    { parameter_description }
 	 */
 	public void sort(ArrayList<Comparable> td) {
-		for (int i = 0; i < td.size(); i++) {
-			for (int j = i; j > 0; j--) {
+		for (int i = 1; i < td.size(); i++) {
+			for (int j = i-1; j > 0; j--) {
 				if (more(td, i, j - 1)) {
 					swap(td, i, j - 1);
 				}
