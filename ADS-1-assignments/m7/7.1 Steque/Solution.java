@@ -8,7 +8,11 @@ public class Solution {
 		for (int i = 0; i < k; i++) {
 			Steque<String> stq = new Steque<String>();
 			while (sc.hasNext()) {
-				String[] token = sc.nextLine().split(" ");
+				String t = 	sc.nextLine();
+				if (t.equals("")) {
+					break;
+				}
+				String[] token = t.split(" ");
 				switch (token[0]) {
 				case "push":
 					stq.push(token[1]);
