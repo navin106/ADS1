@@ -177,10 +177,10 @@ class Insertion {
 	 * @param      td    { parameter_description }
 	 */
 	public void sort(ArrayList<Comparable> td) {
-		for (int i = 1; i < td.size(); i++) {
-			for (int j = i-1; j > 0; j--) {
-				if (more(td, i, j)) {
-					swap(td, i, j);
+		for (int i = 0; i < td.size(); i++) {
+			for (int j = i; j >= 0; j--) {
+				if (more(td, j, j - 1)) {
+					swap(td, j, j - 1);
 				}
 
 			}
@@ -221,6 +221,7 @@ class Insertion {
 		sort(td);
 		String str = "";
 		for (Comparable t : td) {
+			// System.out.println(t);
 			str += t.toString() + ",";
 		}
 		return str.substring(0, str.length() - 1);
