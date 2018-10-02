@@ -23,7 +23,6 @@ public class Solution {
 					stq.pop();
 					System.out.println(stq);
 				} catch(Exception e){
-					sc.nextLine();
 					System.out.println("Steque is empty.");
 
 				}
@@ -38,6 +37,7 @@ public class Solution {
 
 }
 class Steque<E> {
+	Scanner sc = new Scanner(System.in);
 	Steque() {
 
 	}
@@ -94,6 +94,7 @@ class Steque<E> {
 
 		} else{
 			System.out.println("Steque is empty.");
+			sc.nextLine();
 		}
 		return str;
 
