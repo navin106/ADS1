@@ -1,17 +1,31 @@
 import java.util.Scanner;
+import java.util.Arrays;
 public class Solution {
 	Solution() {
 
 	}
 	public static void main(String[] args) {
+
 		Scanner sc = new Scanner(System.in);
-		String[] names = new String[args.length];
+
+		String[] names = new String[10];
+
 		int size = 0;
 		while (sc.hasNext()) {
 			String[] k = sc.nextLine().split(",");
-			names[size++] = k[0];
+			// System.out.println(Arrays.toString(k));
+			// System.out.println(k[0]);
+			names[size++] = k[0]; 
+			System.out.println(Arrays.toString(names));
 		}
 	}
+
+
+
+
+
+
+
 	void Sort(Comparable[] a) {
 		String str = "";
 		int N = a.length;
