@@ -44,7 +44,7 @@ class Steque<E> {
 	int size = 0;
 	public void push(E item) {
 		Node temp = new Node();
-		if (head.data == null) {
+		if (head == null) {
 			temp.data = item;
 			temp.next = null;
 			head = temp;
