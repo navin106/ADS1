@@ -83,11 +83,11 @@ class LinkedList<E> {
 		if (head == null) {
 			head = node;
 			tail = head;
-			++size;
+			++ 	size;
 			return;
 		}
 		head = node;
-		++size;
+		++ 	size;
 	}
 
 	/**
@@ -102,12 +102,12 @@ class LinkedList<E> {
 		if (head == null) {
 			head = node;
 			tail = head;
-			++size;
+			++ 	size;
 			return;
 		}
 		tail.next = new Node(data);
 		tail = tail.next;
-		++size;
+		++ 	size;
 	}
 
 	/**

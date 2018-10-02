@@ -145,3 +145,9 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m6/Assignment-1/Solution1.java:234:101: 'typecast' is not followed by whitespace. [WhitespaceAfter]
 Audit done.
 Checkstyle ends with 11 errors.
+
+
+[master 1f06ea6] "check_style_score -> 6 of 12 passed. style score: 0/1 "
+ 2 files changed, 5 insertions(+), 5 deletions(-)
+
+

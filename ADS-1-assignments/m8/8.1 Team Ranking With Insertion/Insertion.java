@@ -10,7 +10,8 @@ class TeamDetails implements Comparable<TeamDetails> {
     /**
      * { function_description }.
      *
-     * @return     { description_of_the_return_value }
+     * @return     { description_of_the_return_valu
+e }
      */
     public String getname() {
         return name;

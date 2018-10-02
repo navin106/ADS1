@@ -1,0 +1,1 @@
+insertion sort would be better for this case because it says that the keys are identical. so, it means that the array is already sorted so, in this case there is no need of exchanging the keys but in selection it has to be iterate for quadratic ties.

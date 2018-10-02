@@ -1,0 +1,1 @@
+in this scienario the reverse order means that it has to exchange every time with the previous elements so, it will take more time than selection sort so, in this case the insertion sort is slower than the selection sort.
