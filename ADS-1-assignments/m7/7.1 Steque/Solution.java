@@ -70,7 +70,7 @@ class Steque<E> {
 		tail.next = new Node();
 		tail.next.data = item;
 		tail.next.next = null;
-		if (head == null) {
+		if (head.next == null) {
 			head = tail;
 			tail = head;
 			size++;
