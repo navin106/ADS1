@@ -74,12 +74,18 @@ class Steque<E> {
 		return data;
 	}
 	public String toString() {
+		String str = "[";
 		Node thead = head;
-		String str = "";
-		while (thead.next != null) {
-			str += head.data + ",";
-			thead = head.next;
+		if (thead != null) {
+			while (thead.next != null) {
+				str += thead.data + ", ";
+				thead = thead.next;
+			}
+			str += thead.data;
+
 		}
+		str += "]";
 		return str;
+
 	}
 }
