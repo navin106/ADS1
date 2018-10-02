@@ -19,8 +19,13 @@ public class Solution {
 					System.out.println(stq);
 					break;
 				case "pop":
+				try{
 					stq.pop();
 					System.out.println(stq);
+				} catch(Exception e){
+					System.out.println("Steque is empty.");
+
+				}
 					break;
 				default:
 					break;
@@ -67,7 +72,10 @@ class Steque<E> {
 		tail = tail.next;
 		size++;
 	}
-	public E pop() {
+	public E pop() throws Exception{
+		if (size==0) {
+			throw new Exception();
+		}
 		E data = head.data;
 		head = head.next;
 		size++;
