@@ -44,31 +44,27 @@ class Steque<E> {
 	int size = 0;
 	public void push(E item) {
 		Node temp = new Node();
+		temp.data = item;
+		temp.next = head;
 		if (head == null) {
-			temp.data = item;
-			temp.next = null;
 			head = temp;
 			tail = head;
 			size++;
+			return;
 		}
-		temp.data = item;
-		temp.next = head;
 		head = temp;
 		size++;
 	}
 	public void enqueue(E item) {
-		Node temp = new Node();
-		if (head.data == null) {
-			temp.data = item;
-			temp.next = null;
-			head = temp;
+		tail.next = new Node();
+		tail.next.data = item;
+		tail.next.next = null;
+		if (head == null) {
+			head = tail;
 			tail = head;
 			size++;
 		}
-		temp.data = item;
-		temp.next = null;
-		tail.next = temp;
-		tail = temp;
+		tail = tail.next;
 		size++;
 	}
 	public E pop() {
