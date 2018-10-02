@@ -150,7 +150,7 @@ public class Selection {
     public void sort(ArrayList<Comparable> td) {
         for (int i = 0; i < td.size(); i++) {
             for (int j = i; j < td.size(); j++) {
-                if (more(td, i, j)) {
+                if (less(td, i, j)) {
                     swap(td, i, j);
                 }
 
@@ -168,8 +168,8 @@ public class Selection {
      *
      * @return     { description_of_the_return_value }
      */
-    public boolean more(ArrayList<Comparable> td, int i, int j) {
-        return td.get(i).compareTo(td.get(j)) > 0;
+    public boolean less(ArrayList<Comparable> td, int i, int j) {
+        return td.get(i).compareTo(td.get(j)) < 0;
     }
     /**
      * swap the elements in arraylist of i,j
