@@ -15,8 +15,9 @@ public class Solution {
 			String[] k = sc.nextLine().split(",");
 			// System.out.println(Arrays.toString(k));
 			// System.out.println(k[0]);
-			names[size++] = k[0]; 
-			System.out.println(Arrays.toString(names));
+			names[size++] = k[0];
+			
+			// System.out.println(Arrays.toString(names));
 		}
 	}
 
