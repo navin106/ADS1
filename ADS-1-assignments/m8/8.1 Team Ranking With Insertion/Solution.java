@@ -179,8 +179,8 @@ class Insertion {
 	public void sort(ArrayList<Comparable> td) {
 		for (int i = 1; i < td.size(); i++) {
 			for (int j = i-1; j > 0; j--) {
-				if (more(td, i, j - 1)) {
-					swap(td, i, j - 1);
+				if (more(td, i, j)) {
+					swap(td, i, j);
 				}
 
 			}
