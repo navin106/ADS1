@@ -172,7 +172,8 @@ class TeamDetails implements Comparable<TeamDetails> {
  */
 class Insertion {
 	/**
-	 * Constructs the object.
+	 * this methood sorts the given arraylist.
+	 *  according to the reuired specifications.
 	 *
 	 * @param      td    { parameter_description }
 	 */
@@ -189,7 +190,7 @@ class Insertion {
 
 	}
 	/**
-	 * { function_description }
+	 * return true or false after comparing the objects.
 	 *
 	 * @param      td    { parameter_description }
 	 * @param      i     { parameter_description }
@@ -201,7 +202,7 @@ class Insertion {
 		return td.get(i).compareTo(td.get(j)) > 0;
 	}
 	/**
-	 * { function_description }
+	 * swap the elements in arraylist of i,j
 	 *
 	 * @param      td    { parameter_description }
 	 * @param      i     { parameter_description }
@@ -213,9 +214,12 @@ class Insertion {
 		td.set(j, temp);
 	}
 	/**
-	 * { function_description }
+	 *returns the sorted elements.
+	 *complexity for this method is N.
 	 *
 	 * @param      td    { parameter_description }
+	 *
+	 * @return     { description_of_the_return_value }
 	 */
 	public String results(ArrayList<Comparable> td) {
 		sort(td);
