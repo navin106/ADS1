@@ -152,9 +152,9 @@ class TeamDetails implements Comparable<TeamDetails> {
 			return 1;
 		} else if (this.getwins() < ptd.getwins()) {
 			return -1;
-		} else if (this.getloss() > ptd.getloss()) {
-			return 1;
 		} else if (this.getloss() < ptd.getloss()) {
+			return 1;
+		} else if (this.getloss() > ptd.getloss()) {
 			return -1;
 		} else if (this.getdraw() > ptd.getdraw()) {
 			return 1;
