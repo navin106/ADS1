@@ -23,7 +23,7 @@ public class Solution {
 		while (sc.hasNextLine()) {
 			String[] tokens = sc.nextLine().split(",");
 			team.add(new TeamDetails(tokens[0], Integer.parseInt(tokens[1]),
-			Integer.parseInt(tokens[2]), Integer.parseInt(tokens[2 + 1])));
+			                         Integer.parseInt(tokens[2]), Integer.parseInt(tokens[2 + 1])));
 			// System.out.println(team);
 		}
 		System.out.println(is.results(team));
@@ -179,8 +179,8 @@ class Insertion {
 	public void sort(ArrayList<Comparable> td) {
 		for (int i = 0; i < td.size(); i++) {
 			for (int j = i; j > 0; j--) {
-				if (more(td, j, j - 1)) {
-					swap(td, j, j - 1);
+				if (more(td, i, j - 1)) {
+					swap(td, i, j - 1);
 				}
 
 			}
@@ -221,7 +221,6 @@ class Insertion {
 		sort(td);
 		String str = "";
 		for (Comparable t : td) {
-			// System.out.println(t);
 			str += t.toString() + ",";
 		}
 		return str.substring(0, str.length() - 1);
