@@ -93,7 +93,7 @@ class Steque<E> {
 			str += thead.data;
 
 		} else{
-			System.out.println("Steque is empty.");
+			// System.out.println("Steque is empty.");
 			sc.nextLine();
 		}
 		return str;
