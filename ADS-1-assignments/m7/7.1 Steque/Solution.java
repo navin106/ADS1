@@ -74,7 +74,7 @@ class Steque<E> {
 		return data;
 	}
 	public String toString() {
-		String str = "[";
+		String str = "";
 		Node thead = head;
 		if (thead != null) {
 			while (thead.next != null) {
@@ -83,8 +83,9 @@ class Steque<E> {
 			}
 			str += thead.data;
 
+		} else{
+			System.out.println("Steque is empty.");
 		}
-		str += "]";
 		return str;
 
 	}
