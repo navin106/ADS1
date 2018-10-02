@@ -144,12 +144,12 @@ public class Selection {
     /**
      * this methood sorts the given arraylist.
      *  according to the reuired specifications.
-     *
+     *complexity is N^2
      * @param      td    { parameter_description }
      */
     public void sort(ArrayList<Comparable> td) {
         for (int i = 0; i < td.size(); i++) {
-            for (int j = 0; j < td.size(); j++) {
+            for (int j = i; j < td.size(); j++) {
                 if (more(td, i, j)) {
                     swap(td, i, j);
                 }
