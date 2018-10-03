@@ -9,9 +9,9 @@ public class Solution {
 			Steque<String> stq = new Steque<String>();
 			while (sc.hasNext()) {
 				String t = 	sc.nextLine();
-			/*	if (t.equals("")) {
+				if (t.equals("")) {
 					break;
-				}*/
+				}
 				String[] token = t.split(" ");
 				switch (token[0]) {
 				case "push":
