@@ -5,6 +5,7 @@ public class Solution {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int k = sc.nextInt();
+		sc.nextLine();
 		for (int i = 0; i < k; i++) {
 			Steque<String> stq = new Steque<String>();
 			while (sc.hasNext()) {
