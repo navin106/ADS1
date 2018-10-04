@@ -85,7 +85,7 @@ class Steque<E> {
 		}
 		E data = head.data;
 		head = head.next;
-		size++;
+		size--;
 		return data;
 	}
 	public String toString() {
