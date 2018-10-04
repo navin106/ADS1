@@ -68,15 +68,17 @@ class Steque<E> {
 		size++;
 	}
 	public void enqueue(E item) {
-		tail.next = new Node();
-		tail.next.data = item;
-		tail.next.next = null;
+		Node temp = new Node();
+		temp.data = item;
+		temp.next = head;
 		if (head == null) {
-			head = tail;
+			head = temp;
 			tail = head;
 			size++;
+			return;
 		}
-		tail = tail.next;
+		tail.next = temp;
+		tail = temp;
 		size++;
 	}
 	public E pop() throws Exception {
