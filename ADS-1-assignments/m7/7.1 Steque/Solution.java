@@ -80,12 +80,12 @@ class Steque<E> {
 		size++;
 	}
 	public E pop() throws Exception {
+		E data = head.data;
 		if (size == 0) {
 			head.data = null;
 			head.next = null;
 			throw new Exception();
 		}
-		E data = head.data;
 		head = head.next;
 		size--;
 		return data;
