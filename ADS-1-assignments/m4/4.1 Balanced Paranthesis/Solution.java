@@ -1,3 +1,4 @@
+import mystack.Mystack;
 import java.util.Scanner;
 
 public final class Solution {

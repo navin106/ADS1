@@ -1,3 +1,4 @@
+package mystack;
 import java.util.Arrays;
 public class Mystack<E> {
     public E[] stack = (E[]) new Object[10];
