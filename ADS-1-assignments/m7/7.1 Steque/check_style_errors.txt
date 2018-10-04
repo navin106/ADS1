@@ -27,6 +27,6 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m7/7.1 Steque/Solution.java:70:9: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m7/7.1 Steque/Solution.java:70:29: Parameter item should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m7/7.1 Steque/Solution.java:82:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m7/7.1 Steque/Solution.java:91:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m7/7.1 Steque/Solution.java:92:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
 Checkstyle ends with 29 errors.
