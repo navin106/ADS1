@@ -70,7 +70,7 @@ class Steque<E> {
 	public void enqueue(E item) {
 		Node temp = new Node();
 		temp.data = item;
-		temp.next = head;
+		temp.next = null;
 		if (head == null) {
 			head = temp;
 			tail = head;
