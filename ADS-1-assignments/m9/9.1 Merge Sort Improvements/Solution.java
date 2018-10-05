@@ -25,12 +25,21 @@ public class Solution {
 /**
  * Class for merge sort.
  */
-class MergeSort {
-    final int cutoff = 7;
+final class MergeSort {
+    /**
+     * cut off for sending to isertionsort to improvement.
+     */
+    final int cutoff = 2 + 2 + 2 + 1;
     /**
      * Constructs the object.
      */
     MergeSort() {}
+    /**
+     * sort method to divide in to equals.
+     *  halves using the recursion.
+     *complexity for this method is O(N)
+     * @param      arr   The arr
+     */
     public void sort(Comparable[] arr) {
         Comparable[] aux = new Comparable[arr.length];
         for (int i = 0; i < arr.length; i++) {
@@ -38,6 +47,16 @@ class MergeSort {
         }
         sort(aux, arr, 0, arr.length - 1);
     }
+    /**
+     * helper sort method for above sort method where.
+     * actual division takes place.
+     * complexity is O(log(N))
+     *
+     * @param      arr   The arr
+     * @param      aux   The auxiliary
+     * @param      lo    The lower
+     * @param      high  The high
+     */
     public void sort(final Comparable[] arr, final Comparable[] aux, int lo, int high) {
         if (high <= lo + cutoff) {
             insertionSort(aux, lo, high);
@@ -56,9 +75,27 @@ class MergeSort {
         }
         merge(arr, aux, lo, mid, high);
     }
+    /**
+     * issorted helper method it will call.
+     *  overloaded issorted method
+     *complexxity is 1
+     * @param      a     { parameter_description }
+     *
+     * @return     True if sorted, False otherwise.
+     */
     public boolean isSorted(final Comparable[] a) {
         return isSorted(a, 0, a.length - 1);
     }
+    /**
+     * Determines if sorted or not.
+     * complexity is O(N)
+     *
+     * @param      a     { parameter_description }
+     * @param      lo    The lower
+     * @param      high  The high
+     *
+     * @return     True if sorted, False otherwise.
+     */
     public boolean isSorted(final Comparable[] a,
                             final int lo, final int high) {
         for (int i = lo + 1; i <= high; i++) {
@@ -68,6 +105,16 @@ class MergeSort {
         }
         return true;
     }
+    /**
+     * this method helps to merge the two arrays.
+     * complexity is O(N).
+     *
+     * @param      arr   The arr
+     * @param      aux   The auxiliary
+     * @param      lo    The lower
+     * @param      mid   The middle
+     * @param      high  The high
+     */
     public void merge(final Comparable[] arr, final Comparable[] aux,
                       final int lo, final int mid, final int high) {
         int i = lo;
@@ -84,9 +131,28 @@ class MergeSort {
             }
         }
     }
+    /**
+     * this method helps to determine weather the given.
+     * array is sorted o not.
+     * complexity is O(1)
+     *
+     * @param      a     { parameter_description }
+     * @param      b     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public boolean less(final Comparable a, final Comparable b) {
         return a.compareTo(b) < 0;
     }
+    /**
+     * this method is called when it reaches the cutoff mark.
+     * or less
+     * complexity is O(N^2).
+     *
+     * @param      a     { parameter_description }
+     * @param      lo    The lower
+     * @param      high  The high
+     */
     public void insertionSort(final Comparable[] a,
                               final int lo, final int high) {
         for (int i = lo; i <= high; i++) {
@@ -97,6 +163,14 @@ class MergeSort {
             }
         }
     }
+    /**
+     * this method help to swap two different elements.
+     * complexity is O(1).
+     *
+     * @param      a     { parameter_description }
+     * @param      i     { parameter_description }
+     * @param      j     { parameter_description }
+     */
     public void swap(final Comparable[] a,
                      final int i, final int j) {
         Comparable swap = a[i];
