@@ -6,7 +6,7 @@ public final class Solution {
     /**
      * Constructs the object.
      */
-    private Solution() {}
+    private Solution() { }
     /**
      * main method.
      *
@@ -38,17 +38,26 @@ final class MergeSort {
      * cut off for sending to isertionsort to improvement.
      */
     private int cutoff = 2 + 2 + 2 + 1;
+    /**
+     * getter method.
+     *
+     * @return     { description_of_the_return_value }
+     */
      public int getcutoff() {
       return cutoff;
      }
-     
-     public void setcutoff(final int cutoff) {
-      this.cutoff = cutoff;
+     /**
+      * setter for cutoff.
+      *
+      * @param      cutof  The cutof
+      */
+     public void setcutoff(final int cutof) {
+      this.cutoff = cutof;
      }
     /**
      * Constructs the object.
      */
-    MergeSort() {}
+    MergeSort() { }
     /**
      * sort method to divide in to equals.
      *  halves using the recursion.
@@ -72,20 +81,23 @@ final class MergeSort {
      * @param      lo    The lower
      * @param      high  The high
      */
-    public void sort(final Comparable[] arr, final Comparable[] aux, int lo, int high) {
+    public void sort(
+final Comparable[] arr, final Comparable[] aux,
+ final int lo, final int high) {
         if (high <= lo + getcutoff()) {
             insertionSort(aux, lo, high);
             System.out.println("Insertion sort method invoked...");
             return;
         }
         int mid =  lo + (high - lo) / 2;
-        sort(aux, arr, lo , mid);
+        sort(aux, arr, lo, mid);
         sort(aux, arr, mid + 1, high);
         if (!less(arr[mid + 1], arr[mid])) {
             for (int i = lo; i <= high; i++) {
                 aux[i] = arr[i];
             }
-            System.out.println("Array is already sorted. So, skipped the call to merge...");
+            System.out.println(
+"Array is already sorted. So, skipped the call to merge...");
             return;
         }
         merge(arr, aux, lo, mid, high);
