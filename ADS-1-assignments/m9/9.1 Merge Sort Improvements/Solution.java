@@ -6,6 +6,14 @@ public class Solution {
 		while (sc.hasNext()) {
 			String[] tokens = sc.nextLine().split(",");
 			st.sort(tokens);
+			String str = "[";
+            int i;
+            for (i = 0; i < tokens.length - 1; i++) {
+                str += tokens[i] + ", ";
+            }
+            str += tokens[i] + "]";
+            System.out.println(str);
+            System.out.println();
 		}
 	}
 }
