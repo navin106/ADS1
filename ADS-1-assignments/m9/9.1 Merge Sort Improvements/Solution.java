@@ -2,9 +2,17 @@ import java.util.Scanner;
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
+    /**
+     * Constructs the object.
+     */
     private Solution() {}
-    public static void main(String[] args) {
+    /**
+     * main method.
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Scanner sc = new Scanner(System.in);
         MergeSort st = new MergeSort();
         while (sc.hasNext()) {
@@ -29,7 +37,14 @@ final class MergeSort {
     /**
      * cut off for sending to isertionsort to improvement.
      */
-    final int cutoff = 2 + 2 + 2 + 1;
+    private int cutoff = 2 + 2 + 2 + 1;
+     public int getcutoff() {
+      return cutoff;
+     }
+     
+     public void setcutoff(final int cutoff) {
+      this.cutoff = cutoff;
+     }
     /**
      * Constructs the object.
      */
@@ -40,7 +55,7 @@ final class MergeSort {
      *complexity for this method is O(N)
      * @param      arr   The arr
      */
-    public void sort(Comparable[] arr) {
+    public void sort(final Comparable[] arr) {
         Comparable[] aux = new Comparable[arr.length];
         for (int i = 0; i < arr.length; i++) {
             aux[i] = arr[i];
@@ -58,7 +73,7 @@ final class MergeSort {
      * @param      high  The high
      */
     public void sort(final Comparable[] arr, final Comparable[] aux, int lo, int high) {
-        if (high <= lo + cutoff) {
+        if (high <= lo + getcutoff()) {
             insertionSort(aux, lo, high);
             System.out.println("Insertion sort method invoked...");
             return;
