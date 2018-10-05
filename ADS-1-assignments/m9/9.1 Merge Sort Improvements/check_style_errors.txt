@@ -1,0 +1,8 @@
+Starting audit...
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m9/9.1 Merge Sort Improvements/Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m9/9.1 Merge Sort Improvements/Solution.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m9/9.1 Merge Sort Improvements/Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m9/9.1 Merge Sort Improvements/Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m9/9.1 Merge Sort Improvements/Solution.java:3:33: Parameter args should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 5 errors.
