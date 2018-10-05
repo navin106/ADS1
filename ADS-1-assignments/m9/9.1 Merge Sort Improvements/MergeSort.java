@@ -21,7 +21,7 @@ class MergeSort {
 			for (int i = lo; i <= high; i++) {
 				aux[i] = arr[i];
 			}
-			System.out.println("Arr is already sorted. So, skipped the call to merge...");
+			System.out.println("Array is already sorted. So, skipped the call to merge...");
 			return;
 		}
 		merge(arr, aux, lo, mid, high);
