@@ -192,7 +192,7 @@ public class Solution {
 		int noBC = sc.nextInt();
 		int noSC = sc.nextInt();
 		int noST = sc.nextInt();
-		sc.nextLine();
+		// sc.nextLine();
 		Student[] student = new Student[noOfStudents];
 		int ssize = 0;
 		while ( ssize < 23) {

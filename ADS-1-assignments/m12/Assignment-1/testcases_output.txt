@@ -31,36 +31,8 @@ tanvi,90,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-divya,99,ST
-Deepak,98,Open
-Ira,93,ST
-tanvi,90,BC
-Raj,87,BC
-riya,83,Open
-Aditya,80,ST
-Ajay,76,Open
-Arjun,75,Open
-rahul,73,Open
-priya,72,SC
-shyam,71,ST
-Priyanka,70,Open
-varsha,66,BC
-yash,61,BC
-Abhishek,60,BC
-Ankit,58,BC
-vani,50,Open
-Aishwarya,48,Open
-Manoj,39,SC
-Anjali,38,SC
-Aryan,32,ST
-Shreya,23,SC
-
-divya,99,ST
-Deepak,98,Open
-Ira,93,ST
-tanvi,90,BC
-priya,72,SC
-shyam,71,ST
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:200)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -104,10 +76,8 @@ Raj,87,BC
 Aditya,80,ST
 priya,72,SC
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Insertion.more(Solution.java:117)
-	at Insertion.sort(Solution.java:98)
-	at Solution.main(Solution.java:202)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:200)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -126,9 +96,8 @@ divya,99,Open
 Aditya,80,ST
 priya,76,SC
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:199)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:200)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -150,9 +119,8 @@ priya,76,SC
 Ajay,76,Open
 Tanya,66,BC
 Your Output: 
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:199)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:200)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -201,10 +169,8 @@ Ajay,76,Open
 Amit,76,Open
 Arjun,75,Open
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Insertion.more(Solution.java:117)
-	at Insertion.sort(Solution.java:98)
-	at Solution.main(Solution.java:202)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:200)
 ----------------------------------------
 ########## Testcase 5: Failed ##########
 Expected Output: 
@@ -255,8 +221,6 @@ rahul,73,Open
 priya,72,SC
 varsha,66,BC
 Your Output: 
-Exception in thread "main" java.lang.NullPointerException
-	at Insertion.more(Solution.java:117)
-	at Insertion.sort(Solution.java:98)
-	at Solution.main(Solution.java:202)
+Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
+	at Solution.main(Solution.java:200)
 ----------------------------------------
