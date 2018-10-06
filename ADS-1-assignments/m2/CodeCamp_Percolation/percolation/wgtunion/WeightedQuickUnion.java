@@ -1,8 +1,9 @@
+package percolation.wgtunion;
 public class WeightedQuickUnion {
 	private int[] parent;
 	private int[] size;
 	private int count;
-	WeightedQuickUnion(int n) {
+	public WeightedQuickUnion(int n) {
 		count = n;
 		parent = new int[n];
 		size = new int[n];

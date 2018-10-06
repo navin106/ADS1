@@ -1,3 +1,5 @@
+package percolation;
+import wgtunion.WeightedQuickUnion;
 public class Percolation {
 	private boolean[][] opened;
 	private int top = 0;

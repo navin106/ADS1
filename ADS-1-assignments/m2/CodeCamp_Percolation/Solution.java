@@ -13,7 +13,8 @@
 // does the system percolate?
 // }
 // You can implement the above API to solve the problem
-
+import percolation.Percolation;
+import percolation.wgtunion.WeightedQuickUnion;
 import java.util.Scanner;
 /**
  * Class for solution.
