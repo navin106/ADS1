@@ -67,6 +67,7 @@ class Student implements Comparable<Student> {
 		this.reservation = rc;
 	}
 	public int compareTo(Student that) {
+
 		if (Integer.parseInt(this.gettotalmark()) > Integer.parseInt(that.gettotalmark())) {
 			return 1;
 		} else if (Integer.parseInt(this.getmark3()) < Integer.parseInt(that.getmark3())) {
@@ -75,7 +76,10 @@ class Student implements Comparable<Student> {
 			return -1;
 		} else if (Integer.parseInt(this.getmark1()) < Integer.parseInt(that.getmark1())) {
 			return -1;
-		} else {
+		}else if (this.getdateofbirth().compareTo(that.getdateofbirth()) < 0) {
+			return -1;
+		}
+		 else {
 			return 0;
 		}
 	}
