@@ -195,7 +195,7 @@ public class Solution {
 		sc.nextLine();
 		Student[] student = new Student[noOfStudents];
 		int ssize = 0;
-		while ( ssize < 23) {
+		while (sc.hasNext()) {
 			String[] tokens = sc.nextLine().split(",");
 			student[ssize++] = new Student(tokens[0], tokens[1], tokens[2], tokens[3], tokens[4], tokens[5], tokens[6]);
 		}
