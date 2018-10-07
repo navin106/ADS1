@@ -59,7 +59,7 @@ class LinkedList {
 		head = reverseHelper(head);
 	}
 	Node reverseHelper(Node head) {
-		if (head == null || head.next == null) {
+		if (head.next == null) {
 			return head;
 		}
 		Node nhead = reverseHelper(head.next);
@@ -67,6 +67,12 @@ class LinkedList {
 		head.next = null;
 		return nhead;
 	}
+	/**
+	 * complexity is O(N).
+	 * function used for printing returns string.
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public String print() {
 		Node thead = head;
 		String s  = "";
@@ -75,6 +81,6 @@ class LinkedList {
 			thead = thead.next;
 		}
 
-		return s.substring(0 , s.length() - 2);
+		return s.substring(0, s.length() - 2);
 	}
 }
