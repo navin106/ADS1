@@ -29,17 +29,46 @@ final class Solution {
 		}
 	}
 }
+/**
+ * List of linkeds.
+ */
 class LinkedList {
+	/**
+	 * head.
+	 */
 	private Node head;
+	/**
+	 * Class for node.
+	 */
 	private class Node {
+		/**
+		 * data.
+		 */
 		private int data;
+		/**
+		 * next.
+		 */
 		private Node next;
 
+		/**
+		 * Constructs the object.
+		 *
+		 * @param      data  The data
+		 * @param      next  The next
+		 */
 		Node(int data, Node next) {
 			this.data = data;
 			this.next = next;
 		}
 	}
+	/**
+	 * function to insert the element at particular place.
+	 *
+	 * @param      position  The position
+	 * @param      data      The data
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public boolean insertAt(int position, int data) {
 		boolean flag = false;
 		try {
@@ -50,15 +79,37 @@ class LinkedList {
 		}
 		return flag;
 	}
+	/**
+	 * function to help insertat function.
+	 * it inserts the element in recursevely
+	 *
+	 * @param      head  The head
+	 * @param      cnt   The count
+	 * @param      ele   The ele
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public Node insertHelper(Node head, int cnt, int ele) {
-		if (cnt == 0) return new Node(ele, head);
+		if (cnt == 0) {
+			return new Node(ele, head);
+		}
 		head.next = insertHelper(head.next, cnt - 1, ele);
 		return head;
 	}
+	/**
+	 * reverse the linkedlist.
+	 */
 	public void reverse() {
 		head = reverseHelper(head);
 	}
-	Node reverseHelper(Node thead) {
+	/**
+	 * function to help reverse the linkedlist.
+	 *
+	 * @param      thead  The thead
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	Node reverseHelper(final Node thead) {
 		if (thead.next == null) {
 			return thead;
 		}
