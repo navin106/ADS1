@@ -12,7 +12,7 @@ final class Solution {
                 if (!l.insertAt(Integer.parseInt(tokens[1]),
                                 Integer.parseInt(tokens[2]))) {
                     size++;
-                    // System.out.println(l.print());
+                    System.out.println(l.print());
                 }
                 break;
             case "reverse":
