@@ -13,9 +13,8 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:72:33: Parameter position should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:72:47: Parameter data should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:75:59: ',' is preceded with whitespace. [NoWhitespaceBefore]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:92:34: Parameter head should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:92:39: 'head' hides a field. [HiddenField]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:92:45: Parameter cnt should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:92:54: Parameter ele should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:86:12: Unused @param tag for 'head'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:92: Line is longer than 80 characters (found 82). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java:92:45: Expected @param tag for 'thead'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 18 errors.
+Checkstyle ends with 17 errors.

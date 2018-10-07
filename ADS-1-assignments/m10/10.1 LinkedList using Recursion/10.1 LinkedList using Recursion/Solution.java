@@ -89,12 +89,12 @@ class LinkedList {
 	 *
 	 * @return     { description_of_the_return_value }
 	 */
-	public Node insertHelper(Node head, int cnt, int ele) {
+	public Node insertHelper(final Node thead, final int cnt, final int ele) {
 		if (cnt == 0) {
-			return new Node(ele, head);
+			return new Node(ele, thead);
 		}
-		head.next = insertHelper(head.next, cnt - 1, ele);
-		return head;
+		thead.next = insertHelper(thead.next, cnt - 1, ele);
+		return thead;
 	}
 	/**
 	 * reverse the linkedlist.
