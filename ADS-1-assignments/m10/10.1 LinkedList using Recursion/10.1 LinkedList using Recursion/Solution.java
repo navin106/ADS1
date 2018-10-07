@@ -67,7 +67,7 @@ class LinkedList {
         head.next = null;
         return nhead;
     }
-    /*public String print() {
+    public String print() {
         Node thead = head;
         String s  = "";
         while (thead != null) {
@@ -76,5 +76,5 @@ class LinkedList {
         }
 
         return s.substring(0 , s.length() - 2);
-    }*/
+    }
 }
