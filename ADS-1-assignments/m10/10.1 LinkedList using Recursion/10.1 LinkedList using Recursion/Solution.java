@@ -58,13 +58,13 @@ class LinkedList {
 	public void reverse() {
 		head = reverseHelper(head);
 	}
-	Node reverseHelper(Node head) {
-		if (head.next == null) {
-			return head;
+	Node reverseHelper(Node thead) {
+		if (thead.next == null) {
+			return thead;
 		}
-		Node nhead = reverseHelper(head.next);
-		head.next.next = head;
-		head.next = null;
+		Node nhead = reverseHelper(thead.next);
+		thead.next.next = thead;
+		thead.next = null;
 		return nhead;
 	}
 	/**
