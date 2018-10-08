@@ -30,7 +30,7 @@ public class Solution<E> {
 		String k = sc.next();
 		int no = sc.nextInt();
 		sc.nextLine();
-		while (sc.hasNext()) {
+		while (no>0) {
 			String[] inp = sc.nextLine().split(",");
 			switch (k) {
 			case "String" :
@@ -55,6 +55,7 @@ public class Solution<E> {
 			default:
 				break;
 			}
+			no--;
 		}
 	}
 }
