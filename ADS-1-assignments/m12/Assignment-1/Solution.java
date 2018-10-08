@@ -70,19 +70,33 @@ class Student implements Comparable<Student> {
 
 		if (Integer.parseInt(this.gettotalmark()) > Integer.parseInt(that.gettotalmark())) {
 			return 1;
-		} else if (Integer.parseInt(this.getmark3()) < Integer.parseInt(that.getmark3())) {
-			return -1;
-		} else if (Integer.parseInt(this.getmark2()) < Integer.parseInt(that.getmark2())) {
-			return -1;
-		} else if (Integer.parseInt(this.getmark1()) < Integer.parseInt(that.getmark1())) {
-			// return -1;
-			if (this.getdateofbirth().compareTo(that.getdateofbirth()) < 0) {
-				return 1;
-			}
-			return -1;
-		} else {
-			return 0;
 		}
+		if (Integer.parseInt(this.getmark3()) < Integer.parseInt(that.getmark3())) {
+			return -1;
+		}
+		if (Integer.parseInt(this.getmark2()) < Integer.parseInt(that.getmark2())) {
+			return -1;
+		}
+		if (Integer.parseInt(this.getmark1()) < Integer.parseInt(that.getmark1())) {
+			return -1;
+
+		}
+		if (Integer.parseInt(this.gettotalmark()) == Integer.parseInt(that.gettotalmark())) {
+			String[] tdate = this.getdateofbirth().split("-");
+			String[] tadate = that.getdateofbirth().split("-");
+			Integer[] tinp = Arrays.stream(tdate).map(Integer::valueOf).toArray(Integer[]::new);
+			Integer[] tainp = Arrays.stream(tadate).map(Integer::valueOf).toArray(Integer[]::new);
+			if (tinp[2] < tainp[2]) {
+				return 1;
+			} else if (tinp[1] < tainp[1]) {
+				return 1;
+			} else if (tinp[0] < tainp[0]) {
+				return 1;
+			} else {
+				return -1;
+			}
+		}
+		return -1;
 	}
 	public String toString() {
 		String str = "";
@@ -119,7 +133,7 @@ class Insertion {
 	 * @return     { description_of_the_return_value }
 	 */
 	public boolean more(Comparable[] td, int i, int j) {
-		return td[i].compareTo(td[j]) > 0;
+		return td[i].compareTo(td[j]) >= 0;
 	}
 	/**
 	 * swap the elements in arraylist of i,j
@@ -200,9 +214,10 @@ public class Solution {
 		sc.nextLine();
 		Student[] student = new Student[noOfStudents];
 		int ssize = 0;
-		while (sc.hasNext()) {
+		while (noOfStudents > 0) {
 			String[] tokens = sc.nextLine().split(",");
 			student[ssize++] = new Student(tokens[0], tokens[1], tokens[2], tokens[3], tokens[4], tokens[5], tokens[6]);
+			noOfStudents--;
 		}
 		ms.sort(student);
 		System.out.println(ms.results(student, noOfVacancies, noOfUnRes, noBC, noSC, noST));
