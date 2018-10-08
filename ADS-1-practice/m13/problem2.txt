@@ -1,0 +1,1 @@
+for suppose array = ['a', 'b', 'c', 'd'] is a sorted array it every element after root node is ggreater so it is called min priority queue.
