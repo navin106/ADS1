@@ -1,13 +1,14 @@
-########## Testcase 0: Failed ##########
+########## Testcase 0: Passed ##########
 Expected Output: 
 true
 false
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 8
-	at IsMinHeap.checkminheap(Solution.java:29)
-	at Solution.main(Solution.java:55)
+true
+false
+true
+false
 ----------------------------------------
 ########## Testcase 1: Passed ##########
 Expected Output: 
@@ -25,7 +26,7 @@ false
 false
 false
 ----------------------------------------
-########## Testcase 2: Failed ##########
+########## Testcase 2: Passed ##########
 Expected Output: 
 true
 true
@@ -36,27 +37,32 @@ false
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 9
-	at IsMinHeap.checkminheap(Solution.java:29)
-	at Solution.main(Solution.java:65)
+true
+true
+true
+false
+false
+false
+true
+false
 ----------------------------------------
-########## Testcase 3: Failed ##########
+########## Testcase 3: Passed ##########
 Expected Output: 
 true
 false
 false
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 324
-	at IsMinHeap.checkminheap(Solution.java:29)
-	at Solution.main(Solution.java:60)
+true
+false
+false
 ----------------------------------------
-########## Testcase 4: Failed ##########
+########## Testcase 4: Passed ##########
 Expected Output: 
 true
 true
 false
 Your Output: 
-Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 2
-	at IsMinHeap.checkminheap(Solution.java:29)
-	at Solution.main(Solution.java:70)
+true
+true
+false
 ----------------------------------------

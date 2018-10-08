@@ -2,6 +2,8 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:9:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:12:9: Redundant 'public' modifier. [RedundantModifier]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:28:49: '-' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:28:50: '-' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:39: Class Solution should be declared as final. [FinalClass]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:39: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:40:9: Missing a Javadoc comment. [JavadocMethod]
@@ -19,4 +21,4 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:69: Line is longer than 80 characters (found 116). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m13/13.1 isMinHeap/Solution.java:70: Line is longer than 80 characters (found 89). [LineLength]
 Audit done.
-Checkstyle ends with 19 errors.
+Checkstyle ends with 21 errors.
