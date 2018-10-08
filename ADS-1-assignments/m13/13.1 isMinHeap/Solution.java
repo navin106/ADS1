@@ -1,4 +1,3 @@
-import java.util.*;
 import java.util.Scanner;
 import java.util.Arrays;
 class IsMinHeap<E> {
