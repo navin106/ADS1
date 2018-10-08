@@ -1,4 +1,4 @@
-package percolation.wgtunion;
+package percolation;
 public class WeightedQuickUnion {
 	private int[] parent;
 	private int[] size;
