@@ -80,11 +80,13 @@ public class Solution {
 					System.out.println(idatatype.checkminheap(iinp));
 					break;
 				case "Float":
-					IsMinHeap<Float> fdatatype = new IsMinHeap<>();
+					IsMinHeap
+					<Float> fdatatype = new IsMinHeap<>();
 					Float[] finp = Arrays.stream(inp)
 					.map(Float::valueOf)
 					.toArray(Float[]::new);
-					System.out.println(fdatatype.checkminheap(finp));
+					System.out.println(fdatatype
+						.checkminheap(finp));
 					break;
 				default:
 					break;
