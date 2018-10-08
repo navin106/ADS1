@@ -76,8 +76,8 @@ class Student implements Comparable<Student> {
 			return -1;
 		} else if (Integer.parseInt(this.getmark1()) < Integer.parseInt(that.getmark1())) {
 			return -1;
-		}else if (this.getdateofbirth().compareTo(that.getdateofbirth()) > 0) {
-			return 1;
+		}else if (this.getdateofbirth().compareTo(that.getdateofbirth()) < 0) {
+			return -1;
 		}
 		 else {
 			return 0;
