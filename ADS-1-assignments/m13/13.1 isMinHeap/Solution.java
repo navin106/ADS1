@@ -32,6 +32,7 @@ public class Solution {
 		sc.nextLine();
 		while (no>0) {
 			String[] inp = sc.nextLine().split(",");
+			if (inp.length>0) {
 			switch (k) {
 			case "String" :
 				IsMinHeap<String> datatype = new IsMinHeap<>();
@@ -55,7 +56,10 @@ public class Solution {
 			default:
 				break;
 			}
+		} else {
+			System.out.println("false");
 			no--;
+		}
 		}
 	}
 }

@@ -1,4 +1,4 @@
-########## Testcase 0: Passed ##########
+########## Testcase 0: Failed ##########
 Expected Output: 
 true
 false
@@ -9,8 +9,11 @@ true
 false
 true
 false
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:34)
 ----------------------------------------
-########## Testcase 1: Passed ##########
+########## Testcase 1: Failed ##########
 Expected Output: 
 false
 false
@@ -25,8 +28,11 @@ false
 false
 false
 false
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:34)
 ----------------------------------------
-########## Testcase 2: Passed ##########
+########## Testcase 2: Failed ##########
 Expected Output: 
 true
 true
@@ -45,8 +51,11 @@ false
 false
 true
 false
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:34)
 ----------------------------------------
-########## Testcase 3: Passed ##########
+########## Testcase 3: Failed ##########
 Expected Output: 
 true
 false
@@ -55,6 +64,9 @@ Your Output:
 true
 false
 false
+Exception in thread "main" java.util.NoSuchElementException: No line found
+	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
+	at Solution.main(Solution.java:34)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -76,5 +88,5 @@ Exception in thread "main" java.lang.NumberFormatException: empty String
 	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:550)
 	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:260)
 	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:517)
-	at Solution.main(Solution.java:52)
+	at Solution.main(Solution.java:53)
 ----------------------------------------
