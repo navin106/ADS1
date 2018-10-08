@@ -31,8 +31,9 @@ public class Solution {
 		int no = sc.nextInt();
 		sc.nextLine();
 		while (no>0) {
-			String[] inp = sc.nextLine().split(",");
-			if (inp.length>0) {
+			String inp1 = sc.nextLine();
+			String[] inp = inp1.split(",");
+			if (inp1.length()>0) {
 			switch (k) {
 			case "String" :
 				IsMinHeap<String> datatype = new IsMinHeap<>();
