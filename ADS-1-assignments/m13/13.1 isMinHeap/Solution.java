@@ -30,37 +30,37 @@ public class Solution {
 		String k = sc.next();
 		int no = sc.nextInt();
 		sc.nextLine();
-		while (no>0) {
+		while (no > 0) {
 			String inp1 = sc.nextLine();
 			String[] inp = inp1.split(",");
-			if (inp1.length()>0) {
-			switch (k) {
-			case "String" :
-				IsMinHeap<String> datatype = new IsMinHeap<>();
-				System.out.println(datatype.checkminheap(inp));
-				break;
-			case "Double":
-				IsMinHeap<Double> ddatatype = new IsMinHeap<>();
-				Double[] dinp = Arrays.stream(inp).map(Double::valueOf).toArray(Double[]::new);
-				System.out.println(ddatatype.checkminheap(dinp));
-				break;
-			case "Integer":
-				IsMinHeap<Integer> idatatype = new IsMinHeap<>();
-				Integer[] iinp = Arrays.stream(inp).map(Integer::valueOf).toArray(Integer[]::new);
-				System.out.println(idatatype.checkminheap(iinp));
-				break;
-			case "Float":
-				IsMinHeap<Float> fdatatype = new IsMinHeap<>();
-				Float[] finp = Arrays.stream(inp).map(Float::valueOf).toArray(Float[]::new);
-				System.out.println(fdatatype.checkminheap(finp));
-				break;
-			default:
-				break;
+			if (inp1.length() > 0) {
+				switch (k) {
+				case "String" :
+					IsMinHeap<String> datatype = new IsMinHeap<>();
+					System.out.println(datatype.checkminheap(inp));
+					break;
+				case "Double":
+					IsMinHeap<Double> ddatatype = new IsMinHeap<>();
+					Double[] dinp = Arrays.stream(inp).map(Double::valueOf).toArray(Double[]::new);
+					System.out.println(ddatatype.checkminheap(dinp));
+					break;
+				case "Integer":
+					IsMinHeap<Integer> idatatype = new IsMinHeap<>();
+					Integer[] iinp = Arrays.stream(inp).map(Integer::valueOf).toArray(Integer[]::new);
+					System.out.println(idatatype.checkminheap(iinp));
+					break;
+				case "Float":
+					IsMinHeap<Float> fdatatype = new IsMinHeap<>();
+					Float[] finp = Arrays.stream(inp).map(Float::valueOf).toArray(Float[]::new);
+					System.out.println(fdatatype.checkminheap(finp));
+					break;
+				default:
+					break;
+				}
+			} else {
+				System.out.println("false");
 			}
-		} else {
-			System.out.println("false");
 			no--;
-		}
 		}
 	}
 }
