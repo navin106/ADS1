@@ -21,7 +21,7 @@ class IsMinHeap<E> {
 	}
 
 }
-public class Solution<E> {
+public class Solution {
 	private Solution() {
 
 	}
