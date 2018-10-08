@@ -1,15 +1,31 @@
 import java.util.Scanner;
 import java.util.Arrays;
+/**
+ * Class for is minimum heap.
+ *
+ * @param      <E>   { parameter_description }
+ */
 class IsMinHeap<E> {
+	/**
+	 * Constructs the object.
+	 */
 	public IsMinHeap() {
 
 	}
-	public boolean checkminheap(Comparable[] array) {
+	/**
+	 * checkminheap.
+	 * complexity is N
+	 *
+	 * @param      array  The array
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
+	public boolean checkminheap(final Comparable[] array) {
 		boolean flag = true;
 		if (array.length == 0) {
 			return false;
 		}
-		for (int i = 0; i < array.length - 1; i++) {
+		for (int i = 0; i < array.length; i++) {
 			if (!(array[i].compareTo(array[i + 1]) <= 0)) {
 				flag = false;
 				return flag;
