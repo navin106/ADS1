@@ -9,7 +9,7 @@ class IsMinHeap<E> {
 	/**
 	 * Constructs the object.
 	 */
-	public IsMinHeap() {
+	IsMinHeap() {
 
 	}
 	/**
@@ -39,7 +39,7 @@ class IsMinHeap<E> {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
 	/**
 	 * Constructs the object.
 	 */
@@ -51,7 +51,7 @@ public class Solution {
 	 *
 	 * @param      args  The arguments
 	 */
-	public static void main(String[] args) {
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 		String k = sc.next();
 		int no = sc.nextInt();
@@ -62,22 +62,28 @@ public class Solution {
 			if (inp1.length() > 0) {
 				switch (k) {
 				case "String" :
-					IsMinHeap<String> datatype = new IsMinHeap<>();
-					System.out.println(datatype.checkminheap(inp));
+					IsMinHeap
+					<String> datatype = new IsMinHeap<>();
+					System.out.println(datatype
+						.checkminheap(inp));
 					break;
 				case "Double":
-					IsMinHeap<Double> ddatatype = new IsMinHeap<>();
+					IsMinHeap
+					<Double> ddatatype = new IsMinHeap<>();
 					Double[] dinp = Arrays.stream(inp)
 					.map(Double::valueOf)
 					.toArray(Double[]::new);
-					System.out.println(ddatatype.checkminheap(dinp));
+					System.out.println(ddatatype
+						.checkminheap(dinp));
 					break;
 				case "Integer":
-					IsMinHeap<Integer> idatatype = new IsMinHeap<>();
+					IsMinHeap
+					<Integer> idatatype = new IsMinHeap<>();
 					Integer[] iinp = Arrays.stream(inp)
 					.map(Integer::valueOf)
 					.toArray(Integer[]::new);
-					System.out.println(idatatype.checkminheap(iinp));
+					System.out.println(idatatype
+						.checkminheap(iinp));
 					break;
 				case "Float":
 					IsMinHeap
