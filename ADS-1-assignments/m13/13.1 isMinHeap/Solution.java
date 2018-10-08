@@ -8,7 +8,7 @@ class IsMinHeap<E> {
 	public boolean checkminheap(Comparable[] array) {
 		boolean flag = true;
 		for (int i = 0; i < array.length - 1; i++) {
-			if (!(array[i].compareTo(array[i + 1]) < 0)) {
+			if (!(array[i].compareTo(array[i + 1]) <= 0)) {
 				flag = false;
 				return flag;
 			}
