@@ -75,11 +75,12 @@ class Student implements Comparable<Student> {
 		} else if (Integer.parseInt(this.getmark2()) < Integer.parseInt(that.getmark2())) {
 			return -1;
 		} else if (Integer.parseInt(this.getmark1()) < Integer.parseInt(that.getmark1())) {
+			// return -1;
+			if (this.getdateofbirth().compareTo(that.getdateofbirth()) < 0) {
+				return 1;
+			}
 			return -1;
-		}else if (this.getdateofbirth().compareTo(that.getdateofbirth()) < 0) {
-			return -1;
-		}
-		 else {
+		} else {
 			return 0;
 		}
 	}
@@ -153,7 +154,7 @@ class Insertion {
 					if (td[z].getreservation().equals("BC")) {
 						nstr += td[z].toString() + "\n";
 						bc++;
-					}else{
+					} else {
 						i--;
 					}
 				} else if (sc < noSC) {
@@ -161,7 +162,7 @@ class Insertion {
 					if (td[z].getreservation().equals("SC")) {
 						nstr += td[z].toString() + "\n";
 						sc++;
-					}else{
+					} else {
 						i--;
 					}
 				} else if (st < noST) {
@@ -169,7 +170,7 @@ class Insertion {
 					if (td[z].getreservation().equals("ST")) {
 						nstr += td[z].toString() + "\n";
 						st++;
-					} else{
+					} else {
 						i--;
 					}
 				} else {
