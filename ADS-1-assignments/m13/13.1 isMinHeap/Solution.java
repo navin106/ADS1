@@ -21,7 +21,7 @@ class IsMinHeap<E> {
      * @return     { description_of_the_return_value }
      */
     public boolean checkminheap(final Comparable[] array) {
-        boolean flag = true;
+       /* boolean flag = true;
         if (array.length == 0) {
             return false;
         }
@@ -34,7 +34,18 @@ class IsMinHeap<E> {
         }
         return flag;
     }
+*/
+    for (int i = 0; i < array.length; i++) {
+            if (2 * i + 1 < array.length && 2 * i + 2 < array.length) {
+                if (array[i].compareTo(array[2 * i + 1]) > 0
+                 || array[i].compareTo(array[2 * i + 2]) > 0) {
+                    return false;
+                }
+            }
 
+        }
+        return true;
+    }
 }
 /**
  * Class for solution.
