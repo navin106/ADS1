@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:242:8: Unused @param tag for 'CAP'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 1 errors.

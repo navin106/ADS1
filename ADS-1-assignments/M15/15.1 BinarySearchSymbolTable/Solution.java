@@ -239,7 +239,6 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
      * method to resize the array.
      *
      * @param      ind   The ind
-     * @param      CAP   The cap
      */
     private void resize(final int ind) {
         Key[]   tempk = (Key[])   new Comparable[ind];
