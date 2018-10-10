@@ -54,18 +54,18 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
 		vals = (Value[]) new Object[capacity];
 	}
 	public Key max() {
-		// if (isEmpty()) throw new Exception("called max() with empty symbol table");
+		
 		return keys[n - 1];
 	}
 	public Key floor(Key key) {
-		// if (key == null) throw new Exception("argument to floor() is null");
+		
 		int i = rank(key);
 		if (i < n && key.compareTo(keys[i]) == 0) return keys[i];
 		if (i == 0) return null;
 		else return keys[i - 1];
 	}
 	public int rank(Key key) {
-		// if (key == null) throw new Exception("argument to rank() is null");
+		
 
 		int lo = 0, hi = n - 1;
 		while (lo <= hi) {
@@ -78,27 +78,27 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
 		return lo;
 	}
 	public Key min() {
-		// if (isEmpty()) throw new Exception("called min() with empty symbol table");
+		
 		return keys[0];
 	}
 	public void deleteMin() {
-		// if (isEmpty()) throw new Exception("Symbol table underflow error");
+		
 		delete(min());
 	}
 	public boolean contains(Key key) {
-		// if (key == null) throw new Exception("argument to contains() is null");
+		
 		return get(key) != null;
 	}
 
 	public Value get(Key key) {
-		// if (key == null) throw new Exception("argument to get() is null");
+		
 		if (isEmpty()) return null;
 		int i = rank(key);
 		if (i < n && keys[i].compareTo(key) == 0) return vals[i];
 		return null;
 	}
 	public void put(Key key, Value val)  {
-		// if (key == null) throw new Exception("first argument to put() is null");
+		
 
 		if (val == null) {
 			delete(key);
@@ -142,7 +142,6 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
 		return size() == 0;
 	}
 	public void delete(Key key) {
-		// if (key == null) throw new Exception("argument to delete() is null");
 		if (isEmpty()) return;
 
 		// compute rank
@@ -162,7 +161,6 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
 		keys[n] = null;  // to avoid loitering
 		vals[n] = null;
 
-		// resize if 1/4 full
 		if (n > 0 && n == keys.length / 4) resize(keys.length / 2);
 	}
 	public Iterable<Key> keys() {
@@ -170,8 +168,6 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
 	}
 
 	public Iterable<Key> keys(Key lo, Key hi) {
-		// if (lo == null) throw new IllegalArgumentException("first argument to keys() is null");
-		// if (hi == null) throw new IllegalArgumentException("second argument to keys() is null");
 
 		Queue<Key> queue = new Queue<Key>();
 		if (lo.compareTo(hi) > 0) return queue;
