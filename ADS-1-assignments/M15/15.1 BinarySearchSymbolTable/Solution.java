@@ -29,7 +29,8 @@ public class Solution {
 				System.out.println(st.contains(cmd[1]));
 				break;
 			case "keys":
-				for (String s : st.keys())
+				String[] k = st.keys();
+				for (String s : k)
 					System.out.println(s + " " + st.get(s));
 				break;
 			case "get":
@@ -53,18 +54,18 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
 		vals = (Value[]) new Object[capacity];
 	}
 	public Key max() {
-		
+
 		return keys[n - 1];
 	}
 	public Key floor(Key key) {
-		
+
 		int i = rank(key);
 		if (i < n && key.compareTo(keys[i]) == 0) return keys[i];
 		if (i == 0) return null;
 		else return keys[i - 1];
 	}
 	public int rank(Key key) {
-		
+
 
 		int lo = 0, hi = n - 1;
 		while (lo <= hi) {
@@ -77,29 +78,29 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
 		return lo;
 	}
 	public Key min() {
-		
+
 		return keys[0];
 	}
 	public void deleteMin() {
-		
+
 		delete(min());
 	}
 	public boolean contains(Key key) {
-		
+
 		return get(key) != null;
 	}
 	public Key[] keys() {
 		return keys;
 	}
 	public Value get(Key key) {
-		
+
 		if (isEmpty()) return null;
 		int i = rank(key);
 		if (i < n && keys[i].compareTo(key) == 0) return vals[i];
 		return null;
 	}
 	public void put(Key key, Value val)  {
-		
+
 
 		if (val == null) {
 			delete(key);
@@ -143,7 +144,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
 		return size() == 0;
 	}
 	public void delete(Key key) {
-		
+
 		if (isEmpty()) return;
 
 		// compute rank
