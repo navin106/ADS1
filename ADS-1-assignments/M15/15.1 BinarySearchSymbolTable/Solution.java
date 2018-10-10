@@ -90,7 +90,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
      * Constructor to initialize.
      * the SymbolTable.
      */
-    public SymbolTable() {
+    SymbolTable() {
         keys = (Key[]) new Comparable[CAP];
         vals = (Value[]) new Object[CAP];
     }
@@ -150,10 +150,9 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         return lo;
     }
     /**
-     * return the first element.
-     * or the minimum of the ordered keys.
+     * return the first element. or the minimum of the ordered keys.
      *
-     * @return
+     * @return     keys[0];
      */
     public Key min() {
 
@@ -240,7 +239,6 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
      * @param      CAP   The cap
      */
     private void resize(int CAP) {
-        assert CAP >= n;
         Key[]   tempk = (Key[])   new Comparable[CAP];
         Value[] tempv = (Value[]) new Object[CAP];
         for (int i = 0; i < n; i++) {
