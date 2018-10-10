@@ -8,6 +8,13 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:6:33: Parameter args should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:7: Line is longer than 80 characters (found 85). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:33: 'for' construct must use '{}'s. [NeedBraces]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:33:43: '=' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:33:44: '=' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:33:46: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:33:47: '<' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:33:48: '<' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:33:57: ';' is not followed by whitespace. [WhitespaceAfter]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:34: Line is longer than 80 characters (found 86). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:47: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:48:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:48:34: Name 'capacity' must match pattern '^[A-Z][A-Z0-9]*(_[A-Z0-9]+)*$'. [ConstantName]
@@ -51,4 +58,4 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:168: 'if' construct must use '{}'s. [NeedBraces]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:168:49: '4' is a magic number. [MagicNumber]
 Audit done.
-Checkstyle ends with 51 errors.
+Checkstyle ends with 58 errors.

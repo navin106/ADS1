@@ -30,8 +30,8 @@ public class Solution {
 				break;
 			case "keys":
 				String[] k = st.keys();
-				for (String s : k)
-					System.out.println(s + " " + st.get(s));
+				for (int i=0;i<k.length;i++)
+					System.out.println(k[i] + " " + st.get(k[i]));
 				break;
 			case "get":
 				System.out.println(st.get(cmd[1]));
