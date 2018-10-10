@@ -45,9 +45,10 @@ public final class Solution {
                 System.out.println(st.contains(cmd[1]));
                 break;
             case "keys":
-                for (String s : st.keys()) {
-                    System.out.println(s + " " + st.get(s));
-                }
+                // for (String s : st.keys()) {
+                    // System.out.println(s + " " + st.get(s));
+                // }
+                st.keys();
                 break;
             case "get":
                 System.out.println(st.get(cmd[1]));
@@ -299,139 +300,152 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         }
     }
     /**
-     * returns the Keys from min to max.
-     * so that it can iterate.
-     *
-     * @return     { description_of_the_return_value }
+     * prints all values.
+     * Best case: O(1)
+     * Worst case: O(N)
+     * Average case: O(N)
      */
-    public Iterable<Key> keys() {
-        return keys(min(), max());
+    void keys() {
+        for (int i = 0; i < n; i++) {
+            if (vals[i] != null) {
+                System.out.println(keys[i] + " " + vals[i]);
+            }
+        }
     }
-    /**
-     * { function_description }
-     *
-     * @param      lo    The lower
-     * @param      hi    The higher
-     *
-     * @return     { description_of_the_return_value }
-     */
-    public Iterable<Key> keys(final Key lo, final Key hi) {
+    // /**
+    //  * returns the Keys from min to max.
+    //  * so that it can iterate.
+    //  *
+    //  * @return     { description_of_the_return_value }
+    //  */
+    // public Iterable<Key> keys() {
+    //     return keys(min(), max());
+    // }
+    // /**
+    //  * { function_description }
+    //  *
+    //  * @param      lo    The lower
+    //  * @param      hi    The higher
+    //  *
+    //  * @return     { description_of_the_return_value }
+    //  */
+    // public Iterable<Key> keys(final Key lo, final Key hi) {
 
-        Queue<Key> queue = new Queue<Key>();
-        if (lo.compareTo(hi) > 0) {
-            return queue;
-        }
-        for (int i = rank(lo); i < rank(hi); i++) {
-            queue.enqueue(keys[i]);
-        }
-        if (contains(hi)) {
-            queue.enqueue(keys[rank(hi)]);
-        }
-        return queue;
-    }
+    //     Queue<Key> queue = new Queue<Key>();
+    //     if (lo.compareTo(hi) > 0) {
+    //         return queue;
+    //     }
+    //     for (int i = rank(lo); i < rank(hi); i++) {
+    //         queue.enqueue(keys[i]);
+    //     }
+    //     if (contains(hi)) {
+    //         queue.enqueue(keys[rank(hi)]);
+    //     }
+    //     return queue;
+    // }
 }
-/**
- * List of .
- *
- * @param      <E>   { parameter_description }
- */
-class Queue<E> implements Iterable<E> {
-    /**
-     * Class for node.
-     */
-    private class Node {
-        /**
-         * data.
-         */
-        E data;
-        /**
-         * node next.
-         */
-        Node next;
-    }
-    /**
-     * initiated head, tail.
-     */
-    private Node head, tail;
-    /**
-     * size.
-     */
-    private int size = 0;
-    /**
-     * { function_description }
-     *
-     * @param      data  The data
-     */
-    public void enqueue(E data) {
-        Node node = new Node();
-        node.data = data;
-        size++;
-        if (tail == null) {
-            tail = node;
-            head = node;
-            return;
-        }
-        tail.next = node;
-        tail = tail.next;
-    }
-    /**
-     * { function_description }
-     *
-     * @return     { description_of_the_return_value }
-     */
-    public E dequeue() {
-        E data = head.data;
-        head = head.next;
-        size--;
-        return data;
-    }
-    /**
-     * { function_description }
-     *
-     * @return     { description_of_the_return_value }
-     */
-    public Iterator iterator() {
-        return new MyIterator(head);
-    }
-    /**
-     * Class for my iterator.
-     */
-    private class MyIterator implements Iterator {
-        /**
-         * { var_description }
-         */
-        Node current;
-        /**
-         * Constructs the object.
-         *
-         * @param      first  The first
-         */
-        public MyIterator(Node first) {
-            current = first;
-        }
-        /**
-         * Determines if it has next.
-         *
-         * @return     True if has next, False otherwise.
-         */
-        public boolean hasNext() {
-            return current !=  null;
-        }
-        /**
-         * { function_description }
-         */
-        public void remove() {
+// /**
+//  * List of .
+//  *
+//  * @param      <E>   { parameter_description }
+//  */
+// class Queue<E> implements Iterable<E> {
+//     /**
+//      * Class for node.
+//      */
+//     private class Node {
+//         /**
+//          * data.
+//          */
+//         E data;
+//         /**
+//          * node next.
+//          */
+//         Node next;
+//     }
+//     /**
+//      * initiated head, tail.
+//      */
+//     private Node head, tail;
+//     /**
+//      * size.
+//      */
+//     private int size = 0;
+//     /**
+//      * { function_description }
+//      *
+//      * @param      data  The data
+//      */
+//     public void enqueue(E data) {
+//         Node node = new Node();
+//         node.data = data;
+//         size++;
+//         if (tail == null) {
+//             tail = node;
+//             head = node;
+//             return;
+//         }
+//         tail.next = node;
+//         tail = tail.next;
+//     }
+//     /**
+//      * { function_description }
+//      *
+//      * @return     { description_of_the_return_value }
+//      */
+//     public E dequeue() {
+//         E data = head.data;
+//         head = head.next;
+//         size--;
+//         return data;
+//     }
+//     /**
+//      * { function_description }
+//      *
+//      * @return     { description_of_the_return_value }
+//      */
+//     public Iterator iterator() {
+//         return new MyIterator(head);
+//     }
+//     /**
+//      * Class for my iterator.
+//      */
+//     private class MyIterator implements Iterator {
+//         /**
+//          * { var_description }
+//          */
+//         Node current;
+//         /**
+//          * Constructs the object.
+//          *
+//          * @param      first  The first
+//          */
+//         public MyIterator(Node first) {
+//             current = first;
+//         }
+//         /**
+//          * Determines if it has next.
+//          *
+//          * @return     True if has next, False otherwise.
+//          */
+//         public boolean hasNext() {
+//             return current !=  null;
+//         }
+//         /**
+//          * method to remove.
+//          */
+//         public void remove() {
 
-        }
-        /**
-         * { function_description }
-         *
-         * @return     { description_of_the_return_value }
-         */
-        public E next() {
-            E data = current.data;
-            current = current.next;
-            return data;
-        }
-    }
-}
+//         }
+//         /**
+//          * return next node.
+//          *
+//          * @return     { description_of_the_return_value }
+//          */
+//         public E next() {
+//             E data = current.data;
+//             current = current.next;
+//             return data;
+//         }
+//     }
+// }
