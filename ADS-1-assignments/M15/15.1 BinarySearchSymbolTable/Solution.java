@@ -96,7 +96,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     }
     /**
      * method to return max value.
-     *
+     *complexity O(1)
      * @return     { it return n-1 index of key array }
      */
     public Key max() {
@@ -106,7 +106,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     /**
      * method to send Key object.
      *befor the pramater Key
-     *
+     *complexity O(1)
      * @param      key   The key
      *
      * @return     {if i=0 return null,
@@ -127,7 +127,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     }
     /**
      * returns the index of the @param Key.
-     *
+     *complexity O(Logn)
      * @param      key   The key
      *
      * @return returns mid if the lo less than high.
@@ -151,7 +151,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     }
     /**
      * return the first element. or the minimum of the ordered keys.
-     *
+     *complexity O(1)
      * @return     keys[0];
      */
     public Key min() {
@@ -159,6 +159,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         return keys[0];
     }
     /**
+     *
      * deletemin is used to delete.
      *  the min element of the element and it
      *  calls the delete function.
@@ -171,7 +172,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
      * method to check weather.
      *  the element is present or not.
      *
-     *
+     *complexity O(1)
      * @param      key   The key
      *
      * @return check for the get()
@@ -183,7 +184,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     }
     /**
      * get method returns the key element.
-     *
+     *complexity O(1)
      *
      * @param      key   The key
      *
@@ -204,7 +205,9 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     /**
      * put is used to insert the element in the.
      * SYmbolTable.
-     *
+     * Best case: O(1)
+     * Worst case: O(N)
+     * Average case: O(N)
      * @param      key   The key
      * @param      val   The value
      */
@@ -236,6 +239,9 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         n++;
     }
     /**
+     * Best case: O(n)
+     * Worst case: O(n)
+     * Average case: O(n)
      * method to resize the array.
      *
      * @param      ind   The ind
@@ -251,6 +257,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         keys = tempk;
     }
     /**
+     *
      * returns size of ST.
      *
      * @return     { description_of_the_return_value }
@@ -299,7 +306,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     }
     /**
      * prints all values.
-     * Best case: O(1)
+     * Best case: O(n)
      * Worst case: O(N)
      * Average case: O(N)
      */
