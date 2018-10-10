@@ -153,7 +153,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
      * return the first element.
      * or the minimum of the ordered keys.
      *
-     * @return 
+     * @return
      */
     public Key min() {
 
@@ -171,11 +171,11 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     /**
      * method to check weather.
      *  the element is present or not.
-     * 
+     *
      *
      * @param      key   The key
      *
-     * @return check for the get() 
+     * @return check for the get()
      * method is returning null or not
      */
     public boolean contains(final Key key) {
@@ -184,7 +184,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     }
     /**
      * get method returns the key element.
-     * 
+     *
      *
      * @param      key   The key
      *
@@ -319,20 +319,43 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
             queue.enqueue(keys[i]);
         }
         if (contains(hi)) {
-         queue.enqueue(keys[rank(hi)]);
+            queue.enqueue(keys[rank(hi)]);
         }
         return queue;
     }
 }
-
+/**
+ * List of .
+ *
+ * @param      <E>   { parameter_description }
+ */
 class Queue<E> implements Iterable<E> {
+    /**
+     * Class for node.
+     */
     private class Node {
+        /**
+         * data.
+         */
         E data;
+        /**
+         * node next.
+         */
         Node next;
     }
+    /**
+     * initiated head, tail.
+     */
     private Node head, tail;
+    /**
+     * size.
+     */
     private int size = 0;
-
+    /**
+     * { function_description }
+     *
+     * @param      data  The data
+     */
     public void enqueue(E data) {
         Node node = new Node();
         node.data = data;
@@ -345,33 +368,60 @@ class Queue<E> implements Iterable<E> {
         tail.next = node;
         tail = tail.next;
     }
-
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public E dequeue() {
         E data = head.data;
         head = head.next;
         size--;
         return data;
     }
-
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Iterator iterator() {
         return new MyIterator(head);
     }
-
+    /**
+     * Class for my iterator.
+     */
     private class MyIterator implements Iterator {
+        /**
+         * { var_description }
+         */
         Node current;
-
+        /**
+         * Constructs the object.
+         *
+         * @param      first  The first
+         */
         public MyIterator(Node first) {
             current = first;
         }
-
+        /**
+         * Determines if it has next.
+         *
+         * @return     True if has next, False otherwise.
+         */
         public boolean hasNext() {
             return current !=  null;
         }
-
+        /**
+         * { function_description }
+         */
         public void remove() {
 
         }
-
+        /**
+         * { function_description }
+         *
+         * @return     { description_of_the_return_value }
+         */
         public E next() {
             E data = current.data;
             current = current.next;
