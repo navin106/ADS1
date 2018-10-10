@@ -1,4 +1,5 @@
 import java.util.Scanner;
+import Queue.Queue;
 import java.util.Iterator;
 /**
  * Solution class to pass the.
@@ -223,7 +224,9 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         }
 
         // insert new key-value pair
-        if (n == keys.length) resize(2 * keys.length);
+        if (n == keys.length) {
+            resize(2 * keys.length);
+        }
 
         for (int j = n; j > i; j--)  {
             keys[j] = keys[j - 1];
@@ -234,13 +237,14 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         n++;
     }
     /**
-     * { function_description }
+     * method to resize the array.
      *
+     * @param      i     { parameter_description }
      * @param      CAP   The cap
      */
-    private void resize(int CAP) {
-        Key[]   tempk = (Key[])   new Comparable[CAP];
-        Value[] tempv = (Value[]) new Object[CAP];
+    private void resize(int ind) {
+        Key[]   tempk = (Key[])   new Comparable[ind];
+        Value[] tempv = (Value[]) new Object[ind];
         for (int i = 0; i < n; i++) {
             tempk[i] = keys[i];
             tempv[i] = vals[i];
@@ -249,7 +253,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         keys = tempk;
     }
     /**
-     * { function_description }
+     * returns size of ST.
      *
      * @return     { description_of_the_return_value }
      */
@@ -265,12 +269,14 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         return size() == 0;
     }
     /**
-     * { function_description }
+     * method to delete the Key.
      *
      * @param      key   The key
      */
     public void delete(final Key key) {
-        if (isEmpty()) return;
+        if (isEmpty()) {
+            return;
+        }
 
         // compute rank
         int i = rank(key);
@@ -289,10 +295,13 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         keys[n] = null;  // to avoid loitering
         vals[n] = null;
 
-        if (n > 0 && n == keys.length / 4) resize(keys.length / 2);
+        if (n > 0 && n == keys.length / (2+2)) {
+         resize(keys.length / 2);
+        }
     }
     /**
-     * { function_description }
+     * returns the Keys from min to max.
+     * so that it can iterate.
      *
      * @return     { description_of_the_return_value }
      */
@@ -307,7 +316,7 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
      *
      * @return     { description_of_the_return_value }
      */
-    public Iterable<Key> keys(Key lo, Key hi) {
+    public Iterable<Key> keys(final Key lo, final Key hi) {
 
         Queue<Key> queue = new Queue<Key>();
         if (lo.compareTo(hi) > 0) {
@@ -320,110 +329,5 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
             queue.enqueue(keys[rank(hi)]);
         }
         return queue;
-    }
-}
-/**
- * List of .
- *
- * @param      <E>   { parameter_description }
- */
-class Queue<E> implements Iterable<E> {
-    /**
-     * Class for node.
-     */
-    private class Node {
-        /**
-         * data.
-         */
-        E data;
-        /**
-         * node next.
-         */
-        Node next;
-    }
-    /**
-     * initiated head, tail.
-     */
-    private Node head, tail;
-    /**
-     * size.
-     */
-    private int size = 0;
-    /**
-     * { function_description }
-     *
-     * @param      data  The data
-     */
-    public void enqueue(E data) {
-        Node node = new Node();
-        node.data = data;
-        size++;
-        if (tail == null) {
-            tail = node;
-            head = node;
-            return;
-        }
-        tail.next = node;
-        tail = tail.next;
-    }
-    /**
-     * { function_description }
-     *
-     * @return     { description_of_the_return_value }
-     */
-    public E dequeue() {
-        E data = head.data;
-        head = head.next;
-        size--;
-        return data;
-    }
-    /**
-     * { function_description }
-     *
-     * @return     { description_of_the_return_value }
-     */
-    public Iterator iterator() {
-        return new MyIterator(head);
-    }
-    /**
-     * Class for my iterator.
-     */
-    private class MyIterator implements Iterator {
-        /**
-         * { var_description }
-         */
-        Node current;
-        /**
-         * Constructs the object.
-         *
-         * @param      first  The first
-         */
-        public MyIterator(Node first) {
-            current = first;
-        }
-        /**
-         * Determines if it has next.
-         *
-         * @return     True if has next, False otherwise.
-         */
-        public boolean hasNext() {
-            return current !=  null;
-        }
-        /**
-         * { function_description }
-         */
-        public void remove() {
-
-        }
-        /**
-         * { function_description }
-         *
-         * @return     { description_of_the_return_value }
-         */
-        public E next() {
-            E data = current.data;
-            current = current.next;
-            return data;
-        }
     }
 }
