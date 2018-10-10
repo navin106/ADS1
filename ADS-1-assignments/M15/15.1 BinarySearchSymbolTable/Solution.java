@@ -1,5 +1,4 @@
 import java.util.Scanner;
-import java.util.Iterator;
 /**
  * Solution class to pass the.
  * commands
@@ -46,7 +45,7 @@ public final class Solution {
                 break;
             case "keys":
                 // for (String s : st.keys()) {
-                    // System.out.println(s + " " + st.get(s));
+                // System.out.println(s + " " + st.get(s));
                 // }
                 st.keys();
                 break;
@@ -239,10 +238,10 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
     /**
      * method to resize the array.
      *
-     * @param      i     { parameter_description }
+     * @param      ind   The ind
      * @param      CAP   The cap
      */
-    private void resize(int ind) {
+    private void resize(final int ind) {
         Key[]   tempk = (Key[])   new Comparable[ind];
         Value[] tempv = (Value[]) new Object[ind];
         for (int i = 0; i < n; i++) {
@@ -295,8 +294,8 @@ class SymbolTable<Key extends Comparable<Key>, Value> {
         keys[n] = null;  // to avoid loitering
         vals[n] = null;
 
-        if (n > 0 && n == keys.length / (2+2)) {
-         resize(keys.length / 2);
+        if (n > 0 && n == keys.length / (2 + 2)) {
+            resize(keys.length / 2);
         }
     }
     /**

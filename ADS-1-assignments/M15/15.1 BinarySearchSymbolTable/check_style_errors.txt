@@ -1,10 +1,4 @@
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:2:8: Unused import - java.util.Iterator. [UnusedImports]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:242:8: Unused @param tag for 'i'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:243:8: Unused @param tag for 'CAP'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:245:25: Parameter ind should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:245:29: Expected @param tag for 'ind'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:298:43: '+' is not preceded with whitespace. [WhitespaceAround]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:298:44: '+' is not followed by whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/M15/15.1 BinarySearchSymbolTable/Solution.java:242:8: Unused @param tag for 'CAP'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 1 errors.
