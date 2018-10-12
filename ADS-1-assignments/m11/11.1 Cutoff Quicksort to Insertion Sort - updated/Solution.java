@@ -93,9 +93,9 @@ class Quicksort {
      * @param      high   The high
      */
     public void sort(final Comparable[] array, final int low,
-        final int high) {
+                     final int high) {
         //System.out.println(low + "            " + high );
-        if (high <= low + cutoff - 1) {
+        if (high - low <= cutoff) {
             insertionSort(array, low, high);
             System.out.println("insertionSort called");
             //System.out.println(Arrays.toString(array));
@@ -119,7 +119,7 @@ class Quicksort {
      * @return     { description_of_the_return_value }
      */
     public int partition(final Comparable[] array,
-        final int low, final int high) {
+                         final int low, final int high) {
         int i = low, j = high + 1;
         while (true) {
             while (less(array[++i], array[low])) {
