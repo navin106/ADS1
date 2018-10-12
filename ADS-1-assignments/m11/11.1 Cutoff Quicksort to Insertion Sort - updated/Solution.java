@@ -95,7 +95,7 @@ class Quicksort {
     public void sort(final Comparable[] array, final int low,
                      final int high) {
         //System.out.println(low + "            " + high );
-        if (high - low <= cutoff) {
+        if (high - low < cutoff) {
             insertionSort(array, low, high);
             System.out.println("insertionSort called");
             //System.out.println(Arrays.toString(array));
