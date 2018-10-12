@@ -120,14 +120,14 @@ class Quicksort {
      */
     public int partition(final Comparable[] array,
                          final int low, final int high) {
-        int i = low, j = high + 1;
+        int i = low, j = high;
         while (true) {
             while (less(array[++i], array[low])) {
                 if (i == high) {
                     break;
                 }
             }
-            while (less(array[low], array[--j])) {
+            while (less(array[low], array[j--])) {
                 if (j == low) {
                     break;
                 }
