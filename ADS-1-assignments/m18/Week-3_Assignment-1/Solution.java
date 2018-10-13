@@ -11,31 +11,33 @@ public class Solution {
 		sc.nextLine();
 		int k = no;
 		float percent = 0.0f;
-		while (sc.hasNextLine()) {
+		while (sc.hasNext()) {
 			MinPQ<CompanyDetails> minpq = new MinPQ<CompanyDetails>(no);
 			MaxPQ<CompanyDetails> maxpq = new MaxPQ<CompanyDetails>(no);
-			while (no > 0) {
-				String sk1 = sc.nextLine();
-				if (!(sk1.equals("0"))) {
-					String[] sk = sk1.split(",");
-					CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
-					minpq.insert(cd);
-					maxpq.insert(cd);
+			// while (sc.hasNextLine()) {
+				if (no > 0) {
+					String sk1 = sc.nextLine();
+					if (!(sk1.equals("0"))) {
+						String[] sk = sk1.split(",");
+						CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
+						minpq.insert(cd);
+						maxpq.insert(cd);
+					}
+					// MinPQ mi = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
+					// if (f > percent) {
+					// } else {
+					// }
+					// if (maxpq.size() - minpq.size() > 1) {
+					// 	CompanyDetails tcd = maxpq.delMax();
+					// 	minpq.insert(tcd);
+					// }
+					// if (minpq.size() - maxpq.size() > 1) {
+					// 	CompanyDetails tcd = minpq.delMin();
+					// 	maxpq.insert(tcd);
+					// }
+					no--;
 				}
-				// MinPQ mi = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
-				// if (f > percent) {
-				// } else {
-				// }
-				// if (maxpq.size() - minpq.size() > 1) {
-				// 	CompanyDetails tcd = maxpq.delMax();
-				// 	minpq.insert(tcd);
-				// }
-				// if (minpq.size() - maxpq.size() > 1) {
-				// 	CompanyDetails tcd = minpq.delMin();
-				// 	maxpq.insert(tcd);
-				// }
-				no--;
-			}
+			// }
 			/*for (int i = 0; i < minpq.size(); i++) {
 				System.out.println(minpq.delMin());
 			}
