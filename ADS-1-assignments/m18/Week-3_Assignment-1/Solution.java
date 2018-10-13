@@ -34,15 +34,21 @@ public class Solution {
 				// }
 				no--;
 			}
+			/*for(CompanyDetails k1: minpq) {
+				System.out.println(k1);
+			}*/
+			/*for (int i=0; i<minpq.size(); i++) {
+				System.out.println(minpq.delMin());
+			}*/
 			int nu = 5;
 			while (nu > 0) {
-				System.out.println(minpq.delMin());
+				System.out.println(maxpq.delMax());
 				nu--;
 			}
 			nu = 5;
 			System.out.println();
 			while (nu > 0) {
-				System.out.println(maxpq.delMax());
+				System.out.println(minpq.delMin());
 				nu--;
 			}
 			nu = 5;
@@ -75,7 +81,7 @@ class CompanyDetails implements Comparable<CompanyDetails> {
 	public int compareTo(final CompanyDetails that) {
 		if (this.getpercent() < that.getpercent()) {
 			return -1;
-		} else if (this.getpercent() < that.getpercent()) {
+		} else if (this.getpercent() > that.getpercent()) {
 			return 1;
 		} else {
 			return 0;
