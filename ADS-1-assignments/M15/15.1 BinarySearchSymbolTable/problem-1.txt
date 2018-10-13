@@ -1,0 +1,1 @@
+i prefer the ordered SymbolTable even tough it takes N iterations to insert the elements it doesn't take much iterations for searching for the unorderd SymbolTable it make take 1 for inserting but it takes N for every searching.
