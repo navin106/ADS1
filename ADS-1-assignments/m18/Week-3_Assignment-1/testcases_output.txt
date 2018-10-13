@@ -418,7 +418,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "m
 	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
 	at java.base/java.lang.Float.parseFloat(Float.java:455)
 	at java.base/java.lang.Float.valueOf(Float.java:419)
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -564,7 +564,7 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "m
 	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
 	at java.base/java.lang.Float.parseFloat(Float.java:455)
 	at java.base/java.lang.Float.valueOf(Float.java:419)
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -725,5 +725,5 @@ Exception in thread "main" java.lang.NumberFormatException: For input string: "m
 	at java.base/jdk.internal.math.FloatingDecimal.parseFloat(FloatingDecimal.java:122)
 	at java.base/java.lang.Float.parseFloat(Float.java:455)
 	at java.base/java.lang.Float.valueOf(Float.java:419)
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
