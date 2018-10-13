@@ -16,9 +16,8 @@ public class Solution {
 			MaxPQ<CompanyDetails> maxpq = new MaxPQ<CompanyDetails>(no);
 			while (no > 0) {
 				String sk1 = sc.nextLine();
-				// float f = Float.parseFloat(sk[1]);
+				if (sk1.length() > 2) {
 					String[] sk = sk1.split(",");
-				if (sk.length > 1) {
 					CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
 					minpq.insert(cd);
 					maxpq.insert(cd);
