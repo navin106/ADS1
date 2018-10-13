@@ -15,13 +15,14 @@ public class Solution {
 			MinPQ<CompanyDetails> minpq = new MinPQ<CompanyDetails>(no);
 			MaxPQ<CompanyDetails> maxpq = new MaxPQ<CompanyDetails>(no);
 			while (no > 0) {
-				String[] sk = sc.nextLine().split(",");
+				String sk1 = sc.nextLine();
 				// float f = Float.parseFloat(sk[1]);
-				// if (sk.length > 1) {
+				if (sk1.length() > 1) {
+					String[] sk = sk1.split(",");
 					CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
 					minpq.insert(cd);
 					maxpq.insert(cd);
-				// }
+				}
 				// MinPQ mi = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
 				// if (f > percent) {
 				// } else {
