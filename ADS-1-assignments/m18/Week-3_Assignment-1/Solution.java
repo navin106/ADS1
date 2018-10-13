@@ -14,7 +14,7 @@ public class Solution {
 		while (sc.hasNextLine()) {
 			MinPQ<CompanyDetails> minpq = new MinPQ<CompanyDetails>(no);
 			MaxPQ<CompanyDetails> maxpq = new MaxPQ<CompanyDetails>(no);
-			while (no > 0 && sc.hasNext()) {
+			while (no > 0 && sc.hasNextLine()) {
 				String sk1 = sc.nextLine();
 				if (sk1.length() > 2) {
 					String[] sk = sk1.split(",");
