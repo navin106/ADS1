@@ -11,7 +11,7 @@ public class Solution {
 		sc.nextLine();
 		int k = no;
 		float percent = 0.0f;
-		while (sc.hasNext()) {
+		while (sc.hasNextLine()) {
 			MinPQ<CompanyDetails> minpq = new MinPQ<CompanyDetails>(no);
 			MaxPQ<CompanyDetails> maxpq = new MaxPQ<CompanyDetails>(no);
 			while (no > 0) {
