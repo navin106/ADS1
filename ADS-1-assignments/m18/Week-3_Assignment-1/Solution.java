@@ -15,14 +15,37 @@ public class Solution {
 		while (sc.hasNext()) {
 			MinPQ<CompanyDetails> minpq = new MinPQ<CompanyDetails>(no);
 			MaxPQ<CompanyDetails> maxpq = new MaxPQ<CompanyDetails>(no);
+			int nno = 0;
 			while (no > 0) {
 				if (sc.hasNextLine()) {
 					String sk1 = sc.nextLine();
-					if (!(sk1.length()==1)) {
+					if (!(sk1.length() == 1)) {
 						String[] sk = sk1.split(",");
-						CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
-						minpq.insert(cd);
-						maxpq.insert(cd);
+						if (sk.length == 2) {
+							CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
+							minpq.insert(cd);
+							maxpq.insert(cd);
+						} else if (sk1.length() == 3) {
+							sk = sk1.split(",");
+							switch (sk[0]) {
+							case "get":
+								if (sk[1].equals("maxST")) {
+									System.out.println("0");
+								}
+								if (sk[1].equals("minST")) {
+									System.out.println("0");
+
+								}
+								break;
+							default:
+								break;
+
+							}
+
+
+						}
+					} else if (sk1.length() == 1) {
+						nno = Integer.parseInt(sk1);
 					}
 				}
 				// MinPQ mi = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
@@ -39,6 +62,7 @@ public class Solution {
 				// }
 				no--;
 			}
+
 			/*for (int i = 0; i < minpq.size(); i++) {
 				System.out.println(minpq.delMin());
 			}
@@ -64,6 +88,8 @@ public class Solution {
 				System.out.println("");
 
 			}
+
+			nno = 0;
 		}
 	}
 }
