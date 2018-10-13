@@ -14,9 +14,9 @@ public class Solution {
 		while (sc.hasNextLine()) {
 			MinPQ<CompanyDetails> minpq = new MinPQ<CompanyDetails>(no);
 			MaxPQ<CompanyDetails> maxpq = new MaxPQ<CompanyDetails>(no);
-			while (no > 0 && sc.hasNextLine()) {
+			while (no > 0) {
 				String sk1 = sc.nextLine();
-				if (sk1.length() > 2) {
+				if (!(sk1.equals("0"))) {
 					String[] sk = sk1.split(",");
 					CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
 					minpq.insert(cd);
@@ -43,7 +43,7 @@ public class Solution {
 				System.out.println(maxpq.delMax());
 			}*/
 			int nu = 5;
-			while (nu >= 0) {
+			while (nu > 0) {
 				System.out.println(maxpq.delMax());
 				nu--;
 			}
