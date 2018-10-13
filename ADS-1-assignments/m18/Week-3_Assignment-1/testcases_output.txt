@@ -73,10 +73,10 @@ Tasty Bite Eat 0.23
 WABCO India 0.33
 Your Output: 
 Merck Ltd 4.83
-MRF 3.48
 ICRA 2.84
 Schaeffler India 2.57
 TTK Prestige 2.15
+Bharat Rasayan 2.0
 
 Bosch 0.3
 Abbott India 0.46
@@ -102,17 +102,17 @@ Nestle India 4.57
 ICRA 3.84
 Lakshmi Machine 3.7
 
-Eicher Motors -1.6
 WABCO India -1.33
 Sanofi India -1.21
 GSK Cons Health -0.84
 Abbott India 0.46
+Oracle Fin 0.52
 
 Merck Ltd 4.83
-Eicher Motors 1.6
-3M India 1.56
-Honeywell Auto 1.08
-MRF 0.48
+3M India 2.56
+Bosch -0.3
+Abbott India -0.46
+Oracle Fin -0.52
 
 ICRA -2.84
 Schaeffler India -2.57
@@ -126,15 +126,23 @@ Schaeffler India 2.57
 TTK Prestige 2.15
 Bharat Rasayan 2.0
 
-Eicher Motors -1.6
-Honeywell Auto -1.08
-Bosch 0.34
+Bosch 0.3
 Abbott India 0.46
 Oracle Fin 0.52
+Bajaj Finserv 0.64
+Lakshmi Machine 0.7
 
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:18)
+ICRA 5.84
+Lakshmi Machine 4.7
+Merck Ltd 3.83
+Bajaj Finserv 3.64
+TTK Prestige 3.15
+
+Eicher Motors -1.6
+Honeywell Auto -1.08
+Sanofi India 0.21
+Tasty Bite Eat 0.23
+WABCO India 0.33
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -210,7 +218,7 @@ Fine Organic Industries Ltd. 0.29
 Vinati Organics 1.03
 Chola Inv Fin 1.47
 Your Output: 
-Larsen & Toubro 4.08
+ & Toubro 4.11
 Vinati Organics 4.03
 APL Apollo Tube 3.18
 Fine Organic Industries Ltd. 2.29
@@ -222,57 +230,65 @@ Endurance Technologies Ltd. 0.1
 NIIT Tech 0.21
 Ceat 0.23
 
+ & Toubro 4.08
 Jubilant Food 4.08
 NIIT Tech 3.21
 Vinati Organics 3.03
 Chola Inv Fin 2.47
-Fine Organic Industries Ltd. 1.29
 
 Nalwa Sons Invst -0.06
 Ceat -0.06
-APL Apollo Tube 0.18
 Endurance Technologies Ltd. 1.1
-Larsen & Toubro 1.11
+Fine Organic Industries Ltd. 1.29
+APL Apollo Tube 2.18
 
 Chola Inv Fin 4.47
 Jubilant Food 4.08
+Vinati Organics 4.03
 Fine Organic Industries Ltd. 3.29
-APL Apollo Tube 2.18
-Endurance Technologies Ltd. 1.1
+ & Toubro 1.11
 
-Larsen & Toubro -4.11
 Nalwa Sons Invst -0.06
+APL Apollo Tube 0.18
 NIIT Tech 0.21
 Ceat 0.23
-Vinati Organics 1.03
+Endurance Technologies Ltd. 1.1
 
 Chola Inv Fin 3.47
 Fine Organic Industries Ltd. 3.29
-Larsen & Toubro 3.11
 APL Apollo Tube 2.18
-Jubilant Food 2.08
+Ceat 1.23
+Vinati Organics 1.03
 
+ & Toubro -4.11
 Endurance Technologies Ltd. -0.1
 Nalwa Sons Invst -0.1
+Jubilant Food 0.08
 NIIT Tech 0.34
-Vinati Organics 1.03
-Ceat 1.23
 
-Larsen & Toubro 5.11
-Jubilant Food 5.08
-Endurance Technologies Ltd. 4.1
+ & Toubro 3.11
 APL Apollo Tube 2.18
+Jubilant Food 2.08
 Ceat 1.23
+NIIT Tech 1.21
 
 Nalwa Sons Invst -2.06
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 Vinati Organics 1.03
-NIIT Tech 1.21
+Endurance Technologies Ltd. 1.1
 
-Exception in thread "main" java.util.NoSuchElementException: No line found
-	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:18)
+ & Toubro 5.11
+Jubilant Food 5.08
+Endurance Technologies Ltd. 4.1
+Nalwa Sons Invst 4.06
+APL Apollo Tube 2.18
+
+Ceat -1.23
+NIIT Tech 0.21
+Fine Organic Industries Ltd. 0.29
+Vinati Organics 1.03
+Chola Inv Fin 1.47
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -354,10 +370,10 @@ WABCO India 0.33
 3
 Your Output: 
 Merck Ltd 4.83
-MRF 3.48
 ICRA 2.84
 Schaeffler India 2.57
 TTK Prestige 2.15
+Bharat Rasayan 2.0
 
 Bosch 0.3
 Abbott India 0.46
@@ -383,17 +399,17 @@ Nestle India 4.57
 ICRA 3.84
 Lakshmi Machine 3.7
 
-Eicher Motors -1.6
 WABCO India -1.33
 Sanofi India -1.21
 GSK Cons Health -0.84
 Abbott India 0.46
+Oracle Fin 0.52
 
 Merck Ltd 4.83
-Eicher Motors 1.6
-3M India 1.56
-Honeywell Auto 1.08
-MRF 0.48
+3M India 2.56
+Bosch -0.3
+Abbott India -0.46
+Oracle Fin -0.52
 
 ICRA -2.84
 Schaeffler India -2.57
@@ -407,11 +423,23 @@ Schaeffler India 2.57
 TTK Prestige 2.15
 Bharat Rasayan 2.0
 
-Eicher Motors -1.6
-Honeywell Auto -1.08
-Bosch 0.34
+Bosch 0.3
 Abbott India 0.46
 Oracle Fin 0.52
+Bajaj Finserv 0.64
+Lakshmi Machine 0.7
+
+ICRA 5.84
+Lakshmi Machine 4.7
+Merck Ltd 3.83
+Bajaj Finserv 3.64
+TTK Prestige 3.15
+
+Eicher Motors -1.6
+Honeywell Auto -1.08
+Sanofi India 0.21
+Tasty Bite Eat 0.23
+WABCO India 0.33
 
 Exception in thread "main" java.lang.NumberFormatException: For input string: "maxST"
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
@@ -499,7 +527,7 @@ Chola Inv Fin 1.47
 4
 0
 Your Output: 
-Larsen & Toubro 4.08
+ & Toubro 4.11
 Vinati Organics 4.03
 APL Apollo Tube 3.18
 Fine Organic Industries Ltd. 2.29
@@ -511,53 +539,65 @@ Endurance Technologies Ltd. 0.1
 NIIT Tech 0.21
 Ceat 0.23
 
+ & Toubro 4.08
 Jubilant Food 4.08
 NIIT Tech 3.21
 Vinati Organics 3.03
 Chola Inv Fin 2.47
-Fine Organic Industries Ltd. 1.29
 
 Nalwa Sons Invst -0.06
 Ceat -0.06
-APL Apollo Tube 0.18
 Endurance Technologies Ltd. 1.1
-Larsen & Toubro 1.11
+Fine Organic Industries Ltd. 1.29
+APL Apollo Tube 2.18
 
 Chola Inv Fin 4.47
 Jubilant Food 4.08
+Vinati Organics 4.03
 Fine Organic Industries Ltd. 3.29
-APL Apollo Tube 2.18
-Endurance Technologies Ltd. 1.1
+ & Toubro 1.11
 
-Larsen & Toubro -4.11
 Nalwa Sons Invst -0.06
+APL Apollo Tube 0.18
 NIIT Tech 0.21
 Ceat 0.23
-Vinati Organics 1.03
+Endurance Technologies Ltd. 1.1
 
 Chola Inv Fin 3.47
 Fine Organic Industries Ltd. 3.29
-Larsen & Toubro 3.11
 APL Apollo Tube 2.18
-Jubilant Food 2.08
+Ceat 1.23
+Vinati Organics 1.03
 
+ & Toubro -4.11
 Endurance Technologies Ltd. -0.1
 Nalwa Sons Invst -0.1
+Jubilant Food 0.08
 NIIT Tech 0.34
-Vinati Organics 1.03
-Ceat 1.23
 
-Larsen & Toubro 5.11
-Jubilant Food 5.08
-Endurance Technologies Ltd. 4.1
+ & Toubro 3.11
 APL Apollo Tube 2.18
+Jubilant Food 2.08
 Ceat 1.23
+NIIT Tech 1.21
 
 Nalwa Sons Invst -2.06
 Fine Organic Industries Ltd. 0.29
 Chola Inv Fin 0.47
 Vinati Organics 1.03
-NIIT Tech 1.21
+Endurance Technologies Ltd. 1.1
+
+ & Toubro 5.11
+Jubilant Food 5.08
+Endurance Technologies Ltd. 4.1
+Nalwa Sons Invst 4.06
+APL Apollo Tube 2.18
+
+Ceat -1.23
+NIIT Tech 0.21
+Fine Organic Industries Ltd. 0.29
+Vinati Organics 1.03
+Chola Inv Fin 1.47
 
 Exception in thread "main" java.lang.NumberFormatException: For input string: "minST"
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
@@ -661,10 +701,10 @@ TTK Prestige
 Tasty Bite Eat
 Your Output: 
 Merck Ltd 4.83
-MRF 3.48
 Schaeffler India 2.57
 ICRA 2.15
 TTK Prestige 2.15
+Bharat Rasayan 2.0
 
 Bosch 0.3
 Abbott India 0.48
@@ -679,28 +719,28 @@ ICRA 4.0
 Nestle India 4.0
 
 Merck Ltd -5.83
-3M India -1.56
 Honeywell Auto -1.08
-Eicher Motors 0.0
 TTK Prestige 0.0
+Eicher Motors 0.0
+Abbott India 0.0
 
 Tasty Bite Eat 5.23
 Nestle India 4.57
 ICRA 3.84
 Lakshmi Machine 3.7
-MRF 3.48
+Bosch 2.3
 
 Bajaj Finserv -4.64
 Schaeffler India -2.57
 Bharat Rasayan -2.0
-Merck Ltd -1.61
 HEG Ltd -1.61
+Oracle Fin -1.61
 
 Merck Ltd 4.83
-Eicher Motors 1.6
-3M India 1.56
-Honeywell Auto 1.08
-MRF 0.48
+3M India 2.56
+Bosch -0.3
+Abbott India -0.46
+Oracle Fin -0.52
 
 ICRA -2.84
 Schaeffler India -2.57
@@ -714,11 +754,23 @@ Schaeffler India 2.57
 TTK Prestige 2.15
 Bharat Rasayan 2.0
 
-Eicher Motors -1.6
-Honeywell Auto -1.08
-Bosch 0.34
+Bosch 0.3
 Abbott India 0.46
 Oracle Fin 0.52
+Bajaj Finserv 0.64
+Lakshmi Machine 0.7
+
+ICRA 5.84
+Lakshmi Machine 4.7
+Merck Ltd 3.83
+Bajaj Finserv 3.64
+TTK Prestige 3.15
+
+Eicher Motors -1.6
+Honeywell Auto -1.08
+Sanofi India 0.21
+Tasty Bite Eat 0.23
+WABCO India 0.33
 
 Exception in thread "main" java.lang.NumberFormatException: For input string: "minST"
 	at java.base/jdk.internal.math.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:2054)
