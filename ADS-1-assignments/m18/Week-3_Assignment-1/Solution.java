@@ -1,11 +1,21 @@
 import java.util.Scanner;
 import java.util.*;
-// import java.util.ArrayList;
+/**
+ * Class for solution.
+ */
 public class Solution {
+	/**
+	 * Constructs the object.
+	 */
 	Solution() {
 
 	}
-	public static void main(String[] args) {
+	/**
+	 * { function_description }
+	 *
+	 * @param      args  The arguments
+	 */
+	public static void main(final String[] args) {
 		Scanner sc = new Scanner(System.in);
 
 		int no = sc.nextInt();
@@ -93,27 +103,69 @@ public class Solution {
 		}
 	}
 }
+/**
+ * Class for company details.
+ */
 class CompanyDetails implements Comparable<CompanyDetails> {
+	/**
+	 * { var_description }
+	 */
 	private String companyname;
+	/**
+	 * { var_description }
+	 */
 	private float percent;
+	/**
+	 * { function_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public String getcompanyname() {
 		return companyname;
 	}
 
+	/**
+	 * { function_description }
+	 *
+	 * @param      companyname  The companyname
+	 */
 	public void setcompanyname(String companyname) {
 		this.companyname = companyname;
 	}
+	/**
+	 * { function_description }
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public float getpercent() {
 		return percent;
 	}
 
+	/**
+	 * { function_description }
+	 *
+	 * @param      percent  The percent
+	 */
 	public void setpercent(float percent) {
 		this.percent = percent;
 	}
+	/**
+	 * Constructs the object.
+	 *
+	 * @param      cn    { parameter_description }
+	 * @param      pcnt  The pcnt
+	 */
 	CompanyDetails(String cn, float pcnt) {
 		this.companyname = cn;
 		this.percent = pcnt;
 	}
+	/**
+	 * { function_description }
+	 *
+	 * @param      that  The that
+	 *
+	 * @return     { description_of_the_return_value }
+	 */
 	public int compareTo(final CompanyDetails that) {
 		if (this.getpercent() < that.getpercent()) {
 			return -1;
@@ -131,6 +183,11 @@ class CompanyDetails implements Comparable<CompanyDetails> {
 		}
 
 	}
+	/**
+	 * Returns a string representation of the object.
+	 *
+	 * @return     String representation of the object.
+	 */
 	public String toString() {
 		String str = "";
 		str += companyname + " " + percent;
