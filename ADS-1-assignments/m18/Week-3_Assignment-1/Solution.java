@@ -25,7 +25,7 @@ public class Solution {
 							CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
 							minpq.insert(cd);
 							maxpq.insert(cd);
-						} else if (sk1.length() == 3) {
+						} else if (sk.length == 3) {
 							sk = sk1.split(",");
 							switch (sk[0]) {
 							case "get":

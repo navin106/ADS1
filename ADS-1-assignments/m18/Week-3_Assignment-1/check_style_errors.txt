@@ -10,7 +10,7 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:16: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:17: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:25: Line is longer than 80 characters (found 124). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:28:76: '3' is a magic number. [MagicNumber]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:28:73: '3' is a magic number. [MagicNumber]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:32: Line is longer than 80 characters (found 92). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:33: Line is longer than 80 characters (found 96). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:35: Line is longer than 80 characters (found 92). [LineLength]
