@@ -18,7 +18,7 @@ public class Solution {
 			while (no > 0) {
 				if (sc.hasNextLine()) {
 					String sk1 = sc.nextLine();
-					if (!(sk1.equals("0"))) {
+					if (!(sk1.length()==1)) {
 						String[] sk = sk1.split(",");
 						CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
 						minpq.insert(cd);

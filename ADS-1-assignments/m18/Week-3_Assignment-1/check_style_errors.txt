@@ -9,6 +9,8 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:8:33: Parameter args should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:16: Line is longer than 80 characters (found 84). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:17: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:21:59: '==' is not preceded with whitespace. [WhitespaceAround]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:21:61: '==' is not followed by whitespace. [WhitespaceAround]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:23: Line is longer than 80 characters (found 116). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:28: Line is longer than 80 characters (found 94). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:49:42: '5' is a magic number. [MagicNumber]
@@ -33,4 +35,4 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:101: Line is longer than 80 characters (found 81). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:108:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 33 errors.
+Checkstyle ends with 35 errors.
