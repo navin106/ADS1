@@ -17,8 +17,6 @@ public class Solution {
 			MaxPQ<CompanyDetails> maxpq = new MaxPQ<CompanyDetails>(no);
 			while (no > 0) {
 				if (sc.hasNextLine()) {
-
-
 					String sk1 = sc.nextLine();
 					if (!(sk1.equals("0"))) {
 						String[] sk = sk1.split(",");
@@ -47,20 +45,25 @@ public class Solution {
 			for (int i = 0; i < maxpq.size(); i++) {
 				System.out.println(maxpq.delMax());
 			}*/
-			int nu = 5;
-			while (nu > 0) {
-				System.out.println(maxpq.delMax());
-				nu--;
+			try {
+				int nu = 5;
+				while (nu > 0) {
+					System.out.println(maxpq.delMax());
+					nu--;
+				}
+				nu = 5;
+				System.out.println();
+				while (nu > 0) {
+					System.out.println(minpq.delMin());
+					nu--;
+				}
+				nu = 5;
+				System.out.println();
+				no = k;
+			} catch (NoSuchElementException e){
+				System.out.println("");
+
 			}
-			nu = 5;
-			System.out.println();
-			while (nu > 0) {
-				System.out.println(minpq.delMin());
-				nu--;
-			}
-			nu = 5;
-			System.out.println();
-			no = k;
 		}
 	}
 }
