@@ -146,7 +146,7 @@ WABCO India 0.33
 
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:18)
+	at Solution.main(Solution.java:19)
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -296,7 +296,7 @@ Chola Inv Fin 1.47
 
 Exception in thread "main" java.util.NoSuchElementException: No line found
 	at java.base/java.util.Scanner.nextLine(Scanner.java:1651)
-	at Solution.main(Solution.java:18)
+	at Solution.main(Solution.java:19)
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -450,7 +450,7 @@ Tasty Bite Eat 0.23
 WABCO India 0.33
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
 ########## Testcase 3: Failed ##########
 Expected Output: 
@@ -604,7 +604,7 @@ Vinati Organics 1.03
 Chola Inv Fin 1.47
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
 ########## Testcase 4: Failed ##########
 Expected Output: 
@@ -773,5 +773,5 @@ Tasty Bite Eat 0.23
 WABCO India 0.33
 
 Exception in thread "main" java.lang.ArrayIndexOutOfBoundsException: 1
-	at Solution.main(Solution.java:21)
+	at Solution.main(Solution.java:22)
 ----------------------------------------
