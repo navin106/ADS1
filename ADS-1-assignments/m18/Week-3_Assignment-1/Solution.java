@@ -40,10 +40,10 @@ public class Solution {
 			/*for(CompanyDetails k1: minpq) {
 				System.out.println(k1);
 			}*/
-			/*for (int i=0; i<minpq.size(); i++) {
+			for (int i = 0; i < minpq.size(); i++) {
 				System.out.println(minpq.delMin());
-			}*/
-			int nu = 5;
+			}
+			/*int nu = 5;
 			while (nu > 0) {
 				System.out.println(maxpq.delMax());
 				nu--;
@@ -54,7 +54,7 @@ public class Solution {
 				System.out.println(minpq.delMin());
 				nu--;
 			}
-			nu = 5;
+			nu = 5;*/
 			System.out.println();
 			no = k;
 		}
