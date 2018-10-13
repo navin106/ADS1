@@ -16,22 +16,22 @@ public class Solution {
 			MaxPQ<CompanyDetails> maxpq = new MaxPQ<CompanyDetails>(no);
 			while (no > 0) {
 				String[] sk = sc.nextLine().split(",");
-				float f = Float.parseFloat(sk[1]);
+				// float f = Float.parseFloat(sk[1]);
 				CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
 				// MinPQ mi = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
-				if (f > percent) {
+				// if (f > percent) {
 					minpq.insert(cd);
-				} else {
+				// } else {
 					maxpq.insert(cd);
-				}
-				if (maxpq.size() - minpq.size() > 1) {
-					CompanyDetails tcd = maxpq.delMax();
-					minpq.insert(tcd);
-				}
-				if (minpq.size() - maxpq.size() > 1) {
-					CompanyDetails tcd = minpq.delMin();
-					maxpq.insert(tcd);
-				}
+				// }
+				// if (maxpq.size() - minpq.size() > 1) {
+				// 	CompanyDetails tcd = maxpq.delMax();
+				// 	minpq.insert(tcd);
+				// }
+				// if (minpq.size() - maxpq.size() > 1) {
+				// 	CompanyDetails tcd = minpq.delMin();
+				// 	maxpq.insert(tcd);
+				// }
 				no--;
 			}
 			int nu = 5;
