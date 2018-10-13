@@ -17,12 +17,14 @@ public class Solution {
 			while (no > 0) {
 				String[] sk = sc.nextLine().split(",");
 				// float f = Float.parseFloat(sk[1]);
-				CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
+				if (sk.length > 1) {
+					CompanyDetails cd = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
+					minpq.insert(cd);
+					maxpq.insert(cd);
+				}
 				// MinPQ mi = new CompanyDetails(sk[0], Float.valueOf(sk[1]));
 				// if (f > percent) {
-					minpq.insert(cd);
 				// } else {
-					maxpq.insert(cd);
 				// }
 				// if (maxpq.size() - minpq.size() > 1) {
 				// 	CompanyDetails tcd = maxpq.delMax();
