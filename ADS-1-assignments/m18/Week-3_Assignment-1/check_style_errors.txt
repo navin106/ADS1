@@ -14,7 +14,6 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:49:42: '5' is a magic number. [MagicNumber]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:54:38: '5' is a magic number. [MagicNumber]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:60:38: '5' is a magic number. [MagicNumber]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:63:59: '{' is not preceded with whitespace. [WhitespaceAround]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:70: Missing a Javadoc comment. [JavadocType]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:71:9: Missing a Javadoc comment. [JavadocVariable]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:72:9: Missing a Javadoc comment. [JavadocVariable]
@@ -30,6 +29,8 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:87:24: Parameter cn should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:87:35: Parameter pcnt should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:91:9: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:102:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:98: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:101: Line is longer than 80 characters (found 81). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:108:9: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 32 errors.
+Checkstyle ends with 33 errors.

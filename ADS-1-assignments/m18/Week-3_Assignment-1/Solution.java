@@ -60,7 +60,7 @@ public class Solution {
 				nu = 5;
 				System.out.println();
 				no = k;
-			} catch (NoSuchElementException e){
+			} catch (NoSuchElementException e) {
 				System.out.println("");
 
 			}
@@ -94,6 +94,12 @@ class CompanyDetails implements Comparable<CompanyDetails> {
 		}
 		if (this.getpercent() > that.getpercent()) {
 			return 1;
+		}
+		if (this.getcompanyname().compareTo(that.getcompanyname()) > 0) {
+			return 1;
+		}
+		if (this.getcompanyname().compareTo(that.getcompanyname()) < 0) {
+			return -1;
 		} else {
 			return 0;
 		}
