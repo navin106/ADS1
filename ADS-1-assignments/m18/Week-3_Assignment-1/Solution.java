@@ -43,7 +43,7 @@ public class Solution {
 				System.out.println(maxpq.delMax());
 			}*/
 			int nu = 5;
-			while (nu > 0) {
+			while (nu >= 0) {
 				System.out.println(maxpq.delMax());
 				nu--;
 			}
