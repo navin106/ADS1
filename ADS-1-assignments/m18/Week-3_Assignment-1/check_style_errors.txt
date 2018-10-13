@@ -1,0 +1,10 @@
+Starting audit...
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:2: Missing a Javadoc comment. [JavadocType]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:2:1: Utility classes should not have a public or default constructor. [HideUtilityClassConstructor]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:3:1: File contains tab characters (this is the first instance). [FileTabCharacter]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:3:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:6:9: Missing a Javadoc comment. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m18/Week-3_Assignment-1/Solution.java:6:33: Parameter args should be final. [FinalParameters]
+Audit done.
+Checkstyle ends with 7 errors.
