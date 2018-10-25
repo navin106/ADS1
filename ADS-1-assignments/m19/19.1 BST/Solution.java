@@ -337,37 +337,93 @@ class Bst {
         return ceiling(x.right, key);
     }
 }
+/**
+ * Class for book.
+ */
 class Book {
+    /**
+     * { var_description }
+     */
     private String bookName;
+    /**
+     * { var_description }
+     */
     private String bookAuthor;
+    /**
+     * { var_description }
+     */
     private double bookPrice;
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public String getbookName() {
         return bookName;
     }
 
+    /**
+     * { function_description }
+     *
+     * @param      bookName  The book name
+     */
     public void setbookName(String bookName) {
         this.bookName = bookName;
     }
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public String getbookAuthor() {
         return bookAuthor;
     }
 
+    /**
+     * { function_description }
+     *
+     * @param      bookAuthor  The book author
+     */
     public void setbookAuthor(String bookAuthor) {
         this.bookAuthor = bookAuthor;
     }
+    /**
+     * { function_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
     public double getbookPrice() {
         return bookPrice;
     }
 
+    /**
+     * { function_description }
+     *
+     * @param      bookPrice  The book price
+     */
     public void setbookPrice(double bookPrice) {
         this.bookPrice = bookPrice;
     }
+    /**
+     * Constructs the object.
+     *
+     * @param      nm    { parameter_description }
+     * @param      an    { parameter_description }
+     * @param      pr    { parameter_description }
+     */
     Book(final String nm, final String an,
          final double pr) {
         this.bookName = nm;
         this.bookAuthor = an;
         this.bookPrice = pr;
     }
+    /**
+     * { function_description }
+     *
+     * @param      that  The that
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int compareTo(final Book that) {
         if (this.getbookName().compareTo(that.getbookName()) > 0) {
             return 1;
@@ -390,7 +446,9 @@ class Book {
         return 0;
     }
     public String toString() {
-        return this.getbookName() + ", " + this.getbookAuthor() + ", " + this.getbookPrice();
+return this.getbookName() +
+", " + this.getbookAuthor() + ", " + 
+this.getbookPrice();
     }
 }
 /**
