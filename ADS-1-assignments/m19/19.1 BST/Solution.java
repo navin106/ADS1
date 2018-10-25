@@ -37,8 +37,8 @@ class Bst {
         Node(final Book book, final Integer value, final int size) {
             this.key = book;
             this.val = value;
-            this.left = null;
-            this.right = null;
+            // this.left = null;
+            // this.right = null;
             this.count = size;
 
 
