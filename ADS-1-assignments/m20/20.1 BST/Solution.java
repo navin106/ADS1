@@ -583,10 +583,10 @@ public final class Solution {
             case"deleteMax":
                 bst.deleteMax();
                 break;
-            // case"delete":
-            //     bst.delete(new Book(tokens[1], tokens[2],
-            //                 Double.parseDouble(tokens[2 + 1])));
-            //     break;
+            case"delete":
+                bst.delete(new Book(tokens[1], tokens[2],
+                            Double.parseDouble(tokens[2 + 1])));
+                break;
             default:
                 break;
             }
