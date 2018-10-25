@@ -1,2 +1,4 @@
 Starting audit...
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:492: Line is longer than 80 characters (found 87). [LineLength]
 Audit done.
+Checkstyle ends with 1 errors.
