@@ -1,4 +1,2 @@
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m20/20.1 BST/Solution.java:93: Line has trailing spaces. [RegexpSingleline]
 Audit done.
-Checkstyle ends with 1 errors.
