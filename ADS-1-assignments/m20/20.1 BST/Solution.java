@@ -90,7 +90,8 @@ class Book {
      * @return     { description_of_the_return_value }
      */
     public String toString() {
-        return this.getname() + ", " + this.getauthor() + ", " + this.getprice();
+        return 
+this.getname() + ", " + this.getauthor() + ", " + this.getprice();
     }
 
 
