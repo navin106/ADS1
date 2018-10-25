@@ -90,7 +90,7 @@ class Book {
      * @return     { description_of_the_return_value }
      */
     public String toString() {
-    return this.getname() + ", " + this.getauthor() + ", " + this.getprice();
+        return this.getname() + ", " + this.getauthor() + ", " + this.getprice();
     }
 
 
@@ -202,7 +202,7 @@ class Bst {
      * @return     { description_of_the_return_value }
      */
     private Node put(final Node x, final Book book,
-                               final Integer quantity) {
+                     final Integer quantity) {
 
         if (x == null) {
             return new Node(book, quantity, 1);
@@ -456,8 +456,77 @@ class Bst {
         x.count = size(x.left) + size(x.right) + 1;
         return x;
     }
+    /**
+     * Removes the largest key.
+     *
+     * @throws NoSuchElementException if the symbol table is empty
+     */
+    public void deleteMax() {
+        root = deleteMax(root);
+    }
+    /**
+     * deletemax function.
+     *
+     * @param      x     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    private Node deleteMax(final Node x) {
+        if (x.right == null) {
+            return x.left;
+        }
+        x.right = deleteMax(x.right);
+        x.count = size(x.left) + size(x.right) + 1;
+        return x;
+    }
 
-   
+    /**
+     * Removes the specified key.
+     *
+     * @param  key the key
+     * @throws IllegalArgumentException if {@code key} is {@code null}
+     */
+    public void delete(final Book key) {
+        if (key == null) {
+            throw new IllegalArgumentException("calls dte() with a null key");
+        }
+        root = delete(root, key);
+    }
+    /**
+     * delete functin.
+     *
+     * @param      y     { parameter_description }
+     * @param      key   The key
+     *
+     * @return     { description_of_the_return_value }
+     */
+    private Node delete(final Node y, final Book key) {
+        Node x = y;
+        if (x == null) {
+            return null;
+        }
+
+        int cmp = key.compareTo(x.key);
+        if      (cmp < 0) {
+            x.left  = delete(x.left,  key);
+        } else if (cmp > 0) {
+            x.right = delete(x.right, key);
+        } else {
+            if (x.right == null) {
+                return x.left;
+            }
+            if (x.left  == null) {
+                return x.right;
+            }
+            Node t = x;
+            x = min(t.right);
+            x.right = deleteMin(t.right);
+            x.left = t.left;
+        }
+        x.count = size(x.left) + size(x.right) + 1;
+        return x;
+    }
+
 
 }
 /**
@@ -484,12 +553,12 @@ public final class Solution {
             switch (tokens[0]) {
             case"put":
                 bst.put(new Book(tokens[1], tokens[2],
-                        Double.parseDouble(tokens[2 + 1])),
+                                 Double.parseDouble(tokens[2 + 1])),
                         Integer.parseInt(tokens[2 + 2]));
                 break;
             case"get":
                 System.out.println(bst.get((new Book(tokens[1],
-                    tokens[2], Double.parseDouble(tokens[2 + 1])))));
+                                                     tokens[2], Double.parseDouble(tokens[2 + 1])))));
                 break;
             case"min":
                 System.out.println(bst.min());
@@ -502,18 +571,18 @@ public final class Solution {
                 break;
             case"floor":
                 System.out.println(bst.floor(new Book(tokens[1], tokens[2],
-                            Double.parseDouble(tokens[2 + 1]))));
+                                                      Double.parseDouble(tokens[2 + 1]))));
                 break;
             case"ceiling":
                 System.out.println(bst.ceiling(new Book(tokens[1], tokens[2],
-                        Double.parseDouble(tokens[2 + 1]))));
+                                                        Double.parseDouble(tokens[2 + 1]))));
                 break;
             case"deleteMin":
                 bst.deleteMin();
                 break;
-            // case"deleteMax":
-            //     bst.deleteMax();
-            //     break;
+            case"deleteMax":
+                bst.deleteMax();
+                break;
             // case"delete":
             //     bst.delete(new Book(tokens[1], tokens[2],
             //                 Double.parseDouble(tokens[2 + 1])));
