@@ -155,10 +155,8 @@ class Bst {
         } else if (cmp > 0) {
             return  get(x.right, book);
 
-        } else {
-            return x.val;
-
         }
+        return x.val;
     }
 
     /**
@@ -219,7 +217,7 @@ class Bst {
      */
     public Book select(final int k) {
         if (k < 0 || k >= size()) {
-            throw new IllegalArgumentException(
+        throw new IllegalArgumentException(
                 "argument  is invalid: " + k);
         }
         Node x = select(root, k);
@@ -453,9 +451,9 @@ class Book {
      * @return     String representation of the object.
      */
     public String toString() {
-        return this.getbookName()
-               + ", " + this.getbookAuthor() + ", "
-               + this.getbookPrice();
+return this.getbookName()
++ ", " + this.getbookAuthor() + ", "
++ this.getbookPrice();
     }
 }
 /**
@@ -482,14 +480,14 @@ public final class Solution {
             switch (tokens[0]) {
             case"put":
                 bst.put(
-                    new Book(tokens[1], tokens[2],
-                             Double.parseDouble(tokens[2 + 1])),
-                    Integer.parseInt(tokens[2 + 2]));
+new Book(tokens[1], tokens[2],
+Double.parseDouble(tokens[2 + 1])),
+Integer.parseInt(tokens[2 + 2]));
                 break;
             case"get":
                 System.out.println(
-                    bst.get((new Book(tokens[1],
-                                      tokens[2], Double.parseDouble(tokens[2 + 1])))));
+bst.get((new Book(tokens[1],
+tokens[2], Double.parseDouble(tokens[2 + 1])))));
                 break;
             case"min":
                 System.out.println(bst.min());
@@ -499,17 +497,17 @@ public final class Solution {
                 break;
             case"select":
                 System.out.println(
-                    bst.select(Integer.parseInt(tokens[1])));
+bst.select(Integer.parseInt(tokens[1])));
                 break;
             case"floor":
                 System.out.println(
-                    bst.floor(new Book(tokens[1], tokens[2],
-                                       Double.parseDouble(tokens[2 + 1]))));
+bst.floor(new Book(tokens[1], tokens[2],
+Double.parseDouble(tokens[2 + 1]))));
                 break;
             case"ceiling":
                 System.out.println(
-                    bst.ceiling(new Book(tokens[1], tokens[2],
-                                         Double.parseDouble(tokens[2 + 1]))));
+bst.ceiling(new Book(tokens[1], tokens[2],
+Double.parseDouble(tokens[2 + 1]))));
                 break;
             default:
                 break;
