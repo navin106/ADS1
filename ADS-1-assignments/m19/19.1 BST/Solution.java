@@ -342,19 +342,19 @@ class Bst {
  */
 class Book {
     /**
-     * { var_description }
+     * { var_description }.
      */
     private String bookName;
     /**
-     * { var_description }
+     * { var_description }.
      */
     private String bookAuthor;
     /**
-     * { var_description }
+     * { var_description }.
      */
     private double bookPrice;
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @return     { description_of_the_return_value }
      */
@@ -363,15 +363,15 @@ class Book {
     }
 
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      bookName  The book name
      */
-    public void setbookName(String bookName) {
-        this.bookName = bookName;
+    public void setbookName(String bName) {
+        this.bookName = bName;
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @return     { description_of_the_return_value }
      */
@@ -380,15 +380,15 @@ class Book {
     }
 
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      bookAuthor  The book author
      */
-    public void setbookAuthor(String bookAuthor) {
-        this.bookAuthor = bookAuthor;
+    public void setbookAuthor(final String bAuthor) {
+        this.bookAuthor = bAuthor;
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @return     { description_of_the_return_value }
      */
@@ -397,12 +397,12 @@ class Book {
     }
 
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      bookPrice  The book price
      */
-    public void setbookPrice(double bookPrice) {
-        this.bookPrice = bookPrice;
+    public void setbookPrice(final double bPrice) {
+        this.bookPrice = bPrice;
     }
     /**
      * Constructs the object.
@@ -418,7 +418,7 @@ class Book {
         this.bookPrice = pr;
     }
     /**
-     * { function_description }
+     * { function_description }.
      *
      * @param      that  The that
      *
@@ -446,9 +446,9 @@ class Book {
         return 0;
     }
     public String toString() {
-return this.getbookName() +
-", " + this.getbookAuthor() + ", " + 
-this.getbookPrice();
+return this.getbookName()
++ ", " + this.getbookAuthor() + ", "
++ this.getbookPrice();
     }
 }
 /**
