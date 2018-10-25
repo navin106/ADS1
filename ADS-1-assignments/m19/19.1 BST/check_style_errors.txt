@@ -1,11 +1,5 @@
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:368:8: Unused @param tag for 'bookName'. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:370:29: Parameter bName should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:370:36: Expected @param tag for 'bName'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:385:8: Unused @param tag for 'bookAuthor'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:387:44: Expected @param tag for 'bAuthor'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:402:8: Unused @param tag for 'bookPrice'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:404:43: Expected @param tag for 'bPrice'. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:448:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 8 errors.
+Checkstyle ends with 2 errors.

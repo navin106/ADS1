@@ -365,7 +365,7 @@ class Book {
     /**
      * { function_description }.
      *
-     * @param      bookName  The book name
+     * @param      bName  The book name
      */
     public void setbookName(String bName) {
         this.bookName = bName;
@@ -382,7 +382,7 @@ class Book {
     /**
      * { function_description }.
      *
-     * @param      bookAuthor  The book author
+     * @param      bAuthor  The book author
      */
     public void setbookAuthor(final String bAuthor) {
         this.bookAuthor = bAuthor;
@@ -399,7 +399,7 @@ class Book {
     /**
      * { function_description }.
      *
-     * @param      bookPrice  The book price
+     * @param      bPrice  The book price
      */
     public void setbookPrice(final double bPrice) {
         this.bookPrice = bPrice;
