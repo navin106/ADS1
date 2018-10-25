@@ -1,8 +1,4 @@
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m20/20.1 BST/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m20/20.1 BST/Solution.java:93: Line is longer than 80 characters (found 81). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m20/20.1 BST/Solution.java:561: Line is longer than 80 characters (found 102). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m20/20.1 BST/Solution.java:574: Line is longer than 80 characters (found 91). [LineLength]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m20/20.1 BST/Solution.java:578: Line is longer than 80 characters (found 93). [LineLength]
 Audit done.
-Checkstyle ends with 5 errors.
+Checkstyle ends with 1 errors.
