@@ -1,5 +1,4 @@
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:6:1: File contains tab characters (this is the first instance). [FileTabCharacter]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:220: Line is longer than 80 characters (found 89). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:257: Line is longer than 80 characters (found 90). [LineLength]
@@ -31,4 +30,4 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:440: Line is longer than 80 characters (found 93). [LineLength]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:441: Line is longer than 80 characters (found 109). [LineLength]
 Audit done.
-Checkstyle ends with 31 errors.
+Checkstyle ends with 30 errors.
