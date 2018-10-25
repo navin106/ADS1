@@ -433,8 +433,29 @@ class Bst {
         }
         return ceiling(x.right, key);
     }
-
-
+    /**
+     * Removes the smallest key .
+     *
+     * @throws NoSuchElementException if the symbol table is empty
+     */
+    public void deleteMin() {
+        root = deleteMin(root);
+    }
+    /**
+     * dedleme min function.
+     *
+     * @param      x     { parameter_description }
+     *
+     * @return     { description_of_the_return_value }
+     */
+    private Node deleteMin(final Node x) {
+        if (x.left == null) {
+            return x.right;
+        }
+        x.left = deleteMin(x.left);
+        x.count = size(x.left) + size(x.right) + 1;
+        return x;
+    }
 
    
 
@@ -487,9 +508,9 @@ public final class Solution {
                 System.out.println(bst.ceiling(new Book(tokens[1], tokens[2],
                         Double.parseDouble(tokens[2 + 1]))));
                 break;
-            // case"deleteMin":
-            //     bst.deleteMin();
-            //     break;
+            case"deleteMin":
+                bst.deleteMin();
+                break;
             // case"deleteMax":
             //     bst.deleteMax();
             //     break;
