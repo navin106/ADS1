@@ -367,7 +367,7 @@ class Book {
      *
      * @param      bName  The book name
      */
-    public void setbookName(String bName) {
+    public void setbookName(final String bName) {
         this.bookName = bName;
     }
     /**
@@ -445,6 +445,11 @@ class Book {
         }
         return 0;
     }
+    /**
+     * Returns a string representation of the object.
+     *
+     * @return     String representation of the object.
+     */
     public String toString() {
 return this.getbookName()
 + ", " + this.getbookAuthor() + ", "

@@ -1,5 +1,2 @@
 Starting audit...
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:370:29: Parameter bName should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m19/19.1 BST/Solution.java:448:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
-Checkstyle ends with 2 errors.
