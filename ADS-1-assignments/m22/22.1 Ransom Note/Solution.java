@@ -33,7 +33,7 @@ class HashTable {
             this.next = n;
         }
         /**
-         * { function_description }
+         * { function_description }.
          *
          * @return     { description_of_the_return_value }
          */
@@ -42,12 +42,12 @@ class HashTable {
         }
 
         /**
-         * { function_description }
+         * { function_description }.
          *
          * @param      key   The key
          */
-        public void setkey(String key) {
-            this.key = key;
+        public void setkey(final String keyy) {
+            this.key = keyy;
         }
         /**
          * Gets the value.
@@ -63,8 +63,8 @@ class HashTable {
          *
          * @param      val   The value
          */
-        public void setValue(Integer val) {
-            this.val = val;
+        public void setValue(final Integer valu) {
+            this.val = valu;
         }
         /**
          * sets value.
