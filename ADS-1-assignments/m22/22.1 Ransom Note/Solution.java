@@ -32,20 +32,40 @@ class HashTable {
             this.val = v;
             this.next = n;
         }
-         public String getkey(){
-          return key;
-         }
-         
-         public void setkey(String key){
-          this.key = key;
-         }
-          public Integer getValue(){
-           return val;
-          }
-          
-          public void setValue(Integer val){
-           this.val = val;
-          }
+        /**
+         * { function_description }
+         *
+         * @return     { description_of_the_return_value }
+         */
+        public String getkey() {
+            return key;
+        }
+
+        /**
+         * { function_description }
+         *
+         * @param      key   The key
+         */
+        public void setkey(String key) {
+            this.key = key;
+        }
+        /**
+         * Gets the value.
+         *
+         * @return     The value.
+         */
+        public Integer getValue() {
+            return val;
+        }
+
+        /**
+         * Sets the value.
+         *
+         * @param      val   The value
+         */
+        public void setValue(Integer val) {
+            this.val = val;
+        }
         /**
          * sets value.
          *
