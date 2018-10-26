@@ -44,7 +44,7 @@ class HashTable {
         /**
          * { function_description }.
          *
-         * @param      key   The key
+         * @param      keyy  The key
          */
         public void setkey(final String keyy) {
             this.key = keyy;
@@ -61,7 +61,7 @@ class HashTable {
         /**
          * Sets the value.
          *
-         * @param      val   The value
+         * @param      valu  The value
          */
         public void setValue(final Integer valu) {
             this.val = valu;
