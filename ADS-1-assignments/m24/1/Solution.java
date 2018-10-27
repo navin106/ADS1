@@ -180,7 +180,6 @@ class Student {
      * set function for rool no.
      *
      * @param      rn    { parameter_description }
-     * @param      rollNo  The roll no
      */
     public void setrollNo(final int rn) {
         this.rollNo = rn;
@@ -198,7 +197,6 @@ class Student {
      * set function for student name.
      *
      * @param      sn    The serial number
-     * @param      sName  The s name
      */
     public void setsName(final String sn) {
         this.sName = sn;
@@ -216,7 +214,6 @@ class Student {
      * set function for student marks.
      *
      * @param      tm    The time
-     * @param      tMarks  The t marks
      */
     public void settMarks(final Double tm) {
         this.tMarks = tm;
