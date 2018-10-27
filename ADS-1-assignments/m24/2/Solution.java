@@ -137,7 +137,8 @@ class Bst {
      * gethelp.
      *
      * @param      x     { parameter_description }
-     * @param      book  The book
+     * @param      m1    The m 1
+     * @param      m2    The m 2
      *
      * @return     { description_of_the_return_value }
      */
