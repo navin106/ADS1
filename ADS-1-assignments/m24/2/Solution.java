@@ -109,10 +109,10 @@ class Bst {
         }
         double cmp = (x.val).gettMarks();
         if (cmp < rollno) {
-            x.right = put(x.right, rollno, student);
+            x.left = put(x.left, rollno, student);
 
         } else  {
-            x.left = put(x.left, rollno, student);
+            x.right = put(x.right, rollno, student);
 
         }
         x.count = 1 + size(x.left) + size(x.right);
