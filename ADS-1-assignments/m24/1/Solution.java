@@ -178,8 +178,8 @@ class Student {
      *
      * @param      rollNo  The roll no
      */
-    public void setrollNo(int rollNo) {
-        this.rollNo = rollNo;
+    public void setrollNo(int rn) {
+        this.rollNo = rn;
     }
     /**
      * get function for student name.
@@ -195,8 +195,8 @@ class Student {
      *
      * @param      sName  The s name
      */
-    public void setsName(String sName) {
-        this.sName = sName;
+    public void setsName(String sn) {
+        this.sName = sn;
     }
     /**
      * get function for student marks.
@@ -212,8 +212,8 @@ class Student {
      *
      * @param      tMarks  The t marks
      */
-    public void settMarks(Double tMarks) {
-        this.tMarks = tMarks;
+    public void settMarks(Double tm) {
+        this.tMarks = tm;
     }
     /**
      * Constructs the object.
@@ -231,7 +231,7 @@ class Student {
 /**
  * Class for solution.
  */
-public class Solution {
+public final class Solution {
     /**
      * Constructs the object.
      */
@@ -239,7 +239,7 @@ public class Solution {
 
     }
     /**
-     * { function_description }
+     * main method.
      *
      * @param      args  The arguments
      */
