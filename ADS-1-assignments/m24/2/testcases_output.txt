@@ -5,8 +5,7 @@ Rivest
 Dan
 Abegg
 Your Output: 
-null
-null
+
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -56,7 +55,7 @@ Tim Cahill
 Abegg
 Brian Caffrey
 Your Output: 
-null
+
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -842,7 +841,5 @@ Marianna Palk
 Thelma Page
 Vicky Hales-Dutton
 Your Output: 
-null
-null
-null
+
 ----------------------------------------
