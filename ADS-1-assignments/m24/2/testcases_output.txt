@@ -6,7 +6,46 @@ Dan
 Abegg
 Your Output: 
 Alice
+Bob
+Adams
+Knuth
+Rivest
+Wayne
+Charles
+John
+Abegg
+Peter
+Douglas
+Tony
+Megon
+Simon
+Daniel
+Fred
+Clark
+Dan
+Neil
+Tim
+
 Alice
+Bob
+Adams
+Knuth
+Rivest
+Wayne
+Charles
+John
+Abegg
+Peter
+Douglas
+Tony
+Megon
+Simon
+Daniel
+Fred
+Clark
+Dan
+Neil
+Tim
 ----------------------------------------
 ########## Testcase 1: Failed ##########
 Expected Output: 
@@ -57,6 +96,49 @@ Abegg
 Brian Caffrey
 Your Output: 
 Alice
+Bob
+Adams
+Knuth
+Rivest
+Wayne
+Charles
+John
+Sally Cabot
+Abegg
+Peter
+Douglas
+Tony
+Megon
+Simon
+Cozbi A. Cabrera
+Daniel
+Access
+Hank
+Deborah Cadbury
+Keith
+Yassi
+Clark
+Dan Caddy
+Maria Cabezas
+Neil Cadigan
+David Cabot
+Meg Cabot
+Meili Cady
+Steve Cafferty
+James Caffin
+Brian Caffrey
+Sasha Cagen
+Biba Caggiano
+Rhian Cahill
+Tim Cahill
+Rovina Cai
+Greig Caigou
+George Cain
+James Cain
+Tim Cain
+Rachel Caine
+Jonathan Cainer
+Jeannette Caines
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -843,6 +925,905 @@ Thelma Page
 Vicky Hales-Dutton
 Your Output: 
 H3CZ
+Michael Haag
+Pamela Haag
+Charlie Haas
+Jessie Haas
+Todd Haberkorn
+Keith Habersberger
+Auston Habershaw
+Heather Hach
+Mary Curran Hackett
+Thomas Hackett
+Taylor Hackford
+Gene Hackman
+David H. Hackworth
+Laura Holmes Haddad
+Gerry Hadden
+Brad Haddin
+Margaret Peterson Haddix
+Mark Haddon
+Anthony Haden-Guest
+June Hadley
+Tessa Hadley
+William Haefeli
+Tracy Hafen
+Debra W. Haffner
+Margaret Haffner
+Marylin Hafner
+Sammy Hagar
+Rawi Hage
+David Hagedorn
+Chuck Hagel
+Bethany Hagen
+Don Hagen
+Steve Hagen
+Katharina Hagena
+Jenna Bush Hager
+Marilyn Hagerty
+Keach Hagey
+Merle Haggard
+Michael Hague
+William Hague
+Daniel Hahn
+Kristin Hahn
+Mary Downing Hahn
+Jeannette Haien
+David Haig
+Jennifer Haigh
+Kellie Hailes
+Kathryn Miller Haines
+Peter Haining
+Emily Hainsworth
+Sylvie Haisman
+Nafisa Haji
+Anna-Liisa Hakkarainen
+A.N.D Haksar
+David Halberstam
+Betty Halbreich
+Kristin Halbrook
+Baby Halder
+Bruce Hale
+James Graham Hale
+John Hale
+Kathleen Hale
+Michael Hale
+Nathan Hale
+Shannon Hale
+Sheila Hale
+W. G. Hale
+Vicky Hales-Dutton
+Yossi Klein Halevi
+Allan Hall
+Amanda Hall
+Araminta Hall
+Carla Hall
+Elaine Hall
+Terrence J
+Cynthia Jabar
+Carla Jablonski
+Albert Jack
+Colin Jack
+Dana C. Jack
+Gordon Jack
+Ian Jackman
+Bradley Jackson
+Ellen Jackson
+Emma Jackson
+Gildart Jackson
+H. JACKSON
+J.D. Jackson
+Jeremy Jackson
+Jerome A. Jackson
+Joshilyn Jackson
+Kennell Jackson
+Korey Jackson
+Libby Jackson
+Mick Jackson
+Myla Jackson
+Nate Jackson
+Peter Jackson
+Richard Jackson
+Robert Jackson
+Ruby Jackson
+Shelley Jackson
+Steve Jackson
+Tiffany D. Jackson
+Tracey Jackson
+Jo Jackson King
+Piers A. Jacob
+Dana Jacobi
+Derek Jacobi
+Kathryn Jacobi
+Simcha Jacobovici
+Alan Jacobs
+David Jacobs
+George Jacobs
+John Jacobs
+John Jacobs
+John Hornor Jacobs
+John W. Jacobs
+John W. Jacobs M.D.
+Lynn F. Jacobs
+Melissa Jacobs
+Meredith L. Jacobs
+Rachel Jacobs
+Ruth H. Jacobs
+Andrew Jacobson
+Howard Jacobson
+Shane Jacobson
+Simon Jacobson
+Kate Jacoby
+Richard Jacoby
+Sarah Jacoby
+Adele Jacques
+Meredith Jaeger
+Sophie Jaff
+Michele Jaffe
+Rona Jaffe
+Al Jaffee
+Madhur Jaffrey
+Nasim Marie Jafry
+Guru Jagat
+Joie Jager-Hyman
+Steph Jagger
+Roger O.M.D. Jahnke
+Michael Jaime-Becerra
+Aparna Jain
+Namita Jain
+Shaili Jain M.D.
+Shvetha Jaishankar
+Alex James
+Yamile Saied Méndez
+Kathryn Ma
+Saskia Maarleveld
+James B. Maas
+Peter Maas
+Richard Mabey
+Madeleine Maby
+Bernie Mac
+Julie Mac
+Katie MacAlister
+Kevin MacAllister
+Kevin MacAllister
+T. T. Macan
+Robin MacArthur
+Catherine Macaulay
+Tony Macaulay
+Bonnie MacBird
+Bonnie MacBird
+Roger Lea MacBride
+Stuart MacBride
+Stuart MacBride
+Stuart B. MacBride
+M MacCallum
+Annie Maccoby
+Mary MacCracken
+Andrew Macdonald
+Ann-Marie MacDonald
+Betty MacDonald
+Charles B. Macdonald
+Ellie Macdonald
+Fiona MacDonald
+James Macdonald
+Margaret Read MacDonald
+Mark Macdonald
+Norm MacDonald
+Norm Macdonald
+Philip MacDonald
+Sara MacDonald
+Kady MacDonald Denton
+Jane MacDougall
+Carrington MacDuffie
+Olivia Mace
+David Macfarlane
+Robert Macfarlane
+Magnus MacFarlane-Barrow
+Gracie MacGregor
+Jeff MacGregor
+Kinley MacGregor
+Virginia Macgregor
+D. J. MacHale
+Niccolo Machiavelli
+Melanie MacHugh
+Joseph A. Maciariello
+Amanda Maciel
+Portia MacIntosh
+Linden MacIntyre
+Juliette MacIver
+Burton L. Mack
+Jeff Mack
+Lorrie Mack
+Louise Mack
+Audrey Mackaman
+Harvey Mackay
+Harvey B. Mackay
+Aggie MacKenzie
+Fiona MacKenzie
+Maxwell Mackenzie
+Niall Mackenzie
+Robert Ian MacKenzie
+Sara Mackenzie
+Warren Mackenzie
+Amanda Mackenzie Stuart
+Amanda Mackenzie Stuart
+Alison Mackey
+Alison Mackey PhD
+Melissa P
+Hannah Paasch
+Tim Andres Pabon
+Wayne Pacelle
+Frank Pacetta
+Steven Pacey
+Rebecca Pacheco
+Andy Paciorek
+David Packard
+George Packer
+Laurence Packer
+Chris Packham
+Bonner Paddock
+Ron Padgett
+Colleen Padilla
+Sari Padorr
+Sean Padraic
+Christopher N. Page
+Emma Page
+Greg Page
+Jake Page
+Jean Reynolds Page
+Jennifer Page
+Katherine Hall Page
+Michael Page
+Nick Page
+Thelma Page
+Tim Page
+Elaine Pagels
+Jamuna Pai
+Edward Paice
+Danielle Paige
+Helena S. Paige
+Jim Paillot
+Barry Pain
+Ed J. Paine
+Thomas Paine
+Daniel Paisner
+Sang Pak
+Thomas Pakenham
+Sara Palacios
+Margie Palatini
+Jane Paley
+Rebecca Paley
+Bristol Palin
+Sarah Palin
+Marianna Palk
+Marianna Palka
+Chris Pallace
+Penny Palmano
+Alex Palmer
+Bethany Palmer
+Daniel Palmer
+Douglas Palmer
+Fiona Palmer
+Helen Palmer
+Iva-Marie Palmer
+Kieran Palmer
+Liza Palmer
+Marina Palmer
+Mark Palmer
+Pamela Palmer
+Parker J. Palmer
+Scott Palmer
+Svetlana Palmer
+Jimmy Palmiotti
+Monica Palms
+Macky Pamintuan
+Carlos Pan
+Cindy Pan
+Cindy Dr. Pan
+Charles Panati
+Michael Panckridge
+Aparna Pande
+Manoj Pandey
+
 H3CZ
+Michael Haag
+Pamela Haag
+Charlie Haas
+Jessie Haas
+Todd Haberkorn
+Keith Habersberger
+Auston Habershaw
+Heather Hach
+Mary Curran Hackett
+Thomas Hackett
+Taylor Hackford
+Gene Hackman
+David H. Hackworth
+Laura Holmes Haddad
+Gerry Hadden
+Brad Haddin
+Margaret Peterson Haddix
+Mark Haddon
+Anthony Haden-Guest
+June Hadley
+Tessa Hadley
+William Haefeli
+Tracy Hafen
+Debra W. Haffner
+Margaret Haffner
+Marylin Hafner
+Sammy Hagar
+Rawi Hage
+David Hagedorn
+Chuck Hagel
+Bethany Hagen
+Don Hagen
+Steve Hagen
+Katharina Hagena
+Jenna Bush Hager
+Marilyn Hagerty
+Keach Hagey
+Merle Haggard
+Michael Hague
+William Hague
+Daniel Hahn
+Kristin Hahn
+Mary Downing Hahn
+Jeannette Haien
+David Haig
+Jennifer Haigh
+Kellie Hailes
+Kathryn Miller Haines
+Peter Haining
+Emily Hainsworth
+Sylvie Haisman
+Nafisa Haji
+Anna-Liisa Hakkarainen
+A.N.D Haksar
+David Halberstam
+Betty Halbreich
+Kristin Halbrook
+Baby Halder
+Bruce Hale
+James Graham Hale
+John Hale
+Kathleen Hale
+Michael Hale
+Nathan Hale
+Shannon Hale
+Sheila Hale
+W. G. Hale
+Vicky Hales-Dutton
+Yossi Klein Halevi
+Allan Hall
+Amanda Hall
+Araminta Hall
+Carla Hall
+Elaine Hall
+Terrence J
+Cynthia Jabar
+Carla Jablonski
+Albert Jack
+Colin Jack
+Dana C. Jack
+Gordon Jack
+Ian Jackman
+Bradley Jackson
+Ellen Jackson
+Emma Jackson
+Gildart Jackson
+H. JACKSON
+J.D. Jackson
+Jeremy Jackson
+Jerome A. Jackson
+Joshilyn Jackson
+Kennell Jackson
+Korey Jackson
+Libby Jackson
+Mick Jackson
+Myla Jackson
+Nate Jackson
+Peter Jackson
+Richard Jackson
+Robert Jackson
+Ruby Jackson
+Shelley Jackson
+Steve Jackson
+Tiffany D. Jackson
+Tracey Jackson
+Jo Jackson King
+Piers A. Jacob
+Dana Jacobi
+Derek Jacobi
+Kathryn Jacobi
+Simcha Jacobovici
+Alan Jacobs
+David Jacobs
+George Jacobs
+John Jacobs
+John Jacobs
+John Hornor Jacobs
+John W. Jacobs
+John W. Jacobs M.D.
+Lynn F. Jacobs
+Melissa Jacobs
+Meredith L. Jacobs
+Rachel Jacobs
+Ruth H. Jacobs
+Andrew Jacobson
+Howard Jacobson
+Shane Jacobson
+Simon Jacobson
+Kate Jacoby
+Richard Jacoby
+Sarah Jacoby
+Adele Jacques
+Meredith Jaeger
+Sophie Jaff
+Michele Jaffe
+Rona Jaffe
+Al Jaffee
+Madhur Jaffrey
+Nasim Marie Jafry
+Guru Jagat
+Joie Jager-Hyman
+Steph Jagger
+Roger O.M.D. Jahnke
+Michael Jaime-Becerra
+Aparna Jain
+Namita Jain
+Shaili Jain M.D.
+Shvetha Jaishankar
+Alex James
+Yamile Saied Méndez
+Kathryn Ma
+Saskia Maarleveld
+James B. Maas
+Peter Maas
+Richard Mabey
+Madeleine Maby
+Bernie Mac
+Julie Mac
+Katie MacAlister
+Kevin MacAllister
+Kevin MacAllister
+T. T. Macan
+Robin MacArthur
+Catherine Macaulay
+Tony Macaulay
+Bonnie MacBird
+Bonnie MacBird
+Roger Lea MacBride
+Stuart MacBride
+Stuart MacBride
+Stuart B. MacBride
+M MacCallum
+Annie Maccoby
+Mary MacCracken
+Andrew Macdonald
+Ann-Marie MacDonald
+Betty MacDonald
+Charles B. Macdonald
+Ellie Macdonald
+Fiona MacDonald
+James Macdonald
+Margaret Read MacDonald
+Mark Macdonald
+Norm MacDonald
+Norm Macdonald
+Philip MacDonald
+Sara MacDonald
+Kady MacDonald Denton
+Jane MacDougall
+Carrington MacDuffie
+Olivia Mace
+David Macfarlane
+Robert Macfarlane
+Magnus MacFarlane-Barrow
+Gracie MacGregor
+Jeff MacGregor
+Kinley MacGregor
+Virginia Macgregor
+D. J. MacHale
+Niccolo Machiavelli
+Melanie MacHugh
+Joseph A. Maciariello
+Amanda Maciel
+Portia MacIntosh
+Linden MacIntyre
+Juliette MacIver
+Burton L. Mack
+Jeff Mack
+Lorrie Mack
+Louise Mack
+Audrey Mackaman
+Harvey Mackay
+Harvey B. Mackay
+Aggie MacKenzie
+Fiona MacKenzie
+Maxwell Mackenzie
+Niall Mackenzie
+Robert Ian MacKenzie
+Sara Mackenzie
+Warren Mackenzie
+Amanda Mackenzie Stuart
+Amanda Mackenzie Stuart
+Alison Mackey
+Alison Mackey PhD
+Melissa P
+Hannah Paasch
+Tim Andres Pabon
+Wayne Pacelle
+Frank Pacetta
+Steven Pacey
+Rebecca Pacheco
+Andy Paciorek
+David Packard
+George Packer
+Laurence Packer
+Chris Packham
+Bonner Paddock
+Ron Padgett
+Colleen Padilla
+Sari Padorr
+Sean Padraic
+Christopher N. Page
+Emma Page
+Greg Page
+Jake Page
+Jean Reynolds Page
+Jennifer Page
+Katherine Hall Page
+Michael Page
+Nick Page
+Thelma Page
+Tim Page
+Elaine Pagels
+Jamuna Pai
+Edward Paice
+Danielle Paige
+Helena S. Paige
+Jim Paillot
+Barry Pain
+Ed J. Paine
+Thomas Paine
+Daniel Paisner
+Sang Pak
+Thomas Pakenham
+Sara Palacios
+Margie Palatini
+Jane Paley
+Rebecca Paley
+Bristol Palin
+Sarah Palin
+Marianna Palk
+Marianna Palka
+Chris Pallace
+Penny Palmano
+Alex Palmer
+Bethany Palmer
+Daniel Palmer
+Douglas Palmer
+Fiona Palmer
+Helen Palmer
+Iva-Marie Palmer
+Kieran Palmer
+Liza Palmer
+Marina Palmer
+Mark Palmer
+Pamela Palmer
+Parker J. Palmer
+Scott Palmer
+Svetlana Palmer
+Jimmy Palmiotti
+Monica Palms
+Macky Pamintuan
+Carlos Pan
+Cindy Pan
+Cindy Dr. Pan
+Charles Panati
+Michael Panckridge
+Aparna Pande
+Manoj Pandey
+
 H3CZ
+Michael Haag
+Pamela Haag
+Charlie Haas
+Jessie Haas
+Todd Haberkorn
+Keith Habersberger
+Auston Habershaw
+Heather Hach
+Mary Curran Hackett
+Thomas Hackett
+Taylor Hackford
+Gene Hackman
+David H. Hackworth
+Laura Holmes Haddad
+Gerry Hadden
+Brad Haddin
+Margaret Peterson Haddix
+Mark Haddon
+Anthony Haden-Guest
+June Hadley
+Tessa Hadley
+William Haefeli
+Tracy Hafen
+Debra W. Haffner
+Margaret Haffner
+Marylin Hafner
+Sammy Hagar
+Rawi Hage
+David Hagedorn
+Chuck Hagel
+Bethany Hagen
+Don Hagen
+Steve Hagen
+Katharina Hagena
+Jenna Bush Hager
+Marilyn Hagerty
+Keach Hagey
+Merle Haggard
+Michael Hague
+William Hague
+Daniel Hahn
+Kristin Hahn
+Mary Downing Hahn
+Jeannette Haien
+David Haig
+Jennifer Haigh
+Kellie Hailes
+Kathryn Miller Haines
+Peter Haining
+Emily Hainsworth
+Sylvie Haisman
+Nafisa Haji
+Anna-Liisa Hakkarainen
+A.N.D Haksar
+David Halberstam
+Betty Halbreich
+Kristin Halbrook
+Baby Halder
+Bruce Hale
+James Graham Hale
+John Hale
+Kathleen Hale
+Michael Hale
+Nathan Hale
+Shannon Hale
+Sheila Hale
+W. G. Hale
+Vicky Hales-Dutton
+Yossi Klein Halevi
+Allan Hall
+Amanda Hall
+Araminta Hall
+Carla Hall
+Elaine Hall
+Terrence J
+Cynthia Jabar
+Carla Jablonski
+Albert Jack
+Colin Jack
+Dana C. Jack
+Gordon Jack
+Ian Jackman
+Bradley Jackson
+Ellen Jackson
+Emma Jackson
+Gildart Jackson
+H. JACKSON
+J.D. Jackson
+Jeremy Jackson
+Jerome A. Jackson
+Joshilyn Jackson
+Kennell Jackson
+Korey Jackson
+Libby Jackson
+Mick Jackson
+Myla Jackson
+Nate Jackson
+Peter Jackson
+Richard Jackson
+Robert Jackson
+Ruby Jackson
+Shelley Jackson
+Steve Jackson
+Tiffany D. Jackson
+Tracey Jackson
+Jo Jackson King
+Piers A. Jacob
+Dana Jacobi
+Derek Jacobi
+Kathryn Jacobi
+Simcha Jacobovici
+Alan Jacobs
+David Jacobs
+George Jacobs
+John Jacobs
+John Jacobs
+John Hornor Jacobs
+John W. Jacobs
+John W. Jacobs M.D.
+Lynn F. Jacobs
+Melissa Jacobs
+Meredith L. Jacobs
+Rachel Jacobs
+Ruth H. Jacobs
+Andrew Jacobson
+Howard Jacobson
+Shane Jacobson
+Simon Jacobson
+Kate Jacoby
+Richard Jacoby
+Sarah Jacoby
+Adele Jacques
+Meredith Jaeger
+Sophie Jaff
+Michele Jaffe
+Rona Jaffe
+Al Jaffee
+Madhur Jaffrey
+Nasim Marie Jafry
+Guru Jagat
+Joie Jager-Hyman
+Steph Jagger
+Roger O.M.D. Jahnke
+Michael Jaime-Becerra
+Aparna Jain
+Namita Jain
+Shaili Jain M.D.
+Shvetha Jaishankar
+Alex James
+Yamile Saied Méndez
+Kathryn Ma
+Saskia Maarleveld
+James B. Maas
+Peter Maas
+Richard Mabey
+Madeleine Maby
+Bernie Mac
+Julie Mac
+Katie MacAlister
+Kevin MacAllister
+Kevin MacAllister
+T. T. Macan
+Robin MacArthur
+Catherine Macaulay
+Tony Macaulay
+Bonnie MacBird
+Bonnie MacBird
+Roger Lea MacBride
+Stuart MacBride
+Stuart MacBride
+Stuart B. MacBride
+M MacCallum
+Annie Maccoby
+Mary MacCracken
+Andrew Macdonald
+Ann-Marie MacDonald
+Betty MacDonald
+Charles B. Macdonald
+Ellie Macdonald
+Fiona MacDonald
+James Macdonald
+Margaret Read MacDonald
+Mark Macdonald
+Norm MacDonald
+Norm Macdonald
+Philip MacDonald
+Sara MacDonald
+Kady MacDonald Denton
+Jane MacDougall
+Carrington MacDuffie
+Olivia Mace
+David Macfarlane
+Robert Macfarlane
+Magnus MacFarlane-Barrow
+Gracie MacGregor
+Jeff MacGregor
+Kinley MacGregor
+Virginia Macgregor
+D. J. MacHale
+Niccolo Machiavelli
+Melanie MacHugh
+Joseph A. Maciariello
+Amanda Maciel
+Portia MacIntosh
+Linden MacIntyre
+Juliette MacIver
+Burton L. Mack
+Jeff Mack
+Lorrie Mack
+Louise Mack
+Audrey Mackaman
+Harvey Mackay
+Harvey B. Mackay
+Aggie MacKenzie
+Fiona MacKenzie
+Maxwell Mackenzie
+Niall Mackenzie
+Robert Ian MacKenzie
+Sara Mackenzie
+Warren Mackenzie
+Amanda Mackenzie Stuart
+Amanda Mackenzie Stuart
+Alison Mackey
+Alison Mackey PhD
+Melissa P
+Hannah Paasch
+Tim Andres Pabon
+Wayne Pacelle
+Frank Pacetta
+Steven Pacey
+Rebecca Pacheco
+Andy Paciorek
+David Packard
+George Packer
+Laurence Packer
+Chris Packham
+Bonner Paddock
+Ron Padgett
+Colleen Padilla
+Sari Padorr
+Sean Padraic
+Christopher N. Page
+Emma Page
+Greg Page
+Jake Page
+Jean Reynolds Page
+Jennifer Page
+Katherine Hall Page
+Michael Page
+Nick Page
+Thelma Page
+Tim Page
+Elaine Pagels
+Jamuna Pai
+Edward Paice
+Danielle Paige
+Helena S. Paige
+Jim Paillot
+Barry Pain
+Ed J. Paine
+Thomas Paine
+Daniel Paisner
+Sang Pak
+Thomas Pakenham
+Sara Palacios
+Margie Palatini
+Jane Paley
+Rebecca Paley
+Bristol Palin
+Sarah Palin
+Marianna Palk
+Marianna Palka
+Chris Pallace
+Penny Palmano
+Alex Palmer
+Bethany Palmer
+Daniel Palmer
+Douglas Palmer
+Fiona Palmer
+Helen Palmer
+Iva-Marie Palmer
+Kieran Palmer
+Liza Palmer
+Marina Palmer
+Mark Palmer
+Pamela Palmer
+Parker J. Palmer
+Scott Palmer
+Svetlana Palmer
+Jimmy Palmiotti
+Monica Palms
+Macky Pamintuan
+Carlos Pan
+Cindy Pan
+Cindy Dr. Pan
+Charles Panati
+Michael Panckridge
+Aparna Pande
+Manoj Pandey
 ----------------------------------------

@@ -150,7 +150,7 @@ class Bst {
         }
         Double cmp = (x.val).gettMarks();
         if (true) {
-            temp += (x.val).getsName();
+            System.out.println((x.val).getsName());
         }
         get(x.left, m1, m2);
         get(x.right, m1, m2);
