@@ -10,7 +10,7 @@ class Bst {
         /**
          * book key varoiable.
          */
-        private String key;
+        private int key;
         /**
          * valvariable.
          */
@@ -34,7 +34,7 @@ class Bst {
          * @param      student  The student
          * @param      size     The size
          */
-        Node(final String rollno, final Student student, final int size) {
+        Node(final int rollno, final Student student, final int size) {
             this.key = rollno;
             this.val = student;
             this.left = null;
@@ -88,7 +88,7 @@ class Bst {
      * @param      rollno  The rollno
      * @param      st      { parameter_description }
      */
-    public void put(final String rollno, final Student st) {
+    public void put(final int rollno, final Student st) {
         root = put(root, rollno, st);
 
     }
@@ -101,17 +101,17 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node put(final Node x, final String rollno,
+    private Node put(final Node x, final int rollno,
                      final Student student) {
 
         if (x == null) {
             return new Node(rollno, student, 1);
         }
-        int cmp = rollno.compareTo((x.val).getrollNo());
-        if (cmp < 0) {
+        int cmp = (x.val).getrollNo();
+        if (cmp < rollno) {
             x.left = put(x.left, rollno, student);
 
-        } else if (cmp > 0) {
+        } else if (cmp > rollno) {
             x.right = put(x.right, rollno, student);
 
         } else {
@@ -149,11 +149,11 @@ class Bst {
             return null;
         }
         Double cmp = (x.val).gettMarks();
-        get(x.left, m1, m2);
         if (cmp >= m1 && cmp <= m2) {
             System.out.println((x.val).getsName());
         }
         get(x.right, m1, m2);
+        get(x.left, m1, m2);
         return temp;
     }
     public String get1(final Double m1) {
@@ -200,7 +200,7 @@ class Student {
     /**
      * rollno.
      */
-    private String rollNo;
+    private int rollNo;
     /**
      * student name.
      */
@@ -214,7 +214,7 @@ class Student {
      *
      * @return     { description_of_the_return_value }
      */
-    public String getrollNo() {
+    public int getrollNo() {
         return rollNo;
     }
 
@@ -223,7 +223,7 @@ class Student {
      *
      * @param      rn    { parameter_description }
      */
-    public void setrollNo(final String rn) {
+    public void setrollNo(final int rn) {
         this.rollNo = rn;
     }
     /**
@@ -267,7 +267,7 @@ class Student {
      * @param      sn    The serial number
      * @param      tm    The time
      */
-    Student(final String rl, final String sn, final Double tm) {
+    Student(final int rl, final String sn, final Double tm) {
         this.rollNo = rl;
         this.sName = sn;
         this.tMarks = tm;
@@ -296,8 +296,8 @@ public final class Solution {
         Bst h = new Bst();
         for (int i = 0; i < a; i++) {
             String[] token = sc.nextLine().split(",");
-            h.put(token[0], new Student(
-                      token[0],
+            h.put(Integer.parseInt(token[0]), new Student(
+                      Integer.parseInt(token[0]),
                       token[1], Double.parseDouble(
                           token[2])));
         }

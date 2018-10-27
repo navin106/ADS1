@@ -63,45 +63,45 @@ Bob
 Adams
 Knuth
 Rivest
+Access
+Clark
+Maria Cabezas
+David Cabot
+Yassi
 Wayne
 Charles
 Peter
 Cozbi A. Cabrera
-Access
-Yassi
-Clark
-Maria Cabezas
-David Cabot
 Sasha Cagen
-Biba Caggiano
-Rhian Cahill
 Rachel Caine
 Jonathan Cainer
 Jeannette Caines
-John
-Sally Cabot
-Abegg
-Douglas
-Tony
+Biba Caggiano
+Rhian Cahill
 Megon
 Simon
 Daniel
+Meg Cabot
 Hank
-Deborah Cadbury
 Keith
+John
+Abegg
+Douglas
+Tony
+Sally Cabot
+Deborah Cadbury
 Dan Caddy
 Neil Cadigan
-Meg Cabot
 Meili Cady
 Steve Cafferty
 James Caffin
 Brian Caffrey
-Tim Cahill
-Rovina Cai
-Greig Caigou
 George Cain
 James Cain
 Tim Cain
+Tim Cahill
+Rovina Cai
+Greig Caigou
 ----------------------------------------
 ########## Testcase 2: Failed ##########
 Expected Output: 
@@ -168,59 +168,59 @@ Neil Cadigan
 Megon
 Meili Cady
 Your Output: 
-John
-Sally Cabot
-Abegg
-Douglas
-Tony
 Megon
 Simon
 Daniel
+Meg Cabot
 Hank
-Deborah Cadbury
 Keith
+John
+Abegg
+Douglas
+Tony
+Sally Cabot
+Deborah Cadbury
 Dan Caddy
 Neil Cadigan
-Meg Cabot
 Meili Cady
 Steve Cafferty
 James Caffin
 Brian Caffrey
-Tim Cahill
-Rovina Cai
-Greig Caigou
 George Cain
 James Cain
 Tim Cain
+Tim Cahill
+Rovina Cai
+Greig Caigou
 Rivest
+Megon
+Simon
+Daniel
+Clark
+Meg Cabot
+Hank
+Keith
 John
-Sally Cabot
 Abegg
 Douglas
 Tony
-Megon
-Simon
+Sally Cabot
 Cozbi A. Cabrera
-Daniel
-Hank
 Deborah Cadbury
-Keith
-Clark
 Dan Caddy
 Neil Cadigan
-Meg Cabot
 Meili Cady
 Steve Cafferty
 James Caffin
 Brian Caffrey
 Sasha Cagen
+George Cain
+James Cain
+Tim Cain
 Rhian Cahill
 Tim Cahill
 Rovina Cai
 Greig Caigou
-George Cain
-James Cain
-Tim Cain
 Megon
 Hank
 Deborah Cadbury
