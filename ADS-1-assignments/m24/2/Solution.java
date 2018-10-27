@@ -115,7 +115,7 @@ class Bst {
             x.right = put(x.right, rollno, student);
 
         } else {
-            x.val = student;
+            return new Node(rollno, student, 1);
         }
         x.count = 1 + size(x.left) + size(x.right);
         return x;
