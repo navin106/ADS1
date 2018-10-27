@@ -166,11 +166,11 @@ class Bst {
             return null;
         }
         Double cmp = (x.val).gettMarks();
+        get1(x.right, m1);
         if (cmp <= m1) {
             System.out.println((x.val).getsName());
         }
         get1(x.left, m1);
-        get1(x.right, m1);
         return temp;
     }
     public String get2(final Double m1) {
@@ -183,11 +183,11 @@ class Bst {
             return null;
         }
         Double cmp = (x.val).gettMarks();
+        get2(x.right, m1);
         if (cmp >= m1) {
             System.out.println((x.val).getsName());
         }
         get2(x.left, m1);
-        get2(x.right, m1);
         return temp;
     }
 
