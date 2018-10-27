@@ -156,6 +156,41 @@ class Bst {
         get(x.right, m1, m2);
         return temp;
     }
+    public String get1(final Double m1) {
+        return (get1(root, m1));
+
+    }
+    private String get1(final Node x, final Double m1) {
+        String temp = "";
+        if (x == null) {
+            return null;
+        }
+        Double cmp = (x.val).gettMarks();
+        if (cmp <= m1) {
+            System.out.println((x.val).getsName());
+        }
+        get1(x.left, m1);
+        get1(x.right, m1);
+        return temp;
+    }
+    public String get2(final Double m1) {
+        return (get2(root, m1));
+
+    }
+    private String get2(final Node x, final Double m1) {
+        String temp = "";
+        if (x == null) {
+            return null;
+        }
+        Double cmp = (x.val).gettMarks();
+        if (cmp >= m1) {
+            System.out.println((x.val).getsName());
+        }
+        get2(x.left, m1);
+        get2(x.right, m1);
+        return temp;
+    }
+
 }
 
 /**
@@ -271,14 +306,14 @@ public final class Solution {
         for (int j = 0; j < b; j++) {
             String[] token1 = sc.nextLine().split(" ");
             if (token1[0].equals("BE")) {
-                System.out.println(h.get(Double.parseDouble(token1[1]), Double.parseDouble(token1[2])));
+                h.get(Double.parseDouble(token1[1]), Double.parseDouble(token1[2]));
             }
-            // if (token1[0].equals("LE")) {
-            //     System.out.println(h.get(Double.parseDouble(token1[1])));
-            // }
-            // if (token1[0].equals("GE")) {
-            //     System.out.println(h.get(Double.parseDouble(token1[1])));
-            // }
+            if (token1[0].equals("LE")) {
+                h.get1(Double.parseDouble(token1[1]));
+            }
+            if (token1[0].equals("GE")) {
+                h.get2(Double.parseDouble(token1[1]));
+            }
         }
     }
 }
