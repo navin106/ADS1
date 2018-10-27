@@ -1,0 +1,12 @@
+Starting audit...
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:130:8: Unused @param tag for 'book'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:134:36: Expected @param tag for 'm1'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:134:53: Expected @param tag for 'm2'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:142:8: Unused @param tag for 'book'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:146:51: Expected @param tag for 'm1'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:146:68: Expected @param tag for 'm2'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:243: First sentence should end with a period. [JavadocStyle]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:276: Line is longer than 80 characters (found 104). [LineLength]
+Audit done.
+Checkstyle ends with 9 errors.
