@@ -6,11 +6,5 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:140:8: Unused @param tag for 'book'. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:144:51: Expected @param tag for 'm1'. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:144:68: Expected @param tag for 'm2'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:157:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:161:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:174:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:178:5: Missing a Javadoc comment. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:274: First sentence should end with a period. [JavadocStyle]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:308: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
-Checkstyle ends with 13 errors.
+Checkstyle ends with 7 errors.

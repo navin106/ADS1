@@ -154,10 +154,25 @@ class Bst {
         get(x.left, m1, m2);
         return temp;
     }
+    /**
+     * Gets the 1.
+     *
+     * @param      m1    The m 1
+     *
+     * @return     The 1.
+     */
     public String get1(final Double m1) {
         return (get1(root, m1));
 
     }
+    /**
+     * Gets the 1.
+     *
+     * @param      x     { parameter_description }
+     * @param      m1    The m 1
+     *
+     * @return     The 1.
+     */
     private String get1(final Node x, final Double m1) {
         String temp = "";
         if (x == null) {
@@ -171,10 +186,25 @@ class Bst {
         get1(x.left, m1);
         return temp;
     }
+    /**
+     * Gets the 2.
+     *
+     * @param      m1    The m 1
+     *
+     * @return     The 2.
+     */
     public String get2(final Double m1) {
         return (get2(root, m1));
 
     }
+    /**
+     * Gets the 2.
+     *
+     * @param      x     { parameter_description }
+     * @param      m1    The m 1
+     *
+     * @return     The 2.
+     */
     private String get2(final Node x, final Double m1) {
         String temp = "";
         if (x == null) {
@@ -272,7 +302,7 @@ class Student {
     }
 }
 /**
- * { item_description }
+ * { item_description }.
  */
 public final class Solution {
     /**
@@ -305,7 +335,8 @@ public final class Solution {
         for (int j = 0; j < b; j++) {
             String[] token1 = sc.nextLine().split(" ");
             if (token1[0].equals("BE")) {
-                h.get(Double.parseDouble(token1[1]), Double.parseDouble(token1[2]));
+                h.get(Double.parseDouble(
+        token1[1]), Double.parseDouble(token1[2]));
             }
             if (token1[0].equals("LE")) {
                 h.get1(Double.parseDouble(token1[1]));
