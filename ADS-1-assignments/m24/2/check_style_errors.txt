@@ -1,2 +1,4 @@
 Starting audit...
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:303:5: Missing a Javadoc comment. [JavadocMethod]
 Audit done.
+Checkstyle ends with 1 errors.

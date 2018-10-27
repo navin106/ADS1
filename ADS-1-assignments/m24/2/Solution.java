@@ -107,7 +107,7 @@ class Bst {
         if (x == null) {
             return new Node(rollno, student, 1);
         }
-        double cmp = (x.val).gettMarks();
+        double cmp = student.compareTo(x.val);
         if (cmp < rollno) {
             x.left = put(x.left, rollno, student);
 
@@ -299,6 +299,13 @@ class Student {
         this.rollNo = rl;
         this.sName = sn;
         this.tMarks = tm;
+    }
+    int compareTo(final Student that) {
+        if (this.tMarks.compareTo(that.tMarks) >= 0) {
+            return 1;
+        } else {
+            return -1;
+        }
     }
 }
 /**
