@@ -202,7 +202,7 @@ public class Solution {
         int b = sc.nextInt();
         // sc.nextLine();
         for (int j = 0; j < b; j++) {
-            String[] token1 = sc.nextLine().split(",");
+            String[] token1 = sc.nextLine().split(" ");
             if (token1[2].equals("1")) {
                 System.out.println((h.get(token1[1])).getsName());
             }
