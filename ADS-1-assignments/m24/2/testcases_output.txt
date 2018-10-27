@@ -5,9 +5,9 @@ Rivest
 Dan
 Abegg
 Your Output: 
-Dan
-Clark
 Rivest
+Clark
+Dan
 Abegg
 ----------------------------------------
 ########## Testcase 1: Failed ##########
@@ -1441,16 +1441,16 @@ Cindy Dr. Pan
 Charles Panati
 Aparna Pande
 Manoj Pandey
-Marina Palmer
-Sara Palacios
-Greg Page
-Charles B. Macdonald
-Andrew Macdonald
-Alex James
-David Jacobs
-Ruby Jackson
-Jeannette Haien
 Daniel Hahn
+Jeannette Haien
+Ruby Jackson
+David Jacobs
+Alex James
+Andrew Macdonald
+Charles B. Macdonald
+Greg Page
+Sara Palacios
+Marina Palmer
 Pamela Haag
 Mary Curran Hackett
 Thomas Hackett
@@ -1540,43 +1540,43 @@ Monica Palms
 Macky Pamintuan
 Cindy Pan
 Michael Panckridge
-Manoj Pandey
-Aparna Pande
-Charles Panati
-Liza Palmer
-Alex Palmer
-Thomas Paine
-Tim Page
-Nick Page
-Jennifer Page
-Fiona MacKenzie
-Harvey B. Mackay
-Audrey Mackaman
-Burton L. Mack
-Kinley MacGregor
-Jeff MacGregor
-Jane MacDougall
-James Macdonald
-Fiona MacDonald
-M MacCallum
-Julie Mac
-Richard Mabey
-James B. Maas
-Joie Jager-Hyman
-Sarah Jacoby
-Melissa Jacobs
-John W. Jacobs
-Jo Jackson King
-Libby Jackson
-Joshilyn Jackson
-Michael Hale
-Baby Halder
-Kristin Halbrook
-Anna-Liisa Hakkarainen
-Katharina Hagena
-David Hagedorn
-Mark Haddon
 Jessie Haas
+Mark Haddon
+David Hagedorn
+Katharina Hagena
+Anna-Liisa Hakkarainen
+Kristin Halbrook
+Baby Halder
+Michael Hale
+Joshilyn Jackson
+Libby Jackson
+Jo Jackson King
+John W. Jacobs
+Melissa Jacobs
+Sarah Jacoby
+Joie Jager-Hyman
+James B. Maas
+Richard Mabey
+Julie Mac
+M MacCallum
+Fiona MacDonald
+James Macdonald
+Jane MacDougall
+Jeff MacGregor
+Kinley MacGregor
+Burton L. Mack
+Audrey Mackaman
+Harvey B. Mackay
+Fiona MacKenzie
+Jennifer Page
+Nick Page
+Tim Page
+Thomas Paine
+Alex Palmer
+Liza Palmer
+Charles Panati
+Aparna Pande
+Manoj Pandey
 Pamela Haag
 Mary Curran Hackett
 Thomas Hackett
@@ -1644,20 +1644,20 @@ Monica Palms
 Macky Pamintuan
 Cindy Pan
 Michael Panckridge
-Daniel Palmer
-Marianna Palk
-Rebecca Paley
-Thelma Page
-Chris Packham
-Shaili Jain M.D.
-Nasim Marie Jafry
-Al Jaffee
-John Jacobs
-Shelley Jackson
-Vicky Hales-Dutton
-Nafisa Haji
-Marilyn Hagerty
-Laura Holmes Haddad
-David H. Hackworth
 Auston Habershaw
+David H. Hackworth
+Laura Holmes Haddad
+Marilyn Hagerty
+Nafisa Haji
+Vicky Hales-Dutton
+Shelley Jackson
+John Jacobs
+Al Jaffee
+Nasim Marie Jafry
+Shaili Jain M.D.
+Chris Packham
+Thelma Page
+Rebecca Paley
+Marianna Palk
+Daniel Palmer
 ----------------------------------------
