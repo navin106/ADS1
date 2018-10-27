@@ -1,10 +1,7 @@
 Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:183:8: Unused @param tag for 'rollNo'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:185:27: Parameter rn should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:201:8: Unused @param tag for 'sName'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:203:26: Parameter sn should be final. [FinalParameters]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:219:8: Unused @param tag for 'tMarks'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:221:27: Parameter tm should be final. [FinalParameters]
 Audit done.
-Checkstyle ends with 7 errors.
+Checkstyle ends with 4 errors.
