@@ -120,12 +120,11 @@ class Bst {
 
     }
     /**
-     * get method.
-     * complexity of get method in average is log N
-     * complexity of get method in worst case is N.
+     * get method. complexity of get method in average is log N complexity of
+     * get method in worst case is N.
      *
-     *
-     * @param      book  The book
+     * @param      m1    The m 1
+     * @param      m2    The m 2
      *
      * @return     { description_of_the_return_value }
      */
