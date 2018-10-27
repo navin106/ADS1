@@ -149,7 +149,7 @@ class Bst {
             return null;
         }
         Double cmp = (x.val).gettMarks();
-        if (true) {
+        if (cmp >= m1 && cmp <= m2) {
             System.out.println((x.val).getsName());
         }
         get(x.left, m1, m2);
