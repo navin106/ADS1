@@ -10,7 +10,7 @@ class Bst {
         /**
          * book key varoiable.
          */
-        private int key;
+        private Double key;
         /**
          * valvariable.
          */
@@ -34,7 +34,7 @@ class Bst {
          * @param      student  The student
          * @param      size     The size
          */
-        Node(final int rollno, final Student student, final int size) {
+        Node(final Double rollno, final Student student, final int size) {
             this.key = rollno;
             this.val = student;
             this.left = null;
@@ -88,7 +88,7 @@ class Bst {
      * @param      rollno  The rollno
      * @param      st      { parameter_description }
      */
-    public void put(final int rollno, final Student st) {
+    public void put(final Double rollno, final Student st) {
         root = put(root, rollno, st);
 
     }
@@ -101,13 +101,13 @@ class Bst {
      *
      * @return     { description_of_the_return_value }
      */
-    private Node put(final Node x, final int rollno,
+    private Node put(final Node x, final Double rollno,
                      final Student student) {
 
         if (x == null) {
             return new Node(rollno, student, 1);
         }
-        int cmp = (x.val).getrollNo();
+        double cmp = (x.val).gettMarks();
         if (cmp < rollno) {
             x.left = put(x.left, rollno, student);
 
@@ -296,7 +296,8 @@ public final class Solution {
         Bst h = new Bst();
         for (int i = 0; i < a; i++) {
             String[] token = sc.nextLine().split(",");
-            h.put(Integer.parseInt(token[0]), new Student(
+            h.put(Double.parseDouble(
+                          token[2]), new Student(
                       Integer.parseInt(token[0]),
                       token[1], Double.parseDouble(
                           token[2])));

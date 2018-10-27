@@ -11,6 +11,6 @@ Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:176:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:180:5: Missing a Javadoc comment. [JavadocMethod]
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:276: First sentence should end with a period. [JavadocStyle]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:309: Line is longer than 80 characters (found 84). [LineLength]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/2/Solution.java:310: Line is longer than 80 characters (found 84). [LineLength]
 Audit done.
 Checkstyle ends with 13 errors.
