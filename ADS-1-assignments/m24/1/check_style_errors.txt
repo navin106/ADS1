@@ -1,15 +1,13 @@
 Starting audit...
 [ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:0: File does not end with a newline. [NewlineAtEndOfFile]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:85:21: '100' is a magic number. [MagicNumber]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:154: Missing a Javadoc comment. [JavadocType]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:179:8: Unused @param tag for 'rollNo'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:181:27: Parameter rn should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:181:31: Expected @param tag for 'rn'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:196:8: Unused @param tag for 'sName'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:198:26: Parameter sn should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:198:33: Expected @param tag for 'sn'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:213:8: Unused @param tag for 'tMarks'. [JavadocMethod]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:215:27: Parameter tm should be final. [FinalParameters]
-[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:215:34: Expected @param tag for 'tm'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:182:8: Unused @param tag for 'rollNo'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:184:27: Parameter rn should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:184:31: Expected @param tag for 'rn'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:199:8: Unused @param tag for 'sName'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:201:26: Parameter sn should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:201:33: Expected @param tag for 'sn'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:216:8: Unused @param tag for 'tMarks'. [JavadocMethod]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:218:27: Parameter tm should be final. [FinalParameters]
+[ERROR] /home/naveen/Documents/ADS1_20186106/ADS-1-assignments/m24/1/Solution.java:218:34: Expected @param tag for 'tm'. [JavadocMethod]
 Audit done.
-Checkstyle ends with 12 errors.
+Checkstyle ends with 10 errors.

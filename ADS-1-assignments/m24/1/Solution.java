@@ -82,7 +82,7 @@ class HashTable {
     /**
      * size.
      */
-    private int s = 100;
+    private final int s = 100;
     /**
      * Constructs the object.
      */
@@ -151,6 +151,9 @@ class HashTable {
         return null;
     }
 }
+/**
+ * Class for student.
+ */
 class Student {
     /**
      * rollno.
