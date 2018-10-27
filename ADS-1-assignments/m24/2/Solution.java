@@ -111,11 +111,9 @@ class Bst {
         if (cmp < rollno) {
             x.left = put(x.left, rollno, student);
 
-        } else if (cmp > rollno) {
+        } else  {
             x.right = put(x.right, rollno, student);
 
-        } else {
-            return new Node(rollno, student, 1);
         }
         x.count = 1 + size(x.left) + size(x.right);
         return x;
