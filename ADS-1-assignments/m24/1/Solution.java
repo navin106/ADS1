@@ -193,7 +193,7 @@ public class Solution {
         Student st;
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
-        // sc.nextLine();
+        sc.nextLine();
         HashTable h = new HashTable();
         for (int i = 0; i < a; i++) {
             String[] token = sc.nextLine().split(",");
