@@ -152,44 +152,98 @@ class HashTable {
     }
 }
 class Student {
+    /**
+     * rollno.
+     */
     private int rollNo;
+    /**
+     * student name.
+     */
     private String sName;
+    /**
+     * total marks.
+     */
     private Double tMarks;
+    /**
+     * get fuction for rollno.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public int getrollNo() {
         return rollNo;
     }
 
+    /**
+     * set function for rool no.
+     *
+     * @param      rollNo  The roll no
+     */
     public void setrollNo(int rollNo) {
         this.rollNo = rollNo;
     }
+    /**
+     * get function for student name.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public String getsName() {
         return sName;
     }
 
+    /**
+     * set function for student name.
+     *
+     * @param      sName  The s name
+     */
     public void setsName(String sName) {
         this.sName = sName;
     }
+    /**
+     * get function for student marks.
+     *
+     * @return     { description_of_the_return_value }
+     */
     public Double gettMarks() {
         return tMarks;
     }
 
+    /**
+     * set function for student marks.
+     *
+     * @param      tMarks  The t marks
+     */
     public void settMarks(Double tMarks) {
         this.tMarks = tMarks;
     }
-    Student(int rl, String sn, Double tm) {
+    /**
+     * Constructs the object.
+     *
+     * @param      rl    { parameter_description }
+     * @param      sn    The serial number
+     * @param      tm    The time
+     */
+    Student(final int rl, final String sn, final Double tm) {
         this.rollNo = rl;
         this.sName = sn;
         this.tMarks = tm;
     }
-    /*public String toString() {
-        return sName;
-    }*/
 }
+/**
+ * Class for solution.
+ */
 public class Solution {
-    Solution() {
+    /**
+     * Constructs the object.
+     */
+    private Solution() {
 
     }
-    public static void main(String[] args) {
+    /**
+     * { function_description }
+     *
+     * @param      args  The arguments
+     */
+    public static void main(final String[] args) {
         Student st;
         Scanner sc = new Scanner(System.in);
         int a = sc.nextInt();
@@ -197,7 +251,10 @@ public class Solution {
         HashTable h = new HashTable();
         for (int i = 0; i < a; i++) {
             String[] token = sc.nextLine().split(",");
-            h.put(token[0], new Student(Integer.parseInt(token[0]), token[1], Double.parseDouble(token[2])));
+            h.put(token[0], new Student(
+                      Integer.parseInt(token[0]),
+                      token[1], Double.parseDouble(
+                          token[2])));
         }
         int b = sc.nextInt();
         sc.nextLine();
