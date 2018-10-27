@@ -107,7 +107,7 @@ class Bst {
         if (x == null) {
             return new Node(rollno, student, 1);
         }
-        int cmp = rollno.compareTo(x.key);
+        int cmp = rollno.compareTo((x.val).getrollNo());
         if (cmp < 0) {
             x.left = put(x.left, rollno, student);
 
@@ -165,7 +165,7 @@ class Student {
     /**
      * rollno.
      */
-    private int rollNo;
+    private String rollNo;
     /**
      * student name.
      */
@@ -179,7 +179,7 @@ class Student {
      *
      * @return     { description_of_the_return_value }
      */
-    public int getrollNo() {
+    public String getrollNo() {
         return rollNo;
     }
 
@@ -188,7 +188,7 @@ class Student {
      *
      * @param      rn    { parameter_description }
      */
-    public void setrollNo(final int rn) {
+    public void setrollNo(final String rn) {
         this.rollNo = rn;
     }
     /**
@@ -232,7 +232,7 @@ class Student {
      * @param      sn    The serial number
      * @param      tm    The time
      */
-    Student(final int rl, final String sn, final Double tm) {
+    Student(final String rl, final String sn, final Double tm) {
         this.rollNo = rl;
         this.sName = sn;
         this.tMarks = tm;
@@ -262,7 +262,7 @@ public final class Solution {
         for (int i = 0; i < a; i++) {
             String[] token = sc.nextLine().split(",");
             h.put(token[0], new Student(
-                      Integer.parseInt(token[0]),
+                      token[0],
                       token[1], Double.parseDouble(
                           token[2])));
         }
