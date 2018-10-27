@@ -151,7 +151,7 @@ class Bst {
         Double cmp = (x.val).gettMarks();
         get(x.left, m1, m2);
         get(x.right, m1, m2);
-        if (cmp >= m1) {
+        if (true) {
             temp += (x.val).getsName();
         }
         return temp;
