@@ -200,7 +200,7 @@ public class Solution {
             h.put(token[0], new Student(Integer.parseInt(token[0]), token[1], Double.parseDouble(token[2])));
         }
         int b = sc.nextInt();
-        // sc.nextLine();
+        sc.nextLine();
         for (int j = 0; j < b; j++) {
             String[] token1 = sc.nextLine().split(" ");
             if (token1[2].equals("1")) {
