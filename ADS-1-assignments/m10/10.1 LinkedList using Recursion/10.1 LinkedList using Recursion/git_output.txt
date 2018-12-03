@@ -1,0 +1,7 @@
+[master 92f428c] "ads1_m10_a1: 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 5 files changed, 151 insertions(+), 157 deletions(-)
+ rewrite ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/Solution.java (94%)
+ rewrite ADS-1-assignments/m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/check_style_errors.txt (99%)
+To https://github.com/navin106/ADS1.git
+   cd7f06e..92f428c  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

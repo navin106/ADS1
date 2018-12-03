@@ -1,0 +1,36 @@
+On branch master
+Your branch is up to date with 'origin/master'.
+
+Changes not staged for commit:
+	modified:   ../../m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/git_output.txt
+	modified:   ../../m12/Assignment-1/Insertion.class
+	modified:   ../../m12/Assignment-1/Solution.class
+	modified:   ../../m12/Assignment-1/Solution.java
+	modified:   ../../m12/Assignment-1/Student.class
+	modified:   ../../m12/Assignment-1/git_output.txt
+	modified:   ../../m12/Assignment-1/out.txt
+	modified:   ../../m13/13.1 isMinHeap/git_output.txt
+	modified:   ../../m13/13.1 isMinHeap/result/score.json
+	modified:   ../../m2/CodeCamp_Percolation/git_output.txt
+	modified:   ../../m2/CodeCamp_Percolation/result/score.json
+	modified:   ../../m3/3-sum/git_output.txt
+	modified:   ../../m3/3-sum/result/score.json
+	modified:   ../../m3/Sorted_Array/git_output.txt
+	modified:   ../../m3/Sorted_Array/result/score.json
+	modified:   ../../m7/7.1 Steque/git_output.txt
+	modified:   ../../m7/7.1 Steque/result/score.json
+	modified:   ../../m9/9.1 Merge Sort Improvements/git_output.txt
+
+Untracked files:
+	../../m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/md5/score.txt
+	../../m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/result/
+	../../m10/10.1 LinkedList using Recursion/__MACOSX/
+	../../m11/
+	../../m12/Assignment-1/testcases/problem1.txt
+	../../m9/9.1 Merge Sort Improvements/md5/score.txt
+	../../m9/9.1 Merge Sort Improvements/result/
+	../../../ADS-1-practice/m13/
+
+no changes added to commit
+Everything up-to-date
+Branch 'master' set up to track remote branch 'master' from 'origin'.

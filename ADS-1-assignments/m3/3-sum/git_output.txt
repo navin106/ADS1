@@ -1,0 +1,6 @@
+[master 7b4e053] "ads1_3sum: 4/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 2 files changed, 72 insertions(+), 75 deletions(-)
+ rewrite ADS-1-assignments/m3/3-sum/Solution.java (80%)
+To https://github.com/navin106/ADS1.git
+   58040ce..7b4e053  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

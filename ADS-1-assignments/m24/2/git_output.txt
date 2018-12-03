@@ -1,0 +1,7 @@
+[master 47031b8] "m24_a2_1: 1/4 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 6 files changed, 669 insertions(+), 678 deletions(-)
+ rewrite ADS-1-assignments/m24/2/Bst.class (71%)
+ rewrite ADS-1-assignments/m24/2/Student.class (74%)
+To https://github.com/navin106/ADS1.git
+   f3466ff..47031b8  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

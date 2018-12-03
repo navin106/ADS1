@@ -24,9 +24,7 @@ class CubeSum implements Comparable<CubeSum> {
     }
 
 }
-
-
-public class Solution {
+public class TaxiCab {
 	public static void main(String[] args) {
 		Scanner sc = new Scanner(System.in);
 		int n = sc.nextInt();
@@ -47,7 +45,7 @@ public class Solution {
         		p++;
         		if (p == m)
     			{
-    				sum = c.sum();
+    				sum = c.sum();TaxiCab
 
     				if (++k == n) break;
 	        	}

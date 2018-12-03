@@ -1,0 +1,9 @@
+[master 30e2074] "ads1_m12_a1: 0/6 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 0/1 "
+ 8 files changed, 117 insertions(+), 114 deletions(-)
+ rewrite ADS-1-assignments/m12/Assignment-1/Solution.class (89%)
+ rewrite ADS-1-assignments/m12/Assignment-1/Student.class (95%)
+ rewrite ADS-1-assignments/m12/Assignment-1/out.txt (100%)
+ create mode 100644 ADS-1-assignments/m12/Assignment-1/testcases/problem1.txt
+To https://github.com/navin106/ADS1.git
+   e642d87..30e2074  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

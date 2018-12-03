@@ -1,0 +1,5 @@
+[master e642d87] "ads1_sorted_array: 3/3 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 2 files changed, 1 insertion(+), 3 deletions(-)
+To https://github.com/navin106/ADS1.git
+   7b4e053..e642d87  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

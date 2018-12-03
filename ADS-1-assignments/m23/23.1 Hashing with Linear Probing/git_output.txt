@@ -1,0 +1,69 @@
+On branch master
+Your branch is ahead of 'origin/master' by 3 commits.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+	modified:   ../../M14/14.1 Dynamic Median Finding/git_output.txt
+	modified:   ../../M14/14.2 student reservation system/git_output.txt
+	modified:   ../../M15/15.1 BinarySearchSymbolTable/git_output.txt
+	modified:   ../../M15/15.1 BinarySearchSymbolTable/result/score.json
+	modified:   ../../m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/git_output.txt
+	modified:   ../../m11/11.1 Cutoff Quicksort to Insertion Sort - updated/git_output.txt
+	modified:   ../../m12/Assignment-1/git_output.txt
+	modified:   ../../m12/Assignment-1/result/score.json
+	modified:   ../../m13/13.1 isMinHeap/git_output.txt
+	modified:   ../../m13/13.1 isMinHeap/result/score.json
+	modified:   ../../m16/16.1 BST/git_output.txt
+	modified:   ../../m17/TaxiCabNumbers/Solution.java
+	modified:   ../../m17/TaxiCabNumbers/git_output.txt
+	modified:   ../../m18/Week-3_Assignment-1/git_output.txt
+	modified:   ../../m18/Week-3_Assignment-1/result/score.json
+	deleted:    ../../m19/19.1 BST/.~lock.16.1. BinarySearchTree.docx#
+	modified:   ../../m19/19.1 BST/git_output.txt
+	modified:   ../../m2/CodeCamp_Percolation/git_output.txt
+	modified:   ../../m2/CodeCamp_Percolation/result/score.json
+	modified:   ../../m20/20.1 BST/git_output.txt
+	deleted:    ../../m22/22.1 Ransom Note/.~lock.readme.docx#
+	modified:   ../../m22/22.1 Ransom Note/HashTable.class
+	modified:   ../../m22/22.1 Ransom Note/Solution.java
+	modified:   ../../m22/22.1 Ransom Note/git_output.txt
+	modified:   ../../m24/1/git_output.txt
+	modified:   ../../m24/1/result/score.json
+	modified:   ../../m24/2/git_output.txt
+	modified:   ../../m24/2/result/score.json
+	modified:   ../../m3/3-sum/git_output.txt
+	modified:   ../../m3/3-sum/result/score.json
+	modified:   ../../m3/Sorted_Array/git_output.txt
+	modified:   ../../m3/Sorted_Array/result/score.json
+	modified:   ../../m4/4.1 Balanced Paranthesis/git_output.txt
+	modified:   ../../m4/4.1 Balanced Paranthesis/result/score.json
+	modified:   ../../m6/Assignment-1/git_output.txt
+	modified:   ../../m7/7.1 Steque/git_output.txt
+	modified:   ../../m7/7.1 Steque/result/score.json
+	modified:   ../../m9/9.1 Merge Sort Improvements/git_output.txt
+
+Untracked files:
+	../../M14/14.1 Dynamic Median Finding/md5/score.txt
+	../../M14/14.1 Dynamic Median Finding/result/
+	../../M14/14.2 student reservation system/md5/score.txt
+	../../M14/14.2 student reservation system/result/
+	../../m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/md5/score.txt
+	../../m10/10.1 LinkedList using Recursion/10.1 LinkedList using Recursion/result/
+	../../m10/10.1 LinkedList using Recursion/__MACOSX/
+	../../m16/16.1 BST.zip
+	../../m16/16.1 BST/md5/score.txt
+	../../m16/16.1 BST/result/
+	../../m17/TaxiCabNumbers/md5/score.txt
+	../../m17/TaxiCabNumbers/result/
+	../../m19/19.1 BST.zip
+	../../m20/20.1 BST.zip
+	../../m20/20.1 BST/md5/score.txt
+	../../m20/20.1 BST/result/
+	../../m22/22.1 Ransom Note.zip
+	../../m22/22.1 Ransom Note/md5/score.txt
+	../../m22/22.1 Ransom Note/result/
+	../../m9/9.1 Merge Sort Improvements/md5/score.txt
+	../../m9/9.1 Merge Sort Improvements/result/
+
+no changes added to commit
+fatal: unable to access 'https://github.com/navin106/ADS1.git/': Failed to connect to 10.10.10.3 port 3128: Invalid argument

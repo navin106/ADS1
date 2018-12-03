@@ -1,0 +1,8 @@
+[master 58040ce] "ads1_m2_a1: 24/24 testcases passed. Cannot run hidden testcases as Server is unreachablecheck_style score: 1/1 "
+ 6 files changed, 148 insertions(+), 316 deletions(-)
+ rename ADS-1-assignments/m2/CodeCamp_Percolation/percolation/{wgtunion => }/WeightedQuickUnion.class (88%)
+ rename ADS-1-assignments/m2/CodeCamp_Percolation/percolation/{wgtunion => }/WeightedQuickUnion.java (96%)
+ rewrite ADS-1-assignments/m2/CodeCamp_Percolation/testcases_output.txt (87%)
+To https://github.com/navin106/ADS1.git
+   e3d7927..58040ce  master -> master
+Branch 'master' set up to track remote branch 'master' from 'origin'.

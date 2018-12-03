@@ -1,1 +1,1 @@
-{"check_style_score": "0/1", "score": "4/4", "user_id": "navin106", "problem_id": "ads1_m4_a1"}
+{"check_style_score": "1/1", "problem_id": "ads1_m4_a1", "user_id": "navin106", "message": "ERROR: Hidden Testcases server unreachable.", "score": {"sample": {"0": {"passed": true, "execution_time": 0.12935209274291992}, "1": {"passed": true, "execution_time": 0.3307173252105713}, "2": {"passed": true, "execution_time": 0.3299214839935303}, "3": {"passed": true, "execution_time": 0.16040563583374023}}}, "version": "1"}
